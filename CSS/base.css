@@ -1,0 +1,51 @@
+:root{
+    --heading-cabinet: 'Cabinet Grotesk', sans-serif;
+    --paragraph-satoshi: 'Satoshi', sans-serif;
+    
+    --bold: 700;
+    --medium: 600;
+    --regular: 400;
+
+    --primary-pure: #FF1919;
+    --primary-light: #FF6666;
+    --primary-medium: #D40000;
+    --primary-dark: #A80000;
+    
+    --low-pure: #131416;
+    --low-light: #A3A3A3;
+    --low-medium: #666666;
+    --low-dark: #292A2C;
+
+    --high-pure: #FDFEFF;
+    --high-low: #E3E5E6;
+    --high-medium: #DBDDDE;
+    --high-dark: #BBBBBB;
+
+    --line-xs:  115%;
+    --line-sm:  120%;
+    --line-md:  133%;
+    --line-lg:  150%;
+    --line-xl:  170%;
+    --line-xxl: 200%;
+    
+    --font-xs: 24px;
+    --font-sm: 32px;
+    --font-md: 48px;
+    --font-lg: 72px;
+    --font-xl: 96px;
+    --font-xxl: 208px;
+
+    --border-circular: 50%
+
+
+}
+body a{
+    color: #FFFFFF;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
