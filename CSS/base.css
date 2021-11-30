@@ -21,7 +21,7 @@
     --high-medium: #DBDDDE;
     --high-dark: #BBBBBB;
 
-    --line-xs:  115%;
+    --line-xs:  115.2%;
     --line-sm:  120%;
     --line-md:  133%;
     --line-lg:  150%;
@@ -48,4 +48,8 @@ body{
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+.ponto__red{
+    color: var(--primary-medium);
 }

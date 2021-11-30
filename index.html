@@ -11,16 +11,38 @@
         <link href="./CSS/normalize.css" rel="stylesheet">
     </head>
     
-    <body>
+    <body id="body">
         
         <header class="cabecalho">
-
+            <img src="./Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio">
+            <aside class="container__nav">
+                <button class="traducao__pagina">EN</button>
+                <button class="container__menu">
+                    <img src="./Assets/Home/line-menu.svg" alt="Menu">
+                    <img src="./Assets/Home/line-menu.svg" alt="Menu">
+                </button>
+            </aside>
         </header>
         
         <main class="conteudo">
+            <section class="banner">
+                <h1 class="titulo__banner">
+                    We design new products
+                    for the market that
+                    people use every day<span class="ponto__red">.</span></h1>
+            </section>
 
+            <section id="secao__video" class="secao__video">
+                <video loop muted preload="metadata" class="video"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
+            </section>
+
+            
+
+            
         </main>
-    
+
+        <script src="./Componentes/index.js" type="module"></script>
     </body>
 
 </html>
+

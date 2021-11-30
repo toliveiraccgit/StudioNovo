@@ -1,0 +1,64 @@
+@media (min-width:0px){
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 2rem 9.5rem;
+        
+        font-family: var(--paragraph-satoshi);
+
+        border-bottom: 1px solid var(--high-low);
+
+        background-color: var(--high-pure);
+    }
+    .container__nav{
+        display: flex;
+    }
+    .container__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        padding: .5rem 0;
+
+        background-color: transparent;
+        
+        border: none;
+    }
+    .traducao__pagina{
+        border: none;
+        background-color: transparent;
+        
+        margin-right: 3.438rem;
+
+        font-weight: 500;
+    }
+
+    .banner{
+        padding: 13.875rem 9.5rem 15.563rem 9.5rem;
+        
+        background-color: var(--high-pure);
+    }
+    .titulo__banner{
+        font-size: var(--font-xl);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        line-height: var(--line-sm);
+
+        color: var(--low-dark);
+    }
+
+    .secao__video{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 120vh;
+        width: 100vw;
+
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .video{
+        position: static;
+    }
+}
