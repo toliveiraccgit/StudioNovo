@@ -44,12 +44,89 @@ body a{
 }
 body{
     overflow-x: hidden;
+    cursor: url("../Assets/Interações/Cursor/CursorStudio.svg"), default;
 }
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 .ponto__red{
     color: var(--primary-medium);
+}
+.ponto__white{
+    color: var(--high-pure);
+}
+
+.gradient{
+    position: relative;
+    background:linear-gradient(180deg, rgba(101, 101, 101, 0), rgba(75, 75, 75, 0.171875) 21.12%, rgba(35, 35, 35, 0.773646), #0D0D0D);
+    height: 40.5rem;
+    width: 23rem;
+    top: -51.6rem;
+
+    opacity: 0;
+    z-index: 10;
+
+}
+
+@keyframes animaInfo {
+    to{
+        opacity: 1;
+        transform: translateY(-10rem)
+    }
+}
+
+@keyframes opacidadeBG {
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes mudaNome {
+    0%{
+        position: relative;
+        top: -15rem;
+    }
+    25%{
+        animation: paused;
+    }
+    50%{
+        position: relative;
+        top: -30rem;
+    }
+    75%{
+        animation: paused;
+    }
+    100%{
+        position: relative;
+        top: -45rem;
+    }
+}
+
+@keyframes movimenta-titulo-1 {
+    0%{
+        position: relative;
+        right: -100%;
+    }
+    75%{
+        animation: paused;
+    }
+    100%{
+        position: relative;
+        right: 400%;
+    }  
+}
+
+@keyframes movimenta-titulo-2 {
+    0%{
+        position: relative;
+        left: -400%;
+    }
+    35%{
+        animation: paused;
+    }
+    100%{
+        position: relative;
+        left: 80%;
+    }  
 }

@@ -14,20 +14,19 @@ export class Video{
         const posicaoSecao = this.posicaoTelaVideo.getBoundingClientRect()['y']
         
         if(posicaoVideo <= -180) {
-            this.video.style.width = `${-posicaoVideo/11}vw`
+            this.video.style.width = `${-posicaoVideo/10.7}vw`
             this.video.style.height = `${-posicaoVideo/9.4}vh`
         }
 
-        if (posicaoSecao <= -169.8125) {
+        if (posicaoSecao <= -41.8125) {
             this.video.play()
+            this.video.volume = 0.4
         }else{
             this.video.pause()
-            this.video.muted = false
-            this.video.volume = 0.4
         }
-           
-        
-
+        if (posicaoSecao <= -927.8125) {
+            this.video.pause()   
+        }         
 }
 
 }

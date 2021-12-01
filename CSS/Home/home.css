@@ -35,7 +35,7 @@
     }
 
     .banner{
-        padding: 13.875rem 9.5rem 15.563rem 9.5rem;
+        padding: 13.875rem 11.5rem 15.563rem 9.5rem;
         
         background-color: var(--high-pure);
     }
@@ -52,7 +52,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        height: 120vh;
+        height: 119vh;
         width: 100vw;
 
         overflow-y: hidden;
@@ -60,5 +60,442 @@
     }
     .video{
         position: static;
+    }
+
+    .secao__passion{
+        padding: 20rem 9.5rem 20rem 9.563rem;
+        font-family: var(--heading-cabinet);
+
+        background-color: var(--low-pure);
+    }
+    .titulo__passion{
+        font-size: var(--font-xxl);
+        color: var(--high-pure);
+    }
+
+    .stroke{
+        -webkit-text-stroke: 1px var(--high-pure);
+        color: transparent;
+    }
+
+    .secao__works{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--low-pure);
+
+    }
+
+    .cabecalho__secao___works{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        color: var(--high-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: 16px;
+
+        padding: 0 9.5rem 0 9.5rem;
+    }
+
+    .botao__view-cases{
+        background-color: none;
+        border: none;
+        border-bottom: 1px solid var(--high-pure);
+
+        color: var(--high-pure);
+
+        padding: 0 15rem 1.656rem 0;
+
+        background-image: url("../../Assets/Setas/Right-Down-White.png");
+        background-repeat: no-repeat;
+        background-position-x: 20rem;
+    }
+    .botao__view-cases:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 12, default;
+    }
+    .container__works{
+        padding-left: 9.5rem;
+        margin-top: 3.5rem;
+        background-color: var(--low-pure);
+    }
+    .container__cards{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 40.5rem;
+        gap: 1rem;
+
+        overflow-x: scroll;
+        overflow-y: hidden;
+        overscroll-behavior-x: contain;
+        overscroll-behavior-block: contain;
+    }
+    .container__cards::-webkit-scrollbar{
+        display: none;
+    }
+    .card-works{
+        transition: all .4s ease-in-out;
+    }
+    .card-works:hover .gradient{
+        animation: opacidadeBG .4s ease-in-out forwards;
+    }
+    .card-works:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
+    }
+    .info__card{
+        position: relative;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+
+        width: 23rem;
+
+        opacity: 1;
+        z-index: 20;
+
+        padding: 0 1.5rem 2rem 1.5rem ;
+
+        transition: all .4s ease-in-out;
+    }
+    .titulo__info___card{
+        font-family: var(--heading-cabinet);
+        font-size: var(--font-sm);
+    }
+    .descricao__info___card{
+        font-family: var(--paragraph-satoshi);
+        font-size: 20px;
+        font-weight: var(--regular);
+
+        margin-top: 1rem;
+    }
+    .atarde:hover .info__card{
+        animation: animaInfo .4s ease-in-out forwards;
+    }
+
+    .secao__we{
+        padding: 31.5rem 9.5rem 0 9.5rem;
+
+        display: flex;
+        flex-direction: column;
+
+        background-color: var(--low-pure);
+    }
+    .secao__muda-nome{
+        display: flex;
+        margin-bottom: 13.063rem;
+    }
+
+    .titulo__we{
+        font-family: var(--heading-cabinet);
+        font-size: var(--font-xxl);
+        font-weight: var(--bold);
+
+        color: var(--high-pure);
+    }
+    .stroke__we{
+        -webkit-text-stroke: 1px var(--high-pure);
+        color: transparent;
+        font-size: var(--font-xxl);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+
+        margin: 0%;
+    }
+    .container__muda-nome{
+        animation: mudaNome 8s ease-in-out infinite alternate;
+    }
+    .muda-nome{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 51.5rem;
+        height: 15.625rem;
+    }
+    .botao__explore{
+        width: 78vw;
+        text-align: start;
+        color: var(--high-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--medium);
+
+        padding-bottom: 1.656rem;
+
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--high-pure);
+
+        background-image: url("../../Assets/Setas/Right-Down-White.png");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+    }
+    .botao__explore:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
+    }
+
+    .secao__patrocinadores{
+        height: 125vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        padding-bottom: 3rem;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+        background-color: var(--low-pure);
+    }
+    .titulo__patrocinadores{
+        margin-bottom: 5.5rem;
+    }
+
+    .container__logo___patrocinadores{
+        display: flex;
+        flex-direction: row;
+        gap: 7rem;
+        margin-bottom: 25vh;
+    }
+
+    .secao__comentarios{
+        height: 120vh;
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        padding-top: 15.938rem;
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
+        background-color: var(--high-pure);
+        
+    }
+
+    .cabecalho__comentarios{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-xs);
+
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .container__carousel{
+        width: 79vw;
+        overflow-x: hidden;
+    }
+    .lista__comentarios{
+        width: 158vw;
+
+        display: flex;
+        flex-direction: row;
+        overflow-x: hidden;
+
+        transition: all .2s ease-in-out;
+    }
+
+    .item__lista___comentarios{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 9.938rem;
+    }
+
+    .numeracao__comentario{
+        align-self: flex-end;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: 16px;
+    }
+
+    .comentario{
+        width: 79vw;
+
+        padding-top: 3.5rem;
+        padding-right: 23.417rem;
+        margin-top: 5.688rem;
+        margin-bottom: 3.5rem;
+        
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-md);
+
+        background-image: url("../../Assets/Home/aspas.png");
+        background-repeat: no-repeat;     
+    }
+
+    .perfil__comentario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .icone__perfil___comentario{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .nome__perfil___comentario{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-xs);
+    }
+    .descricao__perfil___comentario{
+        font-family: var(--paragraph-satoshi);
+        color: var(--low-medium);
+        font-weight: var(--regular);
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .container__botao___comentario{
+        width: 79vw;
+        
+        display: flex;
+        gap: 1rem;
+    }
+    .botao__anterior___comentario{
+        width: 39.5vw;
+        
+        border: none;
+        border-bottom: 1px solid var(--low-pure);
+        
+        padding-bottom: 2.208rem;
+
+        background-color: transparent;
+        background-image: url("../../Assets/Setas/left-dark.png");
+        background-repeat: no-repeat;
+    }
+    .botao__proximo___comentario{
+        width: 39.5vw;
+        
+        border: none;
+        border-bottom: 1px solid var(--low-pure);
+        
+        padding-bottom: 1.656rem;
+
+        background-color: transparent;
+        background-image: url("../../Assets/Setas/right-dark.png");
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+
+    .secao__scroll{
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        overflow-x: hidden;
+    }
+
+    .titulo__scroll{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-xxl);
+
+        width: 200vw;
+    }
+
+    .scroll-1{
+        display: flex;
+        flex-direction: row;
+        width: 600vw;
+        animation: movimenta-titulo-1 20s ease-in-out infinite alternate;
+        animation-delay: -2s;
+    }
+
+    .scroll-2{
+        display: flex;
+        flex-direction: row;
+        width: 600vw;
+        animation: movimenta-titulo-2 20s ease-in-out infinite alternate;
+        animation-delay: -2s;
+
+        margin-bottom: 7.063rem;
+    }
+
+    .botao__get-in{
+        width: 79vw;
+        display: flex;
+        align-self: center;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        
+        border-bottom: 1px solid var(--low-pure);
+        
+        color: var(--low-pure);
+        padding-bottom: 1.656rem;
+
+        background-color: transparent;
+        background-image: url("../../Assets/Setas/seta-right-down-black.svg");
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .botao__get-in:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg")25 30, default ;
+    }
+    .newsletter{
+        height: 60vh;
+
+        padding-right: 9.5rem;
+        padding-left: 9.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        background-image: url("../../Assets/Home/logo-grande.svg");
+        background-repeat: no-repeat;
+        background-position-x: 10vw;
+        background-position-y: 12.5rem;
+
+    }
+
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        
+        padding-bottom: 2.438rem;
+        margin-left: 39.5rem;
+
+    }
+    .titulo__subscribe{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-lg);
+        
+    }
+    .email__subscribe{
+        width: 41rem;
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+
+        padding-bottom: 1.656rem;
+        border: none;
+        border-bottom: 1px solid var(--low-pure);
+        
+        color: var(--low-pure);
+        font-size: 16px;
+
+        background-color: transparent;
+        background-image: url("../../Assets/Setas/seta-right-down-black.svg");
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .email__subscribe:focus{
+        outline: none;
+    }
+    .container__lets-talk{
+        display: flex;
+        width: 100vw;
+        justify-content: flex-end;
+        padding-right: 2rem;
+        padding-bottom: 3.5rem;
     }
 }
