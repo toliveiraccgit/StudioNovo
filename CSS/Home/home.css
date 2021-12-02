@@ -382,13 +382,15 @@
     }
 
     .secao__scroll{
-        height: 100vh;
+        height: 80vh;
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
 
         overflow-x: hidden;
+    }
+    .container__titulo{
+        position: relative;
     }
 
     .titulo__scroll{
@@ -402,17 +404,15 @@
     .scroll-1{
         display: flex;
         flex-direction: row;
-        width: 600vw;
-        animation: movimenta-titulo-1 20s ease-in-out infinite alternate;
-        animation-delay: -2s;
+        position: relative;
+        width: 200vw;
     }
 
     .scroll-2{
         display: flex;
         flex-direction: row;
-        width: 600vw;
-        animation: movimenta-titulo-2 20s ease-in-out infinite alternate;
-        animation-delay: -2s;
+        width: 200vw;
+        position: relative;
 
         margin-bottom: 7.063rem;
     }
