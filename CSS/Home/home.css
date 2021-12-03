@@ -101,12 +101,6 @@
         font-size: var(--font-xxl);
         color: var(--high-pure);
     }
-
-    .stroke{
-        -webkit-text-stroke: 1px var(--high-pure);
-        color: transparent;
-    }
-
     .secao__works{
         display: flex;
         flex-direction: column;

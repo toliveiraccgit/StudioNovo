@@ -56,6 +56,10 @@ html{
 .ponto__white{
     color: var(--high-pure);
 }
+.stroke{
+    -webkit-text-stroke: 1px var(--high-pure);
+    color: transparent;
+}
 
 .gradient{
     position: relative;
