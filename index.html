@@ -33,7 +33,9 @@
             </section>
 
             <section id="secao__video" class="secao__video">
-                <video loop muted=true preload="metadata" autoplay controls class="video"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
+                <video loop muted=true preload="metadata" autoplay class="video"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
+                <button class="botao__desmuta" id="botao__desmuta"><img src="./Assets/Home/desmuta.png" alt="Botão Desmuta" class="imagem__desmuta"></button>
+                <button class="botao__muta" id="botao__muta"><img src="./Assets/Home/muta.png" alt="Botão Desmuta" class="imagem__muta"></button>
             </section>
 
             <section class="secao__passion">
@@ -189,7 +191,48 @@
             </div>
         </main>
 
+        <footer class="rodape">
+            
+            <section class="secao__titulo___rodape">
+                <h10 class="titulo__rodape">
+                    Thiago Oliveira
+                </h10>
+                <div class="redes__sociais___rodape">
+                    <p class="hashtag__footer">
+                        #WeAreCreators</p> 
+                    <div class="patrocinadores__rodape">
+                        <a href="https://www.linkedin.com/company/toliveira-cc/"><img src="./Assets/Social Media/Linkedin.png" alt="Link Linkedin" class="ico__linkedin"></a>
+                        <a href="https://www.instagram.com/toliveira.cc"><img src="./Assets/Social Media/Instagram.png" alt="Link Instagram" class="ico-instagram"></a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="abas__footer">
+                <ul class="container__abas">
+                    <li class="aba">
+                        <h11 class="titulo__aba">About</h11>
+                        <a href="#" class="item__aba">What we do</a>
+                        <a href="#" class="item__aba">Clients & Projects</a>
+                        <a href="#" class="item__aba link__fim">Newsletter</a>
+                    </li>
+                    
+                    <li class="aba">
+                        <h11 class="titulo__aba">Carrer</h11>
+                        <a href="#" class="item__aba">Our Teams</a>
+                        <a href="#" class="item__aba">Search Jobs</a>
+                        <a href="#" class="item__aba link__fim">Privacy policy</a>
+                    </li>
+                    
+                    <li class="aba">
+                        <h11 class="titulo__aba">Contact</h11>
+                        <a href="mailto:hi@toliveira.cc" class="item__aba">hi@toliveira.cc</a>
+                        <a href="mailto:thiago@toliveira.cc" class="item__aba">thiago@toliveira.cc</a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
         <script src="./Componentes/index.js" type="module"></script>
+        <script src="./Componentes/playVideo.js" type="text/javascript"></script>
     </body>
 
 </html>

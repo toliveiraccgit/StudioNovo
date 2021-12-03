@@ -17,3 +17,4 @@ const proximo = '[data-proximo]'
 const listaProdutos = '[data-lista-produtos]'
 
 new Carousel(anterior, proximo, listaProdutos)
+new Video()

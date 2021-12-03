@@ -51,15 +51,44 @@
     .secao__video{
         display: flex;
         justify-content: center;
-        align-content: center;
-        height: 119vh;
+        flex-direction: column;
+        align-items: center;
+        height: 122vh;
         width: 100vw;
 
         overflow-y: hidden;
         overflow-x: hidden;
     }
     .video{
-        position: static;
+        position: relative;
+        z-index: 1;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        bottom: -4rem;
+    }
+    .botao__desmuta, .botao__muta{
+        position: relative;
+        align-self: center;
+        justify-self: center;
+        height: 4rem;
+        width: 4rem;
+        left: center;
+        top: -6rem;
+
+        
+        border: none;
+        background-color: transparent;
+        z-index: 20;
+    }
+    .botao__desmuta{
+        display: block;
+    }
+    .botao__muta{
+        display: none;
+    }
+    .imagem__desmuta, .imagem__muta{
+        height: 4rem;
+        width: 4rem;
     }
 
     .secao__passion{
@@ -497,5 +526,74 @@
         justify-content: flex-end;
         padding-right: 2rem;
         padding-bottom: 3.5rem;
+    }
+
+    .rodape{
+        width: 100vw;
+        height: 28.313rem;
+        background-color: var(--low-pure);
+    }
+    .secao__titulo___rodape{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        border-bottom: 1px solid var(--high-pure);
+    }
+    .titulo__rodape{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-md);
+        color: var(--high-pure);
+    }
+    .redes__sociais___rodape{
+        display: flex;
+        align-items: center;
+        gap: 2.813rem;   
+    }
+    .hashtag__footer{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--medium);
+        color: var(--high-pure);
+    }
+    .patrocinadores__rodape{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .abas__footer{
+        display: flex;
+        justify-content: center;
+        padding-top: 3.5rem;
+        padding-bottom: 1rem;
+    }
+    .container__abas{
+        display: flex;
+        flex-direction: row;
+        gap: 10.313rem;
+    }
+    .aba{
+        display: flex;
+        flex-direction: column;
+        height: 14.5rem;
+    }
+    .titulo__aba{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--medium);
+        color: var(--high-pure);
+        margin-bottom: 1rem;
+    }
+    .item__aba{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+        margin-bottom: 1rem;
+    }
+    .link__fim{
+        margin-top: 7rem;
     }
 }
