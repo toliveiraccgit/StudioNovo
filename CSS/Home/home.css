@@ -1,4 +1,5 @@
 @media (min-width:0px){
+    /*-------------------------------CABECALHO--------------------------------*/
     .cabecalho{
         display: flex;
         justify-content: space-between;
@@ -33,7 +34,7 @@
 
         font-weight: 500;
     }
-
+    /*-------------------------------BANNER-VIDEO--------------------------------*/
     .banner{
         padding: 13.875rem 11.5rem 15.563rem 9.5rem;
         
@@ -90,7 +91,7 @@
         height: 4rem;
         width: 4rem;
     }
-
+    /*-------------------------------PASSION--------------------------------*/
     .secao__passion{
         padding: 20rem 9.5rem 20rem 9.563rem;
         font-family: var(--heading-cabinet);
@@ -101,13 +102,15 @@
         font-size: var(--font-xxl);
         color: var(--high-pure);
     }
+    /*-------------------------------WORKS--------------------------------*/   
     .secao__works{
         display: flex;
         flex-direction: column;
         background-color: var(--low-pure);
 
-    }
+        height: 470vh;
 
+    }
     .cabecalho__secao___works{
         display: flex;
         flex-direction: row;
@@ -118,9 +121,9 @@
         font-weight: var(--bold);
         font-size: 16px;
 
-        padding: 0 9.5rem 0 9.5rem;
+        padding: 0 9.5rem 0 0;
+        margin-bottom: 3.5rem;
     }
-
     .botao__view-cases{
         background-color: none;
         border: none;
@@ -138,8 +141,8 @@
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 12, default;
     }
     .container__works{
+        position: sticky;
         padding-left: 9.5rem;
-        margin-top: 3.5rem;
         background-color: var(--low-pure);
     }
     .container__cards{
@@ -149,10 +152,10 @@
         height: 40.5rem;
         gap: 1rem;
 
+        padding-left: 79rem;
+
         overflow-x: scroll;
         overflow-y: hidden;
-        overscroll-behavior-x: contain;
-        overscroll-behavior-block: contain;
     }
     .container__cards::-webkit-scrollbar{
         display: none;
@@ -195,7 +198,7 @@
     .atarde:hover .info__card{
         animation: animaInfo .4s ease-in-out forwards;
     }
-
+   /*-------------------------------WE--------------------------------*/
     .secao__we{
         padding: 31.5rem 9.5rem 0 9.5rem;
 
@@ -254,7 +257,7 @@
     .botao__explore:hover{
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
     }
-
+    /*-------------------------------PATROCINADORES--------------------------------*/
     .secao__patrocinadores{
         height: 125vh;
         display: flex;
@@ -293,7 +296,7 @@
         background-color: var(--high-pure);
         
     }
-
+    /*------------------------------COMENTARIO-------------------------------*/
     .cabecalho__comentarios{
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
@@ -302,7 +305,6 @@
         position: relative;
         bottom: -1rem;
     }
-
     .container__carousel{
         width: 79vw;
         overflow-x: hidden;
@@ -316,14 +318,12 @@
 
         transition: all .2s ease-in-out;
     }
-
     .item__lista___comentarios{
         display: flex;
         flex-direction: column;
         width: 100vw;
         margin-bottom: 9.938rem;
     }
-
     .numeracao__comentario{
         align-self: flex-end;
 
@@ -331,7 +331,6 @@
         font-weight: var(--bold);
         font-size: 16px;
     }
-
     .comentario{
         width: 79vw;
 
@@ -347,14 +346,12 @@
         background-image: url("../../Assets/Home/aspas.png");
         background-repeat: no-repeat;     
     }
-
     .perfil__comentario{
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 1rem;
     }
-
     .icone__perfil___comentario{
         width: 3.5rem;
         height: 3.5rem;
@@ -371,7 +368,6 @@
         margin-bottom: 0%;
         margin-top: 0%;
     }
-
     .container__botao___comentario{
         width: 79vw;
         
@@ -403,7 +399,7 @@
         background-repeat: no-repeat;
         background-position-x: right;
     }
-
+    /*-------------------------------SCROLL--------------------------------*/
     .secao__scroll{
         height: 80vh;
 
@@ -415,7 +411,6 @@
     .container__titulo{
         position: relative;
     }
-
     .titulo__scroll{
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
@@ -423,14 +418,12 @@
 
         width: 200vw;
     }
-
     .scroll-1{
         display: flex;
         flex-direction: row;
         position: relative;
         width: 200vw;
     }
-
     .scroll-2{
         display: flex;
         flex-direction: row;
@@ -439,7 +432,6 @@
 
         margin-bottom: 7.063rem;
     }
-
     .botao__get-in{
         width: 79vw;
         display: flex;
@@ -461,6 +453,7 @@
     .botao__get-in:hover{
         cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg")25 30, default ;
     }
+    /*-------------------------------NEWSLETTER--------------------------------*/
     .newsletter{
         height: 60vh;
 
@@ -478,7 +471,6 @@
         background-position-y: 12.5rem;
 
     }
-
     .subscribe{
         display: flex;
         flex-direction: column;
@@ -521,7 +513,7 @@
         padding-right: 2rem;
         padding-bottom: 3.5rem;
     }
-
+    /*-------------------------------RODAPE--------------------------------*/
     .rodape{
         width: 100vw;
         height: 28.313rem;

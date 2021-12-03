@@ -19,8 +19,6 @@ export class Scroll{
             this.titulo1.style.right = ` ${posicaoTitulo/35}%`
             this.titulo2.style.left = ` ${posicaoTitulo/35}% `
         }
-
-        console.log(posicaoTitulo)
     }
 
     

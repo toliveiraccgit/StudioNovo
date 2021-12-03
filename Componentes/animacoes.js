@@ -1,4 +1,4 @@
-export class Video{
+export class Animacoes{
     constructor() {
         this.video = document.querySelector('.video')
         this.posicaoTela = document.querySelector('#body')
@@ -12,6 +12,11 @@ export class Video{
 
         this.botaoDesmuta.addEventListener('click', this.showBotao.bind(this))
         this.botaoMuta.addEventListener('click', this.showBotao.bind(this))
+
+        this.secaoCards = document.querySelector('#container__cards')
+        this.secaoWorks = document.querySelector('#container__works')
+
+       
     }
 
     scrollVideo() {
@@ -21,6 +26,9 @@ export class Video{
     calculoScroll() {
         const posicaoVideo = this.posicaoTela.getBoundingClientRect()['y'];
         const posicaoSecao = this.posicaoTelaVideo.getBoundingClientRect()['y']
+        
+        const posicaoSecaoCards = this.secaoCards.getBoundingClientRect()['y']
+        const posicaoBody = this.posicaoTela.getBoundingClientRect()['y']
         
         if(posicaoVideo <= -180) {
             this.video.style.width = `${-posicaoVideo/10}vw`
@@ -36,6 +44,13 @@ export class Video{
         if (posicaoSecao <= -927.8125) {
             this.video.pause()   
         }
+
+        if (posicaoSecao <= 3529) {
+            this.secaoCards.scroll((-posicaoBody/2.8), 0)
+            this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
+        }
+
+        console.log(posicaoBody)
     }
 
     desmutaVideo() {
@@ -57,6 +72,4 @@ export class Video{
             botaoMuta.style.display = ` block `
         }
     }
-
-
 }

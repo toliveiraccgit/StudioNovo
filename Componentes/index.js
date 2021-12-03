@@ -1,10 +1,10 @@
-import { Video } from "./playVideo.js";
+import { Animacoes } from "./animacoes.js";
 import { Carousel } from "./carrousel.js"
 import { Scroll } from "./tituloScrol.js"
 
 
 window.onload = () => {
-    const animaVideo = new Video()
+    const animaVideo = new Animacoes()
     document.addEventListener('scroll', animaVideo.scrollVideo.bind(animaVideo))
 
     const scroll = new Scroll()
@@ -17,4 +17,4 @@ const proximo = '[data-proximo]'
 const listaProdutos = '[data-lista-produtos]'
 
 new Carousel(anterior, proximo, listaProdutos)
-new Video()
+new Animacoes()
