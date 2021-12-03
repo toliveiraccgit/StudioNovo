@@ -282,7 +282,7 @@
         gap: 7rem;
         margin-bottom: 25vh;
     }
-
+    /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
         height: 120vh;
 
@@ -296,7 +296,6 @@
         background-color: var(--high-pure);
         
     }
-    /*------------------------------COMENTARIO-------------------------------*/
     .cabecalho__comentarios{
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);

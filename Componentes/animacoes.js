@@ -29,28 +29,36 @@ export class Animacoes{
         
         const posicaoSecaoCards = this.secaoCards.getBoundingClientRect()['y']
         const posicaoBody = this.posicaoTela.getBoundingClientRect()['y']
+
+        const larguraBody = screen.width
+
+        if (larguraBody >= 1024) {
+            if(posicaoVideo <= -180, larguraBody >= 1024) {
+                this.video.style.width = `${-posicaoBody/9.9}vw`
+                this.video.style.height = `${-posicaoBody/9.18}vh`
+            }
+    
+            if (posicaoSecao <= -41.8125, larguraBody >= 1024) {
+                this.video.play()
+                this.video.volume = 0.4
+            }else{
+                this.video.pause()
+            }
+            
+            if (posicaoSecao <= -927.8125, larguraBody >= 1024) {
+                this.video.pause()   
+            }
+
+            if (posicaoSecao <= 3529) {
+                this.secaoCards.scroll((-posicaoBody/2.8), 0)
+                this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
+            }
+        }
         
-        if(posicaoVideo <= -180) {
-            this.video.style.width = `${-posicaoVideo/10}vw`
-            this.video.style.height = `${-posicaoVideo/9.18}vh`
-        }
 
-        if (posicaoSecao <= -41.8125) {
-            this.video.play()
-            this.video.volume = 0.4
-        }else{
-            this.video.pause()
-        }
-        if (posicaoSecao <= -927.8125) {
-            this.video.pause()   
-        }
+        
 
-        if (posicaoSecao <= 3529) {
-            this.secaoCards.scroll((-posicaoBody/2.8), 0)
-            this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
-        }
-
-        console.log(posicaoBody)
+        console.log(larguraBody)
     }
 
     desmutaVideo() {
