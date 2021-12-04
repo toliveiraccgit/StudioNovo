@@ -369,4 +369,8 @@
             top: -60rem;
         }
     }
+
+    .container__menu{
+        gap: 1rem;
+    }
 }
