@@ -1,4 +1,7 @@
 @media (max-width:1024px){ 
+    html{
+        overflow-x: hidden;
+    }
     .cabecalho{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -107,8 +110,11 @@
         font-size: 88px;
     }
     .muda-nome{
-        width: auto;
+        width: 75vw;
         height: 5.5rem;
+    }
+    .botao__explore{
+        width: 87.5vw;
     }
     .container__muda-nome{
         animation: mudaNome 8s ease-in-out infinite alternate;
@@ -157,5 +163,366 @@
     .container__botao___comentario{
         width: 90vw;
         gap: 2rem;
+    }
+
+    .secao__scroll{
+        margin-top: 17.75rem;
+        height: 58vh;
+    }
+    .titulo__scroll{
+        font-size: 64px;
+    }
+    .scroll-1{
+        animation:movimenta-titulo-1 12s ease-in-out infinite alternate;
+        animation-delay: -2s;
+    }
+    .scroll-2{
+        animation:movimenta-titulo-2 12s ease-in-out infinite alternate;
+        animation-delay: -2s;
+    }
+
+    .newsletter{
+        background-position-y: 10rem;
+        background-position-x: center;
+
+        height: 100vh;
+    }
+    .subscribe{
+        margin-left: 0%;
+    }
+    .titulo__subscribe{
+        font-size: 40px;
+    }
+    .email__subscribe{
+        width: 88vw;
+    }
+    .container__lets-talk{
+        display: none;
+    }
+
+    .rodape{
+        height: auto;
+    }
+    .secao__titulo___rodape{
+        flex-direction: column;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .redes__sociais___rodape{
+        gap: 0%;
+        justify-content: space-between;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .abas__footer{
+        flex-direction: column;
+        padding-bottom: 0%;
+    }
+    .container__abas{
+        flex-direction: column;
+        padding-left: 1.5rem;
+        gap: 0%;
+    }
+    .link__fim{
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .titulo__banner{
+        font-size: var(--font-lg);
+    }
+    
+    .secao__video{
+        height: 50vh;
+    }
+    .video{
+        width: 104vw;
+    }
+    .imagem__desmuta, .imagem__muta{
+        width: 5rem;
+        height: 5rem;
+    }
+    .botao__desmuta, .botao__muta{
+        top: -4.5rem;
+    }
+
+    .secao__we{
+        padding-left: 2rem;
+    }
+    .stroke__we{
+        font-size: var(--font-xl);
+    }
+    .muda-nome{
+        width: 28.5rem;
+        height: 6rem;
+    }
+    .secao__muda-nome{
+        flex-direction: row;
+    }
+    @keyframes mudaNome {
+        0%{
+            position: relative;
+            top: -7.2rem;
+        }
+        25%{
+            animation: paused;
+        }
+        50%{
+            position: relative;
+            top: -14.2rem;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            top: -21.2rem;
+        }
+    }
+
+    .secao__patrocinadores {
+        height: 80vh;
+    }
+
+    .secao__comentarios {
+        padding-left: 6rem;
+        height: 60vh;
+    }
+
+    .secao__scroll{
+        height: 35vh;
+    }
+    .titulo__scroll{
+        font-size: var(--font-xl);
+    }
+
+    .newsletter{
+        height: 65vh;
+        padding-bottom: 4rem;
+    }
+    .titulo__subscribe{
+        font-size: var(--font-md);
+    }
+
+
+    .rodape{
+        height: 70vh;
+    }
+    .secao__titulo___rodape{
+        flex-direction: row;
+    }
+    .redes__sociais___rodape{
+        gap: 1.5rem;
+    }
+    .container__abas{
+        flex-direction: row;
+        gap: 6.5rem;
+        justify-content: center;
+    }
+}
+
+@media (min-width:1493px){
+
+    .logo-studio{
+        width: 7rem;
+        height: 7rem;
+    }
+    .container__menu{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .icone__menu{
+        width: 5rem;
+    }
+    .traducao__pagina{
+        font-size: var(--font-xs);
+    }
+
+    .titulo__banner{
+        font-size: var(--font-xxl);
+    }
+
+    .secao__passion{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo__cabecalho___works,.botao__view-cases{
+        font-size: var(--font-sm);
+        background-position-x: right;
+    }
+
+    .card__works, .imagem__card___works, .gradient{
+        width: 35rem;
+        height: 60rem;
+    }
+    .container__cards{
+        height: 60rem;
+        margin-top: 4rem;
+    }
+    .info__card{
+        width: 35rem;
+    }
+    .titulo__info___card{
+        font-size: var(--font-md);
+    }
+    .descricao__info___card{
+        font-size: var(--font-sm);
+    }
+
+    @keyframes animaInfo {
+        to{
+            opacity: 1;
+            transform: translateY(-15rem)
+        }
+    }
+
+    .secao__works{
+        height: 320vh;
+    }
+
+    .secao__we{
+        justify-content: center;
+        height: 100vh;
+    }
+    .titulo__we{
+        font-size: 280px;
+    }
+    .stroke__we{
+        font-size: 280px;
+    }
+    .botao__explore{
+        margin-top: 14rem;
+        background-size: 2.5rem 2.5rem;
+    }
+    .muda-nome{
+        width: 75rem;
+        height: 19.8rem;
+    }
+    @keyframes mudaNome {
+        0%{
+            position: relative;
+            top: -20rem;
+        }
+        25%{
+            animation: paused;
+        }
+        50%{
+            position: relative;
+            top: -40rem;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            top: -60rem;
+        }
+    }
+
+    .botao__explore{
+        font-size: var(--font-sm);
+        width: 88vw;
+        background-size: 2.5rem 2.5rem;
+    }
+
+    .titulo__patrocinadores{
+        font-size: var(--font-sm);
+    }
+    .logo__patrocinadores{
+        width: 15rem;
+        height: 5rem;
+    }
+
+    .titulo__cabecalho, .numeracao__comentario,.nome__perfil___comentario{
+        font-size: var(--font-sm);
+    }
+    .cabecalho__comentarios{
+        align-self: flex-start;
+        padding-left: 8rem;
+        top: 2.5rem;
+    }
+    .secao__comentarios{
+        align-items: center;
+    }
+    .comentario{
+        font-size: var(--font-xl);
+        margin-bottom: 4rem;
+    }
+    .icone__perfil___comentario{
+        width: 6rem;
+        height: 6rem;
+    }
+    .descricao__perfil___comentario{
+        font-size: var(--font-sm);
+    }
+    .container__botao___comentario{
+        margin-top: 8rem;
+    }
+    .botao__proximo___comentario, .botao__anterior___comentario{
+        background-size: 2.5rem 2.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .titulo__scroll{
+        font-size: 280px;
+    }
+    .botao__get-in{
+        font-size: var(--font-sm);
+        margin-top: 15rem;
+
+        background-size: 2.5rem 2.5rem;
+    }
+
+    .newsletter{
+        justify-content: center;
+        background-position-x: 30%;
+        background-size: 40rem 40rem;
+
+        height: 80vh;
+    }
+    .titulo__subscribe{
+        font-size: var(--font-xl);
+    }
+    .email__subscribe{
+        font-size: var(--font-xs);
+        background-size: 2.5rem 2.5rem;
+    }
+    .lets-talk, .imagem__lets-talk{
+        width: 10rem;
+        height: 10rem;
+        margin-right: 3rem;
+    }
+
+    .titulo__rodape{
+        font-size: var(--font-lg);
+    }
+    .hashtag__footer{
+        font-size: var(--font-sm);
+    }
+    .ico__linkedin{
+        width: 2rem;
+        height: 2rem;
+    }
+    .ico__instagram{
+        width: 3rem;
+        height: 3rem;
+    }
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size: var(--font-xs);
+    }
+    .rodape{
+        height: 55vh;
+    }
+    .aba{
+        gap: 1.5rem;
+    }
+    .link__fim{
+        margin-top: 15rem;
     }
 }

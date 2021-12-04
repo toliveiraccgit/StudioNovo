@@ -133,7 +133,7 @@
 
         padding: 0 15rem 1.656rem 0;
 
-        background-image: url("../../Assets/Setas/Right-Down-White.png");
+        background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
         background-position-x: 20rem;
     }
@@ -156,6 +156,7 @@
 
         overflow-x: scroll;
         overflow-y: hidden;
+        overscroll-behavior-x: contain;
     }
     .container__cards::-webkit-scrollbar{
         display: none;
@@ -250,7 +251,7 @@
         border: none;
         border-bottom: 1px solid var(--high-pure);
 
-        background-image: url("../../Assets/Setas/Right-Down-White.png");
+        background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
         background-position-x: 100%;
     }
@@ -382,7 +383,7 @@
         padding-bottom: 2.208rem;
 
         background-color: transparent;
-        background-image: url("../../Assets/Setas/left-dark.png");
+        background-image: url("../../Assets/Setas/Left.svg");
         background-repeat: no-repeat;
     }
     .botao__proximo___comentario{
@@ -394,7 +395,7 @@
         padding-bottom: 1.656rem;
 
         background-color: transparent;
-        background-image: url("../../Assets/Setas/right-dark.png");
+        background-image: url("../../Assets/Setas/Right.svg");
         background-repeat: no-repeat;
         background-position-x: right;
     }
@@ -415,18 +416,18 @@
         font-weight: var(--bold);
         font-size: var(--font-xxl);
 
-        width: 200vw;
+        width: 800vw;
     }
     .scroll-1{
         display: flex;
         flex-direction: row;
         position: relative;
-        width: 200vw;
+        width: 800vw;
     }
     .scroll-2{
         display: flex;
         flex-direction: row;
-        width: 200vw;
+        width: 800vw;
         position: relative;
 
         margin-bottom: 7.063rem;
@@ -445,7 +446,7 @@
         padding-bottom: 1.656rem;
 
         background-color: transparent;
-        background-image: url("../../Assets/Setas/seta-right-down-black.svg");
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: right;
     }
@@ -498,7 +499,7 @@
         font-size: 16px;
 
         background-color: transparent;
-        background-image: url("../../Assets/Setas/seta-right-down-black.svg");
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: right;
     }

@@ -16,8 +16,8 @@ export class Scroll{
         
 
         if (posicaoTitulo <= 6530) {
-            this.titulo1.style.right = ` ${posicaoTitulo/35}%`
-            this.titulo2.style.left = ` ${posicaoTitulo/35}% `
+            this.titulo1.style.left = ` ${posicaoTitulo/35 - 15}%`
+            this.titulo2.style.right = ` ${posicaoTitulo/35 - 30}% `
         }
     }
 

@@ -32,20 +32,20 @@ export class Animacoes{
 
         const larguraBody = screen.width
 
-        if (larguraBody >= 1024) {
-            if(posicaoVideo <= -180, larguraBody >= 1024) {
+        if (larguraBody >= 1025) {
+            if(posicaoVideo <= -180) {
                 this.video.style.width = `${-posicaoBody/9.9}vw`
                 this.video.style.height = `${-posicaoBody/9.18}vh`
             }
     
-            if (posicaoSecao <= -41.8125, larguraBody >= 1024) {
+            if (posicaoSecao <= -41.8125) {
                 this.video.play()
                 this.video.volume = 0.4
             }else{
                 this.video.pause()
             }
             
-            if (posicaoSecao <= -927.8125, larguraBody >= 1024) {
+            if (posicaoSecao <= -927.8125) {
                 this.video.pause()   
             }
 
@@ -54,11 +54,16 @@ export class Animacoes{
                 this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
             }
         }
+
+        if (larguraBody >= 1600) {
+            if (posicaoSecao <= 5940) {
+                this.secaoCards.scroll((-posicaoBody/3.8), 0)
+                this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
+            }
+        }
         
 
-        
-
-        console.log(larguraBody)
+        console.log(posicaoSecao)
     }
 
     desmutaVideo() {
