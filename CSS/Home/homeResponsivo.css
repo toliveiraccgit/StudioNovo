@@ -322,54 +322,16 @@
     }
 }
 
-/*@media (min-width:1493px){
-
-    .logo-studio{
-        width: 7rem;
-        height: 7rem;
-    }
+@media (min-width:1493px){
     .container__menu{
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-    }
-    .icone__menu{
-        width: 5rem;
-    }
-    .traducao__pagina{
-        font-size: var(--font-xs);
-    }
-
-    .titulo__banner{
-        font-size: var(--font-xxl);
     }
 
     .secao__passion{
         height: 100vh;
         display: flex;
         align-items: center;
-    }
-
-    .titulo__cabecalho___works,.botao__view-cases{
-        font-size: var(--font-sm);
-        background-position-x: right;
-    }
-
-    .card__works, .imagem__card___works, .gradient{
-        width: 35rem;
-        height: 60rem;
-    }
-    .container__cards{
-        height: 60rem;
-        margin-top: 4rem;
-    }
-    .info__card{
-        width: 35rem;
-    }
-    .titulo__info___card{
-        font-size: var(--font-md);
-    }
-    .descricao__info___card{
-        font-size: var(--font-sm);
     }
 
     @keyframes animaInfo {
@@ -386,20 +348,6 @@
     .secao__we{
         justify-content: center;
         height: 100vh;
-    }
-    .titulo__we{
-        font-size: 280px;
-    }
-    .stroke__we{
-        font-size: 280px;
-    }
-    .botao__explore{
-        margin-top: 14rem;
-        background-size: 2.5rem 2.5rem;
-    }
-    .muda-nome{
-        width: 75rem;
-        height: 19.8rem;
     }
     @keyframes mudaNome {
         0%{
@@ -421,108 +369,4 @@
             top: -60rem;
         }
     }
-
-    .botao__explore{
-        font-size: var(--font-sm);
-        width: 88vw;
-        background-size: 2.5rem 2.5rem;
-    }
-
-    .titulo__patrocinadores{
-        font-size: var(--font-sm);
-    }
-    .logo__patrocinadores{
-        width: 15rem;
-        height: 5rem;
-    }
-
-    .titulo__cabecalho, .numeracao__comentario,.nome__perfil___comentario{
-        font-size: var(--font-sm);
-    }
-    .cabecalho__comentarios{
-        align-self: flex-start;
-        padding-left: 8rem;
-        top: 2.5rem;
-    }
-    .secao__comentarios{
-        align-items: center;
-    }
-    .comentario{
-        font-size: var(--font-xl);
-        margin-bottom: 4rem;
-    }
-    .icone__perfil___comentario{
-        width: 6rem;
-        height: 6rem;
-    }
-    .descricao__perfil___comentario{
-        font-size: var(--font-sm);
-    }
-    .container__botao___comentario{
-        margin-top: 8rem;
-    }
-    .botao__proximo___comentario, .botao__anterior___comentario{
-        background-size: 2.5rem 2.5rem;
-        padding-bottom: 3.5rem;
-    }
-
-    .titulo__scroll{
-        font-size: 280px;
-    }
-    .botao__get-in{
-        font-size: var(--font-sm);
-        margin-top: 15rem;
-
-        background-size: 2.5rem 2.5rem;
-    }
-
-    .newsletter{
-        justify-content: center;
-        background-position-x: 30%;
-        background-size: 40rem 40rem;
-
-        height: 80vh;
-    }
-    .titulo__subscribe{
-        font-size: var(--font-xl);
-    }
-    .email__subscribe{
-        font-size: var(--font-xs);
-        background-size: 2.5rem 2.5rem;
-    }
-    .lets-talk, .imagem__lets-talk{
-        width: 10rem;
-        height: 10rem;
-        margin-right: 3rem;
-    }
-
-    .titulo__rodape{
-        font-size: var(--font-lg);
-    }
-    .hashtag__footer{
-        font-size: var(--font-sm);
-    }
-    .ico__linkedin{
-        width: 2rem;
-        height: 2rem;
-    }
-    .ico__instagram{
-        width: 3rem;
-        height: 3rem;
-    }
-    .titulo__aba{
-        font-size: var(--font-sm);
-    }
-    .item__aba{
-        font-size: var(--font-xs);
-    }
-    .rodape{
-        height: 55vh;
-    }
-    .aba{
-        gap: 1.5rem;
-    }
-    .link__fim{
-        margin-top: 15rem;
-    }
-}*/
+}
