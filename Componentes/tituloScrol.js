@@ -13,7 +13,8 @@ export class Scroll{
 
     calculoScroll() {
         const posicaoTitulo = this.posicaoSecaoTitulo.getBoundingClientRect()['y'];
-        
+        const larguraBody = screen.width
+
         if (larguraBody >= 1025) {
             if (posicaoTitulo <= 6530) {
                 this.titulo1.style.left = ` ${posicaoTitulo/35 - 15}%`
