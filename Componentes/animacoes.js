@@ -50,14 +50,14 @@ export class Animacoes{
             }
 
             if (posicaoSecao <= 3529) {
-                this.secaoCards.scroll((-posicaoBody/2.8), 0)
+                this.secaoCards.scroll((-posicaoBody/3.3 - 10), 0)
                 this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
             }
         }
 
         if (larguraBody >= 1600) {
-            if (posicaoSecao <= 5940) {
-                this.secaoCards.scroll((-posicaoBody/2.8 - 20), 0)
+            if (posicaoSecao <= -2483.8125) {
+                this.secaoCards.scroll((-posicaoBody/3.8), 0)
                 this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
             }
         }
