@@ -14,11 +14,14 @@ export class Scroll{
     calculoScroll() {
         const posicaoTitulo = this.posicaoSecaoTitulo.getBoundingClientRect()['y'];
         
+        if (larguraBody >= 1025) {
+            if (posicaoTitulo <= 6530) {
+                this.titulo1.style.left = ` ${posicaoTitulo/35 - 15}%`
+                this.titulo2.style.right = ` ${posicaoTitulo/35 - 30}% `
+            }
 
-        if (posicaoTitulo <= 6530) {
-            this.titulo1.style.left = ` ${posicaoTitulo/35 - 15}%`
-            this.titulo2.style.right = ` ${posicaoTitulo/35 - 30}% `
         }
+        
     }
 
     
