@@ -57,7 +57,7 @@ export class Animacoes{
 
         if (larguraBody >= 1600) {
             if (posicaoSecao <= 5940) {
-                this.secaoCards.scroll((-posicaoBody/3.8), 0)
+                this.secaoCards.scroll((-posicaoBody/2.8 - 20), 0)
                 this.secaoWorks.style.top = ` ${-posicaoSecaoCards/75 + 8}% `
             }
         }
