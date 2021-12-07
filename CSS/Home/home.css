@@ -3,6 +3,7 @@
     .cabecalho{
         display: flex;
         justify-content: space-between;
+        width: 100vw;
         
         padding: 2rem 9.5rem;
         
@@ -11,9 +12,12 @@
         border-bottom: 1px solid var(--high-low);
 
         background-color: var(--high-pure);
+        z-index: 1000;
+        transition: all .4s ease-in-out;
     }
     .container__nav{
         display: flex;
+        background-color: var(--high-pure);
     }
     .container__menu{
         display: flex;
@@ -25,6 +29,7 @@
         background-color: transparent;
         
         border: none;
+        background-color: var(--high-pure);
     }
     .traducao__pagina{
         border: none;
@@ -37,7 +42,7 @@
     /*-------------------------------BANNER-VIDEO--------------------------------*/
     .banner{
         padding: 13.875rem 11.5rem 15.563rem 9.5rem;
-        
+        margin-top: 8.5rem;
         background-color: var(--high-pure);
     }
     .titulo__banner{
@@ -48,38 +53,78 @@
 
         color: var(--low-dark);
     }
+    .botao__view-cases___banner{
+        background-color: none;
+        border: none;
+        border-bottom: 2px solid var(--low-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: 700;
+
+        color: var(--low-pure);
+
+        padding: 0 2.5rem .5rem 0;
+
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+    }
+
 
     .secao__video{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 122vh;
+        justify-content: center;
+        height: 100vh;
         width: 100vw;
 
         overflow-y: hidden;
         overflow-x: hidden;
     }
-    .video{
-        position: relative;
-        z-index: 1;
+    .video-poster{
         overflow-y: hidden;
         overflow-x: hidden;
-        bottom: -4rem;
+        width: 75vw;
+        height: auto;
+    }
+    .video-played{
+        display: none;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: relative;
+        top: -2rem;
+        width: 75vw;
+        height: auto;
     }
     .botao__desmuta, .botao__muta{
         position: relative;
         align-self: center;
         justify-self: center;
+        display: none;
+        visibility: hidden;
         height: 4rem;
         width: 4rem;
         left: center;
-        top: -6rem;
+        top: -10rem;
 
         
         border: none;
         background-color: transparent;
         z-index: 20;
+    }
+    .botao__play{
+        border: none;
+        background-color: transparent;
+        position: relative;
+        top: -39%;
+        width: 4rem;
+        height: 4rem;
+    }
+    .imagem__play{
+        position: relative;
+        width: 4rem;
+        height: 4rem;
     }
     .botao__desmuta{
         display: block;
@@ -108,7 +153,7 @@
         flex-direction: column;
         background-color: var(--low-pure);
 
-        height: 470vh;
+        height: 100vh;
 
     }
     .cabecalho__secao___works{
@@ -118,7 +163,7 @@
 
         color: var(--high-pure);
         font-family: var(--heading-cabinet);
-        font-weight: var(--bold);
+        font-weight: var(--medium);
         font-size: 16px;
 
         padding: 0 9.5rem 0 0;
@@ -127,15 +172,15 @@
     .botao__view-cases{
         background-color: none;
         border: none;
-        border-bottom: 1px solid var(--high-pure);
+        font-size: 16px;
 
         color: var(--high-pure);
 
-        padding: 0 15rem 1.656rem 0;
+        padding: 0 18rem 1.656rem 0;
 
         background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
-        background-position-x: 20rem;
+        background-position-x: right;
     }
     .botao__view-cases:hover{
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 12, default;
@@ -149,10 +194,8 @@
         display: flex;
         flex-direction: row;
         width: auto;
-        height: 40.5rem;
+        height: 40.4rem;
         gap: 1rem;
-
-        padding-left: 65rem;
 
         overflow-x: scroll;
         overflow-y: hidden;
@@ -162,13 +205,27 @@
         display: none;
     }
     .card-works{
-        transition: all .4s ease-in-out;
+        transition:all .4s ease-in-out;
+        filter: grayscale(100%) brightness(40%);
     }
     .card-works:hover .gradient{
         animation: opacidadeBG .4s ease-in-out forwards;
+        transition:all .4s ease-in-out;
     }
     .card-works:hover{
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
+        filter: none;
+    }
+    .card-works:hover .titulo__card{
+        display: none;
+    }
+    .titulo__card{
+        position: relative;
+        top: -6.5rem;
+        padding-left: 1.5rem;
+
+        font-family: var(--paragraph-satoshi);
+        font-size: var(--font-sm);
     }
     .info__card{
         position: relative;
@@ -181,9 +238,9 @@
         opacity: 1;
         z-index: 20;
 
-        padding: 0 1.5rem 2rem 1.5rem ;
+        padding: 0 1.5rem 0 1.5rem ;
 
-        transition: all .4s ease-in-out;
+        transition: transform .4s ease-in-out;
     }
     .titulo__info___card{
         font-family: var(--heading-cabinet);
@@ -198,6 +255,7 @@
     }
     .atarde:hover .info__card{
         animation: animaInfo .4s ease-in-out forwards;
+        transition: transform .4s ease-in-out;
     }
    /*-------------------------------WE--------------------------------*/
     .secao__we{
@@ -210,6 +268,7 @@
     }
     .secao__muda-nome{
         display: flex;
+        flex-direction: column;
         margin-bottom: 13.063rem;
     }
 
@@ -230,12 +289,12 @@
         margin: 0%;
     }
     .container__muda-nome{
-        animation: mudaNome 8s ease-in-out infinite alternate;
+        animation: mudaNome 10s ease-in-out infinite alternate;
     }
     .muda-nome{
         overflow-y: hidden;
         overflow-x: hidden;
-        width: 51.5rem;
+        width: 74.5rem;
         height: 15.625rem;
     }
     .botao__explore{
@@ -249,7 +308,7 @@
 
         background-color: transparent;
         border: none;
-        border-bottom: 1px solid var(--high-pure);
+        border-bottom: 2px solid var(--high-pure);
 
         background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
@@ -260,13 +319,13 @@
     }
     /*-------------------------------PATROCINADORES--------------------------------*/
     .secao__patrocinadores{
-        height: 125vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
 
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
 
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
@@ -282,6 +341,23 @@
         flex-direction: row;
         gap: 7rem;
         margin-bottom: 25vh;
+    }
+    .container__patrocinadores{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 56px;
+        overflow-y: hidden;
+    }
+
+    .logo__patrocinadores-1{
+        position: relative;
+        /*animation: anima-logo-1 9s infinite alternate;
+        transition: all .4s ease-in-out;*/
+    } 
+    .logo__patrocinadores-2{
+        position: relative;
+        /*animation: anima-logo-2 9s infinite alternate;
+        transition: all .4s ease-in-out;*/
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
@@ -316,7 +392,7 @@
         flex-direction: row;
         overflow-x: hidden;
 
-        transition: all .2s ease-in-out;
+        transition: all .4s ease-in;
     }
     .item__lista___comentarios{
         display: flex;
@@ -378,7 +454,7 @@
         width: 39.5vw;
         
         border: none;
-        border-bottom: 1px solid var(--low-pure);
+        border-bottom: 2px solid var(--low-pure);
         
         padding-bottom: 2.208rem;
 
@@ -390,7 +466,7 @@
         width: 39.5vw;
         
         border: none;
-        border-bottom: 1px solid var(--low-pure);
+        border-bottom: 2px solid var(--low-pure);
         
         padding-bottom: 1.656rem;
 
@@ -440,7 +516,7 @@
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
         
-        border-bottom: 1px solid var(--low-pure);
+        border-bottom: 2px solid var(--low-pure);
         
         color: var(--low-pure);
         padding-bottom: 1.656rem;
@@ -455,20 +531,22 @@
     }
     /*-------------------------------NEWSLETTER--------------------------------*/
     .newsletter{
-        height: 60vh;
+        height: 80vh;
 
         padding-right: 9.5rem;
         padding-left: 9.5rem;
+        padding-top: 9.5rem;
+        padding-bottom: 9.5rem;
 
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
 
         background-image: url("../../Assets/Home/logo-grande.svg");
         background-repeat: no-repeat;
         background-position-x: 10vw;
-        background-position-y: 12.5rem;
+        background-position-y: center;
 
     }
     .subscribe{
@@ -493,7 +571,7 @@
 
         padding-bottom: 1.656rem;
         border: none;
-        border-bottom: 1px solid var(--low-pure);
+        border-bottom: 2px solid var(--low-pure);
         
         color: var(--low-pure);
         font-size: 16px;
@@ -508,33 +586,61 @@
     }
     .container__lets-talk{
         display: flex;
+        position: fixed;
         width: 100vw;
         justify-content: flex-end;
         padding-right: 2rem;
-        padding-bottom: 3.5rem;
+        padding-top: 2rem;
+        z-index: 22;
     }
     /*-------------------------------RODAPE--------------------------------*/
     .rodape{
         width: 100vw;
-        height: 28.313rem;
-        background-color: var(--low-pure);
+        background-color: var(--high-pure);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .secao__titulo___rodape{
-        width: 100vw;
+    .secao__info___rodape{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        align-items: center;
+        height: 40vh;
 
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 10.813rem;
 
-        border-bottom: 1px solid var(--high-pure);
+        border-bottom: 1px solid var(--low-medium);
+    }
+    .secao__titulo___rodape{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+
     }
     .titulo__rodape{
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
         font-size: var(--font-md);
-        color: var(--high-pure);
+        color: var(--low-pure);
+    }
+    #titulo__rodape-2{
+        color: var(--low-light);
+    }
+    .botao__talk___footer{
+        color: var(--low-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: -.2rem;
+
+        width: 12vw;
+        margin-top: 2rem;
+        padding-bottom: .5rem;
+
+        border-bottom: 2px solid var(--low-pure);
     }
     .redes__sociais___rodape{
         display: flex;
@@ -543,7 +649,7 @@
     }
     .hashtag__footer{
         font-family: var(--heading-cabinet);
-        font-weight: var(--medium);
+        font-weight: 500;
         color: var(--high-pure);
     }
     .patrocinadores__rodape{
@@ -555,7 +661,7 @@
     .abas__footer{
         display: flex;
         justify-content: center;
-        padding-top: 3.5rem;
+        padding-top: 6rem;
         padding-bottom: 1rem;
     }
     .container__abas{
@@ -569,17 +675,34 @@
         height: 14.5rem;
     }
     .titulo__aba{
-        font-family: var(--heading-cabinet);
-        font-weight: var(--medium);
-        color: var(--high-pure);
-        margin-bottom: 1rem;
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--bold);
+        color: var(--low-pure);
+        margin-bottom: 1.5rem;
     }
     .item__aba{
         font-family: var(--paragraph-satoshi);
         font-weight: var(--regular);
+        color: var(--low-medium);
         margin-bottom: 1rem;
     }
-    .link__fim{
-        margin-top: 7rem;
+
+    .secao__brand{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 71rem;
+        justify-content: space-between;
+        
+        font-family: var(--heading-cabinet);
+        font-style: normal;
+        font-weight: var(--bold);
+
+        padding-top: 2.938rem;
+        padding-bottom: 6.625rem;
+    }
+    .link__redes-sociais, .icone__redes{
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }

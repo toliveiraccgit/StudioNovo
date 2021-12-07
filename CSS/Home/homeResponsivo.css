@@ -337,37 +337,21 @@
     @keyframes animaInfo {
         to{
             opacity: 1;
-            transform: translateY(-15rem)
+            transform: translateY(-10rem)
         }
     }
 
+    .botao__play{
+        top: -45%;
+    }
+
     .secao__works{
-        height: 320vh;
+        height: 100vh;
     }
 
     .secao__we{
         justify-content: center;
         height: 100vh;
-    }
-    @keyframes mudaNome {
-        0%{
-            position: relative;
-            top: -20rem;
-        }
-        25%{
-            animation: paused;
-        }
-        50%{
-            position: relative;
-            top: -40rem;
-        }
-        75%{
-            animation: paused;
-        }
-        100%{
-            position: relative;
-            top: -60rem;
-        }
     }
 
     .container__menu{

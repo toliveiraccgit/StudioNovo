@@ -48,6 +48,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .ponto__red{
@@ -63,9 +64,9 @@ html{
 
 .gradient{
     position: relative;
-    background:linear-gradient(169.98deg, rgba(101, 101, 101, 0), rgba(75, 75, 75, 0.171875) 21.12%, rgba(35, 35, 35, 0.773646), #0D0D0D);
-    height: 40.5rem;
-    width: 23rem;
+    background:linear-gradient(180deg, rgba(101, 101, 101, 0), rgba(75, 75, 75, 0.171875) 21.12%, rgba(35, 35, 35, 0.773646), #0D0D0D);
+    height: 48rem;
+    width: 23.05rem;
     top: -51.6rem;
 
     opacity: 0;
@@ -133,4 +134,26 @@ html{
         position: relative;
         left: 10%;
     }  
+}
+
+
+@keyframes anima-logo-1 {
+    0%{
+        bottom: 0%;
+        opacity: 1;
+    }
+    25%{
+        bottom: 0%;
+        opacity: 1;
+    }
+    40%{
+        bottom: 56px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 112px;
+        opacity: 0;
+        animation: paused;
+    }
+
 }
