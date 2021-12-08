@@ -41,7 +41,7 @@
     }
     /*-------------------------------BANNER-VIDEO--------------------------------*/
     .banner{
-        padding: 13.875rem 11.5rem 15.563rem 9.5rem;
+        padding: 8.875rem 11.5rem 15.563rem 9.5rem;
         margin-top: 8.5rem;
         background-color: var(--high-pure);
     }
@@ -138,7 +138,7 @@
     }
     /*-------------------------------PASSION--------------------------------*/
     .secao__passion{
-        padding: 20rem 9.5rem 20rem 9.563rem;
+        padding: 13.5rem 9.5rem 13.125rem 9.563rem;
         font-family: var(--heading-cabinet);
 
         background-color: var(--low-pure);
@@ -153,7 +153,7 @@
         flex-direction: column;
         background-color: var(--low-pure);
 
-        height: 100vh;
+        height: 98vh;
 
     }
     .cabecalho__secao___works{
@@ -167,7 +167,7 @@
         font-size: 16px;
 
         padding: 0 9.5rem 0 0;
-        margin-bottom: 3.5rem;
+        margin-bottom: 3.813rem;
     }
     .botao__view-cases{
         background-color: none;
@@ -259,7 +259,7 @@
     }
    /*-------------------------------WE--------------------------------*/
     .secao__we{
-        padding: 31.5rem 9.5rem 0 9.5rem;
+        padding: 0 9.5rem 0 9.5rem;
 
         display: flex;
         flex-direction: column;
@@ -308,7 +308,6 @@
 
         background-color: transparent;
         border: none;
-        border-bottom: 2px solid var(--high-pure);
 
         background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
@@ -319,7 +318,7 @@
     }
     /*-------------------------------PATROCINADORES--------------------------------*/
     .secao__patrocinadores{
-        height: 100vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -477,8 +476,8 @@
     }
     /*-------------------------------SCROLL--------------------------------*/
     .secao__scroll{
-        height: 80vh;
-
+        height: 93vh;
+        padding-top: 10.75rem;
         display: flex;
         flex-direction: column;
 
@@ -531,11 +530,11 @@
     }
     /*-------------------------------NEWSLETTER--------------------------------*/
     .newsletter{
-        height: 80vh;
+        height: 90vh;
 
-        padding-right: 9.5rem;
+        padding-right: 27.688rem;
         padding-left: 9.5rem;
-        padding-top: 9.5rem;
+        padding-top: 11.5rem;
         padding-bottom: 9.5rem;
 
         display: flex;
@@ -545,8 +544,9 @@
 
         background-image: url("../../Assets/Home/logo-grande.svg");
         background-repeat: no-repeat;
-        background-position-x: 10vw;
+        background-position-x: 17%;
         background-position-y: center;
+        background-size: 17.625rem 17.625rem;
 
     }
     .subscribe{
@@ -584,6 +584,10 @@
     .email__subscribe:focus{
         outline: none;
     }
+    .email__subscribe::placeholder{
+        font-weight: var(--bold);
+        color: var(--low-pure);
+    }
     .container__lets-talk{
         display: flex;
         position: fixed;
@@ -600,6 +604,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        margin-top: 9rem;
     }
     .secao__info___rodape{
         display: flex;
@@ -704,5 +710,8 @@
     .link__redes-sociais, .icone__redes{
         width: 1.5rem;
         height: 1.5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: none;
     }
 }

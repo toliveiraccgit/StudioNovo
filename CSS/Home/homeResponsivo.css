@@ -13,26 +13,40 @@
     .banner{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        padding-bottom: 14.875rem;
+        padding-bottom: 4.125rem;
+        padding-top: 9.875rem;
+        margin-top: 0%;
     }
     .titulo__banner{
         font-size: var(--font-md);
     }
 
     .secao__video{
-        height: 21.375rem;
+        height: 18.688rem;
         width: 100vw;
     }
-    .video{
-        width: 150vw;
-        height: 100vh;
-        position: none;
+    .video-poster{
+        width: 100vw;
+        height: 14.688rem;
+        position: relative;
+        top: 4.8rem;
+    }
+    .video-played{
+        width: 100vw;
+        height: 14.688rem;
+        position: relative;
+        top: 2.8rem;
+    }
+    .botao__play{
+        position: relative;
+        top: -5rem;
     }
     .botao__desmuta, .botao__muta{
         top: -1.5rem;
         left: center;
         width: 2.5rem;
         height: 2.5rem;
+        display: none;
     }
     .imagem__desmuta, .imagem__muta{
         width: 2.5rem;
@@ -41,12 +55,17 @@
     }
 
     .secao__passion{
-        padding-top: 10.438rem;
+        padding-top: 7.5rem;
         padding-left: 1.25rem;
         padding-right: 1.5rem;
+        padding-bottom: 18.5rem;
+        
     }
     .titulo__passion{
         font-size: var(--font-xl);
+        width: 20.938rem;
+        height: 30rem;
+        word-break: break-word;
     }
 
     .secao__works{
@@ -58,13 +77,15 @@
     .cabecalho__secao___works{
         padding-right: 1.5rem;
         padding-left: 1.5rem;
+        margin-bottom: 2rem;
     }
     .botao__view-cases{
-        padding: 0 1rem 1.5rem 0;
+        padding: 0 1rem 1.156rem 0;
         font-size: 16px;
         width: 45vw;
         background-position-x: right;
-        background-position-y: 0%;
+        background-position-y: -.2rem;
+        border-bottom: 2px solid var(--high-pure);
     }
     .container__cards{
         padding-left: 1.5rem;
@@ -78,11 +99,17 @@
         animation: none;
     }
     .info__card{
-        top: -8rem;
+        top: 6rem;
         width: 16.438rem;
         padding-left: 1rem;
         padding-right: 0%;
         margin: 0%;
+    }
+    @keyframes animaInfo {
+        to{
+            opacity: 1;
+            transform: translateY(-14rem)
+        }
     }
     .titulo__info___card{
         font-size: var(--font-xs);
@@ -93,34 +120,48 @@
     .gradient{
         opacity: .5;
         width: 18.438rem;
-        height: 42.4rem;
+        height: 44.4rem;
     }
 
+    
     .secao__we{
-        padding: 13.75rem 1rem 0 1.5rem;
+        padding: 7.5rem 1rem 0 1.5rem;
     }
     .secao__muda-nome{
         flex-direction: column;
-        margin-bottom: 19.219rem;
+        margin-bottom: 2rem;
     }
     .titulo__we{
         font-size: 88px;
     }
     .stroke__we{
         font-size: 88px;
+        line-height: 100%;
+    }
+    .stroke-1{
+        opacity: 1;
+        animation: opacidade-we-1 5s ease-in-out infinite alternate;
+    }
+    .stroke-2{
+        position: relative;
+        top: -22rem;
+        opacity: 0;
+        animation: opacidade-we-2 5s ease-in-out infinite alternate;
     }
     .muda-nome{
         width: 89vw;
-        height: 5.5rem;
+        height: 10rem;
     }
     .botao__explore{
         width: 87.5vw;
+        border-bottom: 2px solid var(--high-pure);
     }
     .container__muda-nome{
-        animation: mudaNome 8s ease-in-out infinite alternate;
+        animation: none;
+        word-break: break-word;
     }
 
-    @keyframes mudaNome {
+    /*@keyframes mudaNome {
         0%{
             position: relative;
             top: -6.5rem;
@@ -139,19 +180,36 @@
             position: relative;
             top: -20rem;
         }
-    }
+    }*/
 
     .secao__patrocinadores{
-        height: 100vh;
+        height: 82vh;
     }
 
     .secao__comentarios{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        padding-top: 6.2rem;
+
+        height: 100vh;
+    }
+    .lista__comentarios{
+        transition: all .2s ease-in-out;
+        width: 166vw;
+    }
+    .item__lista___comentarios{
+        margin-bottom: 6.938rem;
+    }
+    .cabecalho__comentarios{
+        bottom: -1.35rem;
+    }
+    .container__carousel{
+        width: 83vw;
     }
     .comentario{
         font-size: var(--font-sm);
         padding-right: 0%;
+        width: 83vw;
     }
     .icone__perfil___comentario{
         width: 2.5rem;
@@ -166,8 +224,13 @@
     }
 
     .secao__scroll{
-        margin-top: 17.75rem;
-        height: 58vh;
+        margin-top: 0%;
+        height: 61vh;
+    }
+    .botao__get-in{
+        width: 90vw;
+        border-bottom: 2px solid var(--low-pure);
+        margin-top: 1rem;
     }
     .titulo__scroll{
         font-size: 64px;
@@ -182,10 +245,16 @@
     }
 
     .newsletter{
-        background-position-y: 10rem;
+        background-position-y: 8rem;
         background-position-x: center;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-top: 42.5rem;
 
-        height: 100vh;
+        background-size:20.938rem 40.125rem ;
+
+        height: 125vh;
     }
     .subscribe{
         margin-left: 0%;
@@ -197,16 +266,33 @@
         width: 88vw;
     }
     .container__lets-talk{
-        display: none;
+        display:flex;
+        margin-top: 7rem;
+        padding-right: 1rem;
     }
 
+    
     .rodape{
         height: auto;
+        margin-top: 4rem;
+    }
+    .secao__info___rodape{
+        height: 100vh;
+        flex-direction: column;
+        border: none;
     }
     .secao__titulo___rodape{
         flex-direction: column;
-        padding-left: 1.5rem;
+        padding-left: 1.8rem;
         padding-right: 1.5rem;
+        width: auto;
+    }
+    .titulo__rodape{
+        padding-right: 2.6rem;
+    }
+    .botao__talk___footer{
+        width: 50vw;
+        margin-top: 2.9rem;
     }
     .redes__sociais___rodape{
         gap: 0%;
@@ -214,147 +300,168 @@
         padding-left: .5rem;
         padding-right: .5rem;
     }
+    .link__redes-sociais___mobile{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
     .abas__footer{
         flex-direction: column;
         padding-bottom: 0%;
+        padding-left: .5rem;
+        padding-top: 3rem;
+        width: 90vw;
     }
     .container__abas{
-        flex-direction: column;
-        padding-left: 1.5rem;
+        flex-direction: column-reverse;
+        padding-left: 0%;
         gap: 0%;
+        border-bottom: 1px solid var(--low-pure);
+        padding-bottom: 3.125rem;
+        margin-top: 3.5rem;
+    }
+    .aba{
+        height: 10.688rem;
+    }
+    .secao__brand{
+        width: 90vw;
+        padding-top: 6.5rem;
+        padding-bottom: 7.313rem;
+    }
+    .link__redes-sociais{
+        visibility: hidden;
     }
     .link__fim{
         margin-top: 4rem;
     }
 }
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1439px){
     .titulo__banner{
         font-size: var(--font-lg);
     }
     
     .secao__video{
-        height: 50vh;
+        height: 31.688rem;
     }
-    .video{
-        width: 104vw;
+    .video-played{
+        height: 27rem;
     }
-    .imagem__desmuta, .imagem__muta{
-        width: 5rem;
-        height: 5rem;
+    .video-poster{
+        height: 27rem;
     }
-    .botao__desmuta, .botao__muta{
-        top: -4.5rem;
+    .botao__play{
+        top: -10rem;
     }
 
-    .secao__we{
-        padding-left: 2rem;
+    .secao__passion{
+        padding-bottom: 0;
     }
-    .stroke__we{
-        font-size: var(--font-xl);
+    .titulo__passion{
+        width: auto;
+    }
+
+    .secao__muda-nome{
+        margin-bottom: 7rem;
     }
     .muda-nome{
-        width: 28.5rem;
-        height: 6rem;
+        height: 7rem;
     }
-    .secao__muda-nome{
-        flex-direction: row;
+    .titulo__we{
+        font-size: 112px;
     }
-    @keyframes mudaNome {
+    .stroke-2{
+        top: -14rem;
+    }
+    .stroke__we{
+        font-size: 112px;
+    }
+    .botao__explore{
+        width: 93vw;
+    }
+
+    .container__carousel{
+        width: 90vw;
+    }
+    .comentario{
+        width: 90vw;
+        height: 9rem;
+    }
+    .lista__comentarios{
+        width: 180vw;
+    }
+    .container__botao___comentario{
+        width: 94vw;
+        gap: 1rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 47vw;
+    }
+
+    .secao__comentarios{
+        height:75vh;
+    }
+    @keyframes movimenta-titulo-1 {
         0%{
             position: relative;
-            top: -7.2rem;
-        }
-        25%{
-            animation: paused;
-        }
-        50%{
-            position: relative;
-            top: -14.2rem;
+            right: 10%;
         }
         75%{
             animation: paused;
         }
         100%{
             position: relative;
-            top: -21.2rem;
+            right: 350%;
+        }  
+    }
+    
+    @keyframes movimenta-titulo-2 {
+        0%{
+            position: relative;
+            left: -350%;
         }
-    }
-
-    .secao__patrocinadores {
-        height: 80vh;
-    }
-
-    .secao__comentarios {
-        padding-left: 6rem;
-        height: 60vh;
-    }
-
-    .secao__scroll{
-        height: 35vh;
-    }
-    .titulo__scroll{
-        font-size: var(--font-xl);
+        35%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            left: 10%;
+        }  
     }
 
     .newsletter{
-        height: 65vh;
-        padding-bottom: 4rem;
-    }
-    .titulo__subscribe{
-        font-size: var(--font-md);
+        background-position-y: top;
+        padding-top: 31.5rem;
+        background-size: 28rem 28rem;
+
+        height: 82vh;
     }
 
-
-    .rodape{
-        height: 70vh;
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 52rem;
     }
-    .secao__titulo___rodape{
-        flex-direction: row;
+    .titulo__rodape{
+        font-size: 60px;
     }
-    .redes__sociais___rodape{
-        gap: 1.5rem;
-    }
-    .container__abas{
-        flex-direction: row;
-        gap: 6.5rem;
-        justify-content: center;
-    }
-}
-
-@media (min-width:1493px){
-    .container__menu{
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+    .botao__talk___footer{
+        width: 60vw;
     }
 
-    .secao__passion{
-        height: 100vh;
-        display: flex;
-        align-items: center;
+    .titulo__aba{
+        font-size: var(--font-sm);
     }
-
-    @keyframes animaInfo {
-        to{
-            opacity: 1;
-            transform: translateY(-10rem)
-        }
+    .item__aba{
+        font-size:var(--font-xs);
     }
-
-    .botao__play{
-        top: -45%;
+    .aba{
+        height: 13.688rem;
     }
-
-    .secao__works{
-        height: 100vh;
+    .secao__brand{
+        padding-top: 0;
     }
-
-    .secao__we{
-        justify-content: center;
-        height: 100vh;
-    }
-
-    .container__menu{
-        gap: 1rem;
+    .titulo__brand{
+        font-size: 20px;
     }
 }
