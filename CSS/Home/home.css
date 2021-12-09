@@ -3,8 +3,9 @@
     .cabecalho{
         display: flex;
         justify-content: space-between;
-        position: block;
+        position: fixed;
         width: 100vw;
+        height: 7rem;
         
         padding: 2rem 9.5rem;
         

@@ -61,6 +61,10 @@ html{
     -webkit-text-stroke: 1px var(--high-pure);
     color: transparent;
 }
+.stroke-black{
+    -webkit-text-stroke: 1px var(--low-pure);
+    color: transparent;
+}
 
 .gradient{
     position: relative;

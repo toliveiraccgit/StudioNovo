@@ -1,0 +1,235 @@
+@media (max-width:1024px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .logo-studio{
+        margin: 0%;
+    }
+    .container__nav{
+        margin: 0%;
+    }
+    .traducao__pagina{
+        visibility: hidden;
+    }
+    /*-------------------------------BANNER--------------------------------*/
+    .banner{
+        padding: 11rem 0 0 .938rem ;
+        margin-top:0%;
+    }
+    .titulo__banner{
+        font-size: 88px;
+        line-height: 100%;
+    }
+    /*-------------------------------MAPA--------------------------------*/
+    .mapa{
+        width: 100vw;
+        height: 40vh;
+
+        background-size: 140vw;
+
+        margin-top: 4.375rem;
+    }
+    /*-------------------------------INTRO--------------------------------*/
+    .intro{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 7.5rem;
+
+        gap: 4.375rem;
+    }
+    .container__info___intro{
+        flex-direction: column;
+        gap: 0%;
+    }
+    .titulo__intro{
+        font-size: 40px;
+    }
+    .container__descricao___info{
+        width: 20.75rem;
+
+        font-size: 16px;
+    }
+    .sub-descricao__intro, .descricao__intro{
+        display: none;
+    }
+    .descricao__mobile{
+        display: flex;
+    }
+
+    .banner__intro-1, .imagem__banner__intro-1{
+        width: 20.875rem;
+        height: 25.188rem;
+    }
+    .banner__intro-2{
+        width: 90vw;
+        height: 51.125rem;
+
+        background-position-x: center, center, center;
+        background-position-y: top, 54.5%, bottom;
+        background-size: 20.938rem 16.375rem, 12.063rem 17.063rem, 20.875rem 13.375rem;
+
+        margin-top: 3.3rem;
+    }
+    /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
+    .do{
+        padding-top: 7.5rem;
+        gap: 4.375rem;
+    }
+    .container__info___do{
+        padding-left: 1.375rem;
+        width: 20.75rem;
+    }
+    .titulo__do{
+        font-size: 40px;
+    }
+    .descricao__do{
+        font-size: 16px;
+        line-height: var(--line-lg);
+    }
+    .banner__do{
+        width: 20.75rem;
+        height: 16.875rem;
+
+        background-image: url("../../Assets/SobreNos/banner-oquefazer-mobile.png");
+        background-size: 20.75rem 16.875rem;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .botao__explore{
+        display: none;
+    }
+    /*-------------------------------TIME--------------------------------*/
+    .time{
+        padding-bottom: 9.063rem;
+    }
+    .info__time{
+        padding-left: 1.375rem;
+    }
+    .titulo__info___time{
+        font-size: 40px;
+    }
+    .descricao__info___time{
+        display: none;
+    }
+    .time-studio{
+        flex-direction: column;
+    }
+    .time-studio-2, .time-studio-1{
+        display: none;
+    }
+    .time-studio__mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.375rem;
+    }
+    .container__time-studio{
+        width: 90vw;
+    }
+    .imagem__time{
+        width: 90vw;
+        height: 26.438rem;
+    }
+    /*-----------------------COMENTARIOS----------------------------*/
+    .secao__comentarios{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0;
+        padding-bottom: 0%;
+
+        height:100vh;
+    }
+    .lista__comentarios{
+        transition: all .2s ease-in-out;
+        width: 166vw;
+    }
+    .item__lista___comentarios{
+        margin-bottom: 6.938rem;
+    }
+    .cabecalho__comentarios{
+        bottom: -1.35rem;
+    }
+    .container__carousel{
+        width: 83vw;
+    }
+    .comentario{
+        font-size: var(--font-sm);
+        padding-right: 0%;
+        width: 83vw;
+    }
+    .icone__perfil___comentario{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .nome__perfil___comentario{
+        font-size: 20px;
+    }
+    .container__botao___comentario{
+        width: 90vw;
+        gap: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    /*-------------------------------BANNER--------------------------------*/
+    .titulo__banner{
+        font-size: var(--font-xl);
+    }
+    
+    /*-------------------------------MAPA--------------------------------*/
+    .mapa{
+        height: 60vh;
+    }
+    /*-------------------------------INTRO--------------------------------*/
+    .titulo__intro{
+        font-size: var(--font-md);
+    }
+    .descricao__mobile{
+        display: flex;
+        font-size: 20px;
+    }
+    /*-------------------------------DO--------------------------------*/
+    .container__info___do{
+        width: 21.75rem;
+    }
+    .titulo__do{
+        font-size: var(--font-md);
+    }
+    .descricao__do{
+        font-size: 20px;
+    }
+    .banner__do {
+        width: 43.75rem;
+        height: 31.875rem;
+        background-image: url("../../Assets/SobreNos/banner-oquefazer.png");
+        background-size: 43.75rem 31.875rem;
+    }
+    /*-------------------------------TIME--------------------------------*/
+    .container__time-studio{
+        width: 85vw;
+    }
+    .imagem__time{
+        width: 85vw;
+        height: 38.438rem;
+    }
+}
+
+@media (min-width:1600px) {
+    /*----------------------------COMENTARIO-----------------*/
+    .cabecalho__comentarios{
+        padding-left: 2.2rem;
+    }
+    /*------------------------MAPA---------------------------*/
+    .mapa{
+        height: 120vh;
+    }
+    .banner__intro-2{
+        width: 60.625rem;
+        height: 69.125rem;
+    }
+}

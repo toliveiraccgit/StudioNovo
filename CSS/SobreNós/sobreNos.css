@@ -3,10 +3,12 @@
     .cabecalho{
         display: flex;
         justify-content: space-between;
-        position: block;
+        position: fixed;
         width: 100vw;
+        height: 7rem;
         
-        padding: 2rem 9.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         
         font-family: var(--paragraph-satoshi);
 
@@ -19,6 +21,11 @@
     .container__nav{
         display: flex;
         background-color: var(--high-pure);
+
+        margin-right: 9.5rem;
+    }
+    .logo-studio{
+        margin-left: 9.5rem;
     }
     .container__menu{
         display: flex;
@@ -41,5 +48,323 @@
         font-weight: 500;
     }
 
-    /*-------------------------------CABECALHO--------------------------------*/
-}
+    /*-------------------------------BANNER--------------------------------*/
+    .banner{
+        padding: 14.5rem 10.313rem 7.5rem 9.5rem;
+        margin-top:0%;
+        background-color: var(--high-pure);
+    }
+    .titulo__banner{
+        font-size: var(--font-xxl);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        line-height: var(--line-sm);
+
+        color: var(--low-pure);
+        padding: 0%;
+        margin: 0%;
+    }
+    /*-------------------------------MAPA--------------------------------*/
+    .mapa{
+        width: 100vw;
+        height: 98vh;
+
+        background-image: url("../../Assets/SobreNos/mapa.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw, 10vh;
+    }
+    /*-------------------------------INTRO--------------------------------*/
+    .intro{
+        background-color: var(--low-pure);
+        width: 100vw;
+
+        padding-left: 9.625rem;
+        padding-right: 9.625rem;
+        padding-top: 13.125rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13.125rem;
+    }
+    .container__info___intro{
+        display: flex;
+        color: var(--high-pure);
+        justify-content: center;
+        gap: 9.625rem;
+    }
+    .titulo__intro{
+        font-size: var(--font-lg);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+    }
+    .container__descricao___info{
+        width: 29rem;
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+        line-height: var(--line-sm);
+        opacity: .7;
+        font-size: 20px;
+    }
+    .descricao__mobile{
+        display: none;
+    }
+    .banner__intro-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner__intro-2{
+        width: 50.625rem;
+        height: 59.125rem;
+
+        background-image: url("../../Assets/SobreNos/img-1.png"), url("../../Assets/SobreNos/img-2.png"), url("../../Assets/SobreNos/img-3.png");
+        background-repeat: no-repeat;
+        background-position-x: left, right, center;
+        background-position-y: top, 8.625rem, bottom;
+    }
+    /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
+    .do{
+        background-color: var(--low-pure);
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 13.125rem;
+        
+        gap: 13.125rem;
+    }
+    .container__info___do{
+        padding-left: 9.438rem;
+        
+        width: 39.188rem;
+    }
+    .titulo__do{
+        font-family: var(--heading-cabinet);
+        font-size: var(--font-lg);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+    }
+    .descricao__do{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+        line-height: var(--line-sm);
+        color: var(--high-pure);
+        opacity: .7;
+        font-size: 20px;
+    }
+    .banner__do{
+        background-image: url("../../Assets/SobreNos/banner-oquefazer.png");
+        background-repeat: no-repeat;
+
+        display: flex;
+        align-self: center;
+
+        width: 51.938rem;
+        height: 42.425rem;
+    }
+    .botao__explore{
+        width: 78vw;
+        text-align: start;
+        color: var(--high-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--medium);
+
+        padding-bottom: 1.656rem;
+
+        background-color: transparent;
+        border: none;
+
+        background-image: url("../../Assets/Setas/Right-Down-White.svg");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+
+        display: flex;
+        align-self: center;
+    }
+    .botao__explore:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
+    }
+    /*-------------------------------TIME--------------------------------*/
+    .time{
+        background-color: var(--low-pure);
+        display: flex;
+        flex-direction: column;
+        gap: 9rem;
+
+        padding-top: 13.125rem;
+        padding-bottom: 16.125rem;
+    }
+    
+    .info__time{
+        padding-left: 9.438rem;
+        width: 40.188rem;
+        
+        color: var(--high-pure);
+    }
+    .titulo__info___time{
+        font-family: var(--heading-cabinet);
+        font-size: var(--font-lg);
+        font-weight: var(--bold);
+    }
+    .descricao__info___time{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+        line-height: var(--line-sm);
+        opacity: .7;
+        font-size: 20px;
+
+        margin-top: 3.5rem;
+    }
+
+    .time-studio{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        gap: 13.125rem;
+
+        font-family: var(--heading-cabinet);
+        color: var(--high-pure);
+        font-size: var(--font-xs);
+    }
+    .time-studio-1{
+        display: flex;
+        flex-direction: column;
+        gap: 22.625rem;
+    }
+    .time-studio-2{
+        display: flex;
+        flex-direction: column;
+        gap: 22.625rem;
+        padding-top: 16.375rem;
+    }
+    .nome__time-studio{
+        margin-top: 1.625rem;
+    }
+    .time-studio__mobile{
+        display: none;
+    }
+
+    /*------------------------------COMENTARIO-------------------------------*/
+    .secao__comentarios{
+        height: 123vh;
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+        padding-top: 12.563rem;
+        padding-left: 10rem;
+        padding-right: 9.5rem;
+        padding-bottom: 15rem;
+        
+        background-color: var(--high-pure);
+        
+    }
+    .cabecalho__comentarios{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-xs);
+
+        position: relative;
+        display: flex;
+        align-self: flex-start;
+        
+        bottom: -1.25rem;
+    }
+    .container__carousel{
+        width: 79vw;
+        overflow-x: hidden;
+    }
+    .lista__comentarios{
+        width: 158vw;
+
+        display: flex;
+        flex-direction: row;
+        overflow-x: hidden;
+
+        transition: all .3s ease-in-out;
+    }
+    .item__lista___comentarios{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 9.938rem;
+    }
+    .numeracao__comentario{
+        align-self: flex-end;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: 16px;
+    }
+    .comentario{
+        width: 79vw;
+
+        padding-top: 3.5rem;
+        padding-right: 23.417rem;
+        margin-top: 5.688rem;
+        margin-bottom: 3.5rem;
+        
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-md);
+
+        background-image: url("../../Assets/Home/aspas.png");
+        background-repeat: no-repeat;     
+    }
+    .perfil__comentario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    .icone__perfil___comentario{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .nome__perfil___comentario{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-xs);
+    }
+    .descricao__perfil___comentario{
+        font-family: var(--paragraph-satoshi);
+        color: var(--low-medium);
+        font-weight: var(--regular);
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .container__botao___comentario{
+        width: 79vw;
+        
+        display: flex;
+        gap: 1rem;
+    }
+    .botao__anterior___comentario{
+        width: 39.5vw;
+        
+        border: none;
+        border-bottom: 2px solid var(--low-pure);
+        
+        padding-bottom: 2.208rem;
+
+        background-color: transparent;
+        background-image: url("../../Assets/Setas/Left.svg");
+        background-repeat: no-repeat;
+    }
+    .botao__proximo___comentario{
+        width: 39.5vw;
+        
+        border: none;
+        border-bottom: 2px solid var(--low-pure);
+        
+        padding-bottom: 1.656rem;
+
+        background-color: transparent;
+        background-image: url("../../Assets/Setas/Right.svg");
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+}   
