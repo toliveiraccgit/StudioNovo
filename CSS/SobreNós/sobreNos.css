@@ -1,0 +1,45 @@
+@media (min-width:0px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        position: block;
+        width: 100vw;
+        
+        padding: 2rem 9.5rem;
+        
+        font-family: var(--paragraph-satoshi);
+
+        border-bottom: 1px solid var(--high-low);
+
+        background-color: var(--high-pure);
+        z-index: 1000;
+        transition: all .4s ease-in-out;
+    }
+    .container__nav{
+        display: flex;
+        background-color: var(--high-pure);
+    }
+    .container__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        padding: .5rem 0;
+
+        background-color: transparent;
+        
+        border: none;
+        background-color: var(--high-pure);
+    }
+    .traducao__pagina{
+        border: none;
+        background-color: transparent;
+        
+        margin-right: 3.438rem;
+
+        font-weight: 500;
+    }
+
+    /*-------------------------------CABECALHO--------------------------------*/
+}
