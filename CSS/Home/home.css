@@ -3,6 +3,7 @@
     .cabecalho{
         display: flex;
         justify-content: space-between;
+        position: block;
         width: 100vw;
         
         padding: 2rem 9.5rem;
@@ -67,6 +68,9 @@
         background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: 100%;
+    }
+    .botao__view-cases___banner:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg")25 30, default ;
     }
 
 
@@ -365,9 +369,9 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-
+        justify-content: center;
         padding-top: 15.938rem;
-        padding-left: 9.5rem;
+        padding-left: 10rem;
         padding-right: 9.5rem;
         background-color: var(--high-pure);
         
@@ -593,8 +597,9 @@
         position: fixed;
         width: 100vw;
         justify-content: flex-end;
+        top: 8rem;
         padding-right: 2rem;
-        padding-top: 2rem;
+        padding-top: 0;
         z-index: 22;
     }
     /*-------------------------------RODAPE--------------------------------*/

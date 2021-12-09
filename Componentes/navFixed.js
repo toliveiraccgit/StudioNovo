@@ -6,7 +6,7 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "0";
 
   } else {
-    document.getElementById("navbar").style.position = ` fixed `
+    document.getElementById("navbar").style.position = ` block `
     document.getElementById("navbar").style.top = "-8.5rem";
   }
   prevScrollpos = currentScrollPos;

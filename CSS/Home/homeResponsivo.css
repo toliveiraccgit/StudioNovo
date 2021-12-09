@@ -380,6 +380,9 @@
         width: 93vw;
     }
 
+    .secao__comentarios{
+        padding-left: 15rem;
+    }
     .container__carousel{
         width: 90vw;
     }
@@ -463,5 +466,20 @@
     }
     .titulo__brand{
         font-size: 20px;
+    }
+}
+
+@media (min-width:1600px) {
+    .secao__comentarios{
+        padding-left: 12.5rem;
+    }
+    .banner{
+        margin-bottom: 3rem;
+    }
+    .botao__play{
+        top: -27rem;
+    }
+    .secao__we{
+        padding-top: 4rem;
     }
 }
