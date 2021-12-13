@@ -654,6 +654,9 @@
 
         border-bottom: 2px solid var(--low-pure);
     }
+    .botao__talk___footer:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+    }
     .redes__sociais___rodape{
         display: flex;
         align-items: center;
