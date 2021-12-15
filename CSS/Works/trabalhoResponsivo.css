@@ -1,0 +1,246 @@
+@media (max-width:1024px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .logo-studio{
+        margin: 0%;
+    }
+    .container__nav{
+        margin: 0%;
+    }
+    .traducao__pagina{
+        visibility: hidden;
+    }
+    /*-------------------------------BANNER--------------------------------*/
+    .banner{
+        padding: 11rem 0 0 .938rem ;
+        margin-top:0%;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+    .titulo__banner{
+        font-size: 40px;
+        line-height: 100%;
+
+        margin-bottom: 2rem;
+
+        width: 20.688rem;
+    }
+    .descricao__banner{
+        font-size: 20px;
+        width: 20.688rem;
+    }
+    .break{
+        display: none;
+    }
+    .container__descricao{
+        gap: 1.5rem;
+        width: 20.688rem;
+    }
+    /*------------------------------CLIENTES-PROJETOS-------------------*/
+    .cliente-projetos{
+        padding-left: 2rem;
+        padding-right: 1.5rem;
+
+        padding-top: 3.563rem;
+
+        justify-content: center;
+    }
+    .container__card___cliente-projetos{
+        width: 20.688rem;
+        height: 13rem;
+    }
+    .incompleto-card{
+        height: 9rem;
+    }
+    .botao__case___cliente-projeto{
+        width: auto;
+    }
+    .titulo__card___cliente-projeto{
+        font-size: 24px;
+    }
+    .descricao__card___cliente-projeto{
+        font-size: 16px;
+        margin-bottom: 2.969rem;
+    }
+    /*-----------------------COMENTARIOS----------------------------*/
+    .secao__comentarios{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0;
+        padding-bottom: 0%;
+
+        margin-top: 0%;
+
+        height:100vh;
+    }
+    .lista__comentarios{
+        transition: all .2s ease-in-out;
+        width: 166vw;
+    }
+    .item__lista___comentarios{
+        margin-bottom: 6.938rem;
+    }
+    .cabecalho__comentarios{
+        bottom: -1.35rem;
+    }
+    .container__carousel{
+        width: 83vw;
+    }
+    .comentario{
+        font-size: var(--font-sm);
+        padding-right: 0%;
+        width: 83vw;
+    }
+    .icone__perfil___comentario{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .nome__perfil___comentario{
+        font-size: 20px;
+    }
+    .container__botao___comentario{
+        width: 90vw;
+        gap: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    /*----------------------RODAPE----------------------*/
+    .rodape{
+        height: auto;
+        margin-top: 4rem;
+    }
+    .secao__info___rodape{
+        height: 100vh;
+        flex-direction: column;
+        border: none;
+    }
+    .secao__titulo___rodape{
+        flex-direction: column;
+        padding-left: 1.8rem;
+        padding-right: 1.5rem;
+        width: auto;
+    }
+    .titulo__rodape{
+        padding-right: 2.6rem;
+    }
+    .botao__talk___footer{
+        width: 50vw;
+        margin-top: 2.9rem;
+    }
+    .redes__sociais___rodape{
+        gap: 0%;
+        justify-content: space-between;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .abas__footer{
+        flex-direction: column;
+        padding-bottom: 0%;
+        padding-left: .5rem;
+        padding-top: 3rem;
+        width: 90vw;
+    }
+    .container__abas{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+        gap: 0%;
+        border-bottom: 1px solid var(--low-pure);
+        padding-bottom: 3.125rem;
+        margin-top: 3.5rem;
+    }
+    .aba{
+        height: 10.688rem;
+    }
+    .secao__brand{
+        width: 90vw;
+        padding-top: 6.5rem;
+        padding-bottom: 7.313rem;
+    }
+    .link__redes-sociais{
+        visibility: hidden;
+    }
+    .link__fim{
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1439px){
+    /*--------------BANNER-------------------*/
+    .banner{
+        margin-bottom: 4rem;
+        flex-direction: row;
+        align-items: center;
+    }
+    .titulo__banner{
+        width: 17.688rem
+    }
+    /*-----------------CLIENTES-----------*/
+    .cliente-projetos{
+        justify-content: center;
+        
+    }
+    .container__card___cliente-projetos{
+        height: 16.125rem;
+        justify-content: space-between;
+    }
+    /*----------------RODAPE--------------*/
+    .newsletter{
+        background-position-y: top;
+        padding-top: 31.5rem;
+        background-size: 28rem 28rem;
+
+        height: 82vh;
+    }
+
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 52rem;
+    }
+    .titulo__rodape{
+        font-size: 60px;
+    }
+    .botao__talk___footer{
+        width: 60vw;
+    }
+
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size:var(--font-xs);
+    }
+    .aba{
+        height: 13.688rem;
+    }
+    .secao__brand{
+        padding-top: 0;
+    }
+    .titulo__brand{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:1600px) {
+
+    /*-----------------CLIENTES-----------*/
+    .container__card___cliente-projetos{
+        height: 16.125rem;
+        justify-content: space-between;
+    }
+    /*----------------------------COMENTARIO-----------------*/
+    .cabecalho__comentarios{
+        padding-left: 2.2rem;
+    }
+}
