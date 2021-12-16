@@ -7,6 +7,7 @@
         <link href="https://api.fontshare.com/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../CSS/Works/trabalhos.css">
         <link rel="stylesheet" href="../CSS/Works/trabalhoResponsivo.css">
+        <link rel="stylesheet" href="../CSS/animacaoScroll.css">
         <link href="../CSS/reset.css" rel="stylesheet">
         <link href="../CSS/base.css" rel="stylesheet">
         <link href="../CSS/normalize.css" rel="stylesheet">
@@ -41,7 +42,7 @@
 
             <section class="cliente-projetos">
 
-                <div class="container__card___cliente-projetos">
+                <div class="container__card___cliente-projetos anime">
                     <div class="container__info">
                         <h2 class="titulo__card___cliente-projeto">FoxPlay TV</h2>
                         <p class="descricao__card___cliente-projeto">A Tarde is a daily newspaper that circulates in the state of Bahia. Founded on October 15, 1912.</p>
@@ -49,14 +50,14 @@
                     <a href="#" class="botao__case___cliente-projeto">VER CASE</a>
                 </div>
                 
-                <div class="container__card___cliente-projetos incompleto-card">
+                <div class="container__card___cliente-projetos incompleto-card anime">
                     <div class="container__info">
                         <h2 class="titulo__card___cliente-projeto">Corona, Ambev</h2>
                         <p class="descricao__card___cliente-projeto">A Tarde is a daily newspaper that circulates in the state of Bahia. Founded on October 15, 1912.</p>
                     </div>
                 </div>
                 
-                <div class="container__card___cliente-projetos">
+                <div class="container__card___cliente-projetos anime">
                     <div class="container__info">
                         <h2 class="titulo__card___cliente-projeto">Liber Capital</h2>
                         <p class="descricao__card___cliente-projeto">A Tarde is a daily newspaper that circulates in the state of Bahia. Founded on October 15, 1912.</p>
@@ -64,7 +65,7 @@
                     <a href="#" class="botao__case___cliente-projeto">VER CASE</a>
                 </div>
                 
-                <div class="container__card___cliente-projetos">
+                <div class="container__card___cliente-projetos anime">
                     <div class="container__info">
                         <h2 class="titulo__card___cliente-projeto">Sunday</h2>
                         <p class="descricao__card___cliente-projeto">Partnership since 2016 to define the next iteration of the mobile investing platform and help the company reach an $860 million valuation.</p>
@@ -72,14 +73,14 @@
                     <a href="#" class="botao__case___cliente-projeto">VER CASE</a>
                 </div>
                 
-                <div class="container__card___cliente-projetos incompleto-card">
+                <div class="container__card___cliente-projetos incompleto-card anime">
                     <div class="container__info">
                         <h2 class="titulo__card___cliente-projeto">Partyou</h2>
                         <p class="descricao__card___cliente-projeto">Ongoing relationship with the un-carrier to create new digital experiences, including a redesigned flagship app, new acquisition tools, and new loyalty products..</p>
                     </div>
                 </div>
                 
-                <div class="container__card___cliente-projetos incompleto-card">
+                <div class="container__card___cliente-projetos incompleto-card anime">
                     <div class="container__info">
                         <h2 class="titulo__card___cliente-projeto">Detalhei</h2>
                         <p class="descricao__card___cliente-projeto">A Tarde is a daily newspaper that circulates in the state of Bahia. Founded on October 15, 1912.</p>
@@ -89,11 +90,11 @@
             </section>
 
             <section class="secao__comentarios">
-                <div class="cabecalho__comentarios">
+                <div class="cabecalho__comentarios anime">
                     <h6 class="titulo__cabecalho">O QUE DIZEM</h6>
                 </div>
                 
-                <div class="container__carousel">
+                <div class="container__carousel anime">
                     <ul class="lista__comentarios" data-lista-produtos>
 
                         <li class="item__lista___comentarios">
@@ -146,7 +147,7 @@
         </main>
         <footer class="rodape">
             <section class="secao__info___rodape">
-                <section class="secao__titulo___rodape">
+                <section class="secao__titulo___rodape anime">
                     <h10 class="titulo__rodape">
                         It's time to stop scrolling.
                     </h10>
@@ -156,7 +157,7 @@
                     <a href="#" class="botao__talk___footer">FALE COM A GENTE</a>
                 </section>
                 
-                <section class="abas__footer">
+                <section class="abas__footer anime">
                     <a href="https://www.linkedin.com/company/toliveira-cc/" class="link__redes-sociais___mobile"><img class="icone__redes" src="../Assets/Social Media/Linkedin-Black.svg" alt="Link Linkedin"></a>
                     <ul class="container__abas">
                         <li class="aba">
@@ -182,6 +183,68 @@
 
         <script src="../Componentes/navFixed.js" type="text/javascript"></script>
         <script src="../Componentes/index.js" type="module"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+        <script>
+            // Adiciona a classe .js ao elemento HTML. Assim eu garanto que os elementos só serão escondidos caso o JavaScript esteja habilitado
+                var root = document.documentElement;
+                root.className += ' js';
+
+                // Cria a função boxTop responsável por definir a distância entre o topo to elemento e a página
+                function boxTop(idBox) {
+                    var boxOffset = $(idBox).offset().top;
+                    return boxOffset;
+                }
+
+                // Verifica se o documento está pronto
+                $(document).ready(function() {
+                    
+                            // target define os elementos que serão animados. Neste 	caso todos os que possuirem a classe .anime	
+                    var $target = $('.anime'),
+                            
+                            // animationClass define a classe que será injetada no elemento durante o scroll. É nessa classe que	definimos como a animação irá ocorrer
+                            animationClass = 'anime-init',
+                            
+                            // windowHeight pega a altura total da janela do browser
+                            windowHeight = $(window).height(),
+                            
+                            // offset é definido a partir da altura da janela, menos um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
+                            offset = windowHeight - (windowHeight / 6);
+
+                    // animeScroll é a função responsável por adicionar a classe animationClass ao elemento da página.
+                    function animeScroll() {
+                        
+                        // documentTop vai definir a distância entre o topo da página e o scroll. O valor é atualizado sempre a função animeScroll é ativada.
+                        var documentTop = $(document).scrollTop();
+                        
+                        // target.each serve para adicionarmos a função a cada elemento que tiver a classe do target. Assim garantimos que elementos com distâncias diferentes do topo da página, animem no momento correto
+                        $target.each(function() {
+                            
+                            // o if verifica se a distância entre o topo da página e o scroll é maior que a distância do elemento - o valor fo offset
+                            if (documentTop > boxTop(this) - offset) {
+                                
+                                // caso seja verdadeiro, ele vai adicionar a classe que está em animationClass ao elemento
+                                $(this).addClass(animationClass);
+                            } else {
+                                
+                                // caso seja falso ele vai remover a classe do elemento. Se você não quiser que a animação ocorra mais de uma vez, ou seja, quando o cliente voltar o scroll para cima os elementos continuem fixos, basta remover este else
+                                $(this).removeClass(animationClass);
+                            }
+                        });
+                    }
+                    
+                    // dispara a função animeScroll, nesse primeiro momento ele dispara para verificar se já não existe nenhum elemento na página que esteja no campo de visão do usuário
+                    animeScroll();
+                    
+                    // com o document.scroll vamos verificar sempre que um evento de scroll ocorrer na página
+                    $(document).scroll(function() {
+                        
+                        // quando o evento de scroll ocorre disparamos novamente a função animeScroll. Com um setTimeout para evetira que ela seja disparada diversas vezes
+                        setTimeout(function() {
+                            animeScroll()
+                        }, 150);
+                    });
+                });
+        </script>
     </body>
 
 </html>

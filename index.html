@@ -8,6 +8,7 @@
         <link href="./CSS/base.css" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/Home/home.css">
         <link rel="stylesheet" href="./CSS/Home/homeResponsivo.css">
+        <link rel="stylesheet" href="./CSS/animacaoScroll.css">
         <link href="./CSS/reset.css" rel="stylesheet">
         <link href="./CSS/normalize.css" rel="stylesheet">
         <title>Home | Toliveira.cc</title>
@@ -37,7 +38,7 @@
                 <a href="./V.Portugues/trabalhos.html" class="botao__view-cases___banner">CLIENTES E PROJETOS</a>
             </section>
 
-            <section id="secao__video" class="secao__video">
+            <section id="secao__video" class="secao__video anime">
                 <video loop muted=true preload="metadata" autoplay class="video-poster"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
                 
                 <video loop preload="metadata" controls class="video-played"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
@@ -48,14 +49,14 @@
             </section>
 
             <section class="secao__passion">
-                <h2 class="titulo__passion">
+                <h2 class="titulo__passion anime">
                     Nós somos apaixonados por  <span class="stroke">design</span><span class="ponto__white">.</span>
                 </h2>
             </section>
 
             <section class="secao__works">
             
-                <section class="container__works" id="container__works">
+                <section class="container__works anime" id="container__works">
                     <div class="cabecalho__secao___works">
                         <h3 class="titulo__cabecalho___works">CLIENTES E PROJETOS</h3>
                         <a href="./V.Portugues/trabalhos.html" class="botao__view-cases">VER TODOS</a>
@@ -97,7 +98,7 @@
             
             <section class="secao__we">
 
-                <section class="secao__muda-nome">
+                <section class="secao__muda-nome  anime">
                     <h4 class="titulo__we">Nós</h4>
                     <div class="muda-nome">
                         <div class="container__muda-nome">
@@ -113,8 +114,8 @@
             </section>
                  
             <section class="secao__patrocinadores">
-                    <h5 class="titulo__patrocinadores">CLIENTES</h5>
-                    <div class="container__logo___patrocinadores">
+                    <h5 class="titulo__patrocinadores  anime">CLIENTES</h5>
+                    <div class="container__logo___patrocinadores  anime">
                         <div class="container__patrocinadores">
                             <img class="logo__patrocinadores-1" src="./Assets/Patrocinadores/A24-logo.png" alt="Logo A24">
                             <img class="logo__patrocinadores-2" src="./Assets/Patrocinadores/coca-cola-logo.png" alt="Logo Coca Cola">
@@ -135,11 +136,11 @@
             </section>
             
             <section class="secao__comentarios">
-                <div class="cabecalho__comentarios">
+                <div class="cabecalho__comentarios anime">
                     <h6 class="titulo__cabecalho">O QUE DIZEM</h6>
                 </div>
                 
-                <div class="container__carousel">
+                <div class="container__carousel anime">
                     <ul class="lista__comentarios" data-lista-produtos>
 
                         <li class="item__lista___comentarios">
@@ -193,24 +194,24 @@
                 
                 <div class="container__titulo" id="container__titulo">
                     <div class="scroll-1" id="scroll-1">
-                        <h8 class="titulo__scroll">It’s time to stop scrolling.</h8>
-                        <h8 class="titulo__scroll">It’s time to stop scrolling.</h8>
-                        <h8 class="titulo__scroll">It’s time to stop scrolling.</h8>
-                        <h8 class="titulo__scroll">It’s time to stop scrolling.</h8>
+                        <h8 class="titulo__scroll">It's time to stop scrolling.</h8>
+                        <h8 class="titulo__scroll">It's time to stop scrolling.</h8>
+                        <h8 class="titulo__scroll">It's time to stop scrolling.</h8>
+                        <h8 class="titulo__scroll">It's time to stop scrolling.</h8>
                     </div>
                     
                     <div class="scroll-2" id="scroll-2">
-                        <h8 class="titulo__scroll">Let’s create something.</h8>
-                        <h8 class="titulo__scroll">Let’s create something.</h8>
-                        <h8 class="titulo__scroll">Let’s create something.</h8>
-                        <h8 class="titulo__scroll">Let’s create something.</h8>
+                        <h8 class="titulo__scroll">Let's create something.</h8>
+                        <h8 class="titulo__scroll">Let's create something.</h8>
+                        <h8 class="titulo__scroll">Let's create something.</h8>
+                        <h8 class="titulo__scroll">Let's create something.</h8>
                     </div>
                 </div>
                 <a href="#" class="botao__get-in">FALE COM A GENTE</a>
             </section>
 
-            <section class="newsletter">
-                <form class="subscribe">
+            <section class="newsletter anime">
+                <form class="subscribe anime">
                     <h9 class="titulo__subscribe">Inscreva-se em </br> nossa newsletter</h9>
                     <input type="email" class="email__subscribe" placeholder="INFORME SEU E-MAIL">
                 </form>
@@ -219,7 +220,7 @@
 
         <footer class="rodape">
             <section class="secao__info___rodape">
-                <section class="secao__titulo___rodape">
+                <section class="secao__titulo___rodape anime">
                     <h10 class="titulo__rodape">
                         It's time to stop scrolling.
                     </h10>
@@ -229,7 +230,7 @@
                     <a href="#" class="botao__talk___footer">FALE COM A GENTE</a>
                 </section>
                 
-                <section class="abas__footer">
+                <section class="abas__footer anime">
                     <a href="https://www.linkedin.com/company/toliveira-cc/" class="link__redes-sociais___mobile"><img class="icone__redes" src="./Assets/Social Media/Linkedin-Black.svg" alt="Link Linkedin"></a>
                     <ul class="container__abas">
                         <li class="aba">
@@ -256,6 +257,68 @@
         <script src="./Componentes/playVideo.js" type="text/javascript"></script>
         <script src="./Componentes/mouseGrab.js" type="text/javascript"></script>
         <script src="./Componentes/navFixed.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+        <script>
+            // Adiciona a classe .js ao elemento HTML. Assim eu garanto que os elementos só serão escondidos caso o JavaScript esteja habilitado
+                var root = document.documentElement;
+                root.className += ' js';
+
+                // Cria a função boxTop responsável por definir a distância entre o topo to elemento e a página
+                function boxTop(idBox) {
+                    var boxOffset = $(idBox).offset().top;
+                    return boxOffset;
+                }
+
+                // Verifica se o documento está pronto
+                $(document).ready(function() {
+                    
+                            // target define os elementos que serão animados. Neste 	caso todos os que possuirem a classe .anime	
+                    var $target = $('.anime'),
+                            
+                            // animationClass define a classe que será injetada no elemento durante o scroll. É nessa classe que	definimos como a animação irá ocorrer
+                            animationClass = 'anime-init',
+                            
+                            // windowHeight pega a altura total da janela do browser
+                            windowHeight = $(window).height(),
+                            
+                            // offset é definido a partir da altura da janela, menos um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
+                            offset = windowHeight - (windowHeight / 6);
+
+                    // animeScroll é a função responsável por adicionar a classe animationClass ao elemento da página.
+                    function animeScroll() {
+                        
+                        // documentTop vai definir a distância entre o topo da página e o scroll. O valor é atualizado sempre a função animeScroll é ativada.
+                        var documentTop = $(document).scrollTop();
+                        
+                        // target.each serve para adicionarmos a função a cada elemento que tiver a classe do target. Assim garantimos que elementos com distâncias diferentes do topo da página, animem no momento correto
+                        $target.each(function() {
+                            
+                            // o if verifica se a distância entre o topo da página e o scroll é maior que a distância do elemento - o valor fo offset
+                            if (documentTop > boxTop(this) - offset) {
+                                
+                                // caso seja verdadeiro, ele vai adicionar a classe que está em animationClass ao elemento
+                                $(this).addClass(animationClass);
+                            } else {
+                                
+                                // caso seja falso ele vai remover a classe do elemento. Se você não quiser que a animação ocorra mais de uma vez, ou seja, quando o cliente voltar o scroll para cima os elementos continuem fixos, basta remover este else
+                                $(this).removeClass(animationClass);
+                            }
+                        });
+                    }
+                    
+                    // dispara a função animeScroll, nesse primeiro momento ele dispara para verificar se já não existe nenhum elemento na página que esteja no campo de visão do usuário
+                    animeScroll();
+                    
+                    // com o document.scroll vamos verificar sempre que um evento de scroll ocorrer na página
+                    $(document).scroll(function() {
+                        
+                        // quando o evento de scroll ocorre disparamos novamente a função animeScroll. Com um setTimeout para evetira que ela seja disparada diversas vezes
+                        setTimeout(function() {
+                            animeScroll()
+                        }, 150);
+                    });
+                });
+        </script>    
     </body>
 
 </html>
