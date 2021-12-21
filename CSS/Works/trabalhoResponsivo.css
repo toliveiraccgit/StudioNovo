@@ -111,19 +111,21 @@
     }
     /*----------------------RODAPE----------------------*/
     .rodape{
-        height: auto;
+        height: 63rem;
         margin-top: 4rem;
     }
     .secao__info___rodape{
-        height: 100vh;
+        height: 51rem;
         flex-direction: column;
         border: none;
+        padding-bottom: 0%;
+        padding-left: 1rem;
     }
     .secao__titulo___rodape{
         flex-direction: column;
-        padding-left: 1.8rem;
+        padding-left: 0;
         padding-right: 1.5rem;
-        width: auto;
+        width: 90vw;
     }
     .titulo__rodape{
         padding-right: 2.6rem;
@@ -146,7 +148,7 @@
     .abas__footer{
         flex-direction: column;
         padding-bottom: 0%;
-        padding-left: .5rem;
+        padding-left: 0;
         padding-top: 3rem;
         width: 90vw;
     }
@@ -163,8 +165,8 @@
     }
     .secao__brand{
         width: 90vw;
-        padding-top: 6.5rem;
-        padding-bottom: 7.313rem;
+        padding-top: 2rem;
+        padding-bottom: 8.313rem;
     }
     .link__redes-sociais{
         visibility: hidden;
@@ -178,7 +180,7 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1439px){
+@media (min-width:768px) and (max-width:1355px){
     /*--------------BANNER-------------------*/
     .banner{
         margin-bottom: 4rem;
@@ -206,33 +208,7 @@
         height: 52rem;
     }
 
-    .secao__info___rodape{
-        padding-bottom: 0%;
-        margin-bottom: 3rem;
-        height: 52rem;
-    }
-    .titulo__rodape{
-        font-size: 60px;
-    }
-    .botao__talk___footer{
-        width: 60vw;
-    }
-
-    .titulo__aba{
-        font-size: var(--font-sm);
-    }
-    .item__aba{
-        font-size:var(--font-xs);
-    }
-    .aba{
-        height: 13.688rem;
-    }
-    .secao__brand{
-        padding-top: 0;
-    }
-    .titulo__brand{
-        font-size: 20px;
-    }
+    
 
 }
 
