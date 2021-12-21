@@ -205,6 +205,9 @@
         overflow-x: scroll;
         overflow-y: hidden;
         overscroll-behavior-x: contain;
+
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
     }
     .container__cards::-webkit-scrollbar{
         display: none;
