@@ -67,7 +67,7 @@
     /*-------------------------------MAPA--------------------------------*/
     .mapa{
         width: 100vw;
-        height: 98vh;
+        height: 54.961rem;
 
         background-image: url("../../Assets/SobreNos/mapa.svg");
         background-repeat: no-repeat;
@@ -246,7 +246,7 @@
 
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 123vh;
+        height: 63rem;
 
         display: flex;
         flex-direction: column;
@@ -275,10 +275,13 @@
     }
     .container__carousel{
         width: 79vw;
+        height: 32rem;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     .lista__comentarios{
         width: 158vw;
+        height: 32rem;
 
         display: flex;
         flex-direction: row;

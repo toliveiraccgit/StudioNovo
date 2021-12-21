@@ -81,7 +81,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 56.125rem;
         width: 100vw;
 
         overflow-y: hidden;
@@ -158,7 +158,7 @@
         flex-direction: column;
         background-color: var(--low-pure);
 
-        height: 98vh;
+        height: 58.5rem;
 
     }
     .cabecalho__secao___works{
@@ -326,7 +326,7 @@
     }
     /*-------------------------------PATROCINADORES--------------------------------*/
     .secao__patrocinadores{
-        height: 75vh;
+        height: 47.063rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -368,7 +368,7 @@
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 120vh;
+        height: 51rem;
 
         display: flex;
         flex-direction: column;
@@ -390,10 +390,13 @@
     }
     .container__carousel{
         width: 79vw;
+        height: 32rem;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     .lista__comentarios{
         width: 158vw;
+        height: 32rem;
 
         display: flex;
         flex-direction: row;
@@ -484,7 +487,7 @@
     }
     /*-------------------------------SCROLL--------------------------------*/
     .secao__scroll{
-        height: 93vh;
+        height: 51rem;
         padding-top: 10.75rem;
         display: flex;
         flex-direction: column;
@@ -538,7 +541,7 @@
     }
     /*-------------------------------NEWSLETTER--------------------------------*/
     .newsletter{
-        height: 90vh;
+        height: 51rem;
 
         padding-right: 27.688rem;
         padding-left: 9.5rem;
@@ -620,7 +623,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 40vh;
+        height: 25rem;
 
         padding-bottom: 10.813rem;
 

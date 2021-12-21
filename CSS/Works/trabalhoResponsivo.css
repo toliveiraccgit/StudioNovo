@@ -76,7 +76,7 @@
 
         margin-top: 0%;
 
-        height:100vh;
+        height: 42rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
@@ -172,6 +172,10 @@
     .link__fim{
         margin-top: 4rem;
     }
+
+    .newsletter{
+        height: 52rem;
+    }
 }
 
 @media (min-width:768px) and (max-width:1439px){
@@ -199,7 +203,7 @@
         padding-top: 31.5rem;
         background-size: 28rem 28rem;
 
-        height: 82vh;
+        height: 52rem;
     }
 
     .secao__info___rodape{

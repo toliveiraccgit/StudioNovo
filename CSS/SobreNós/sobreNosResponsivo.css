@@ -26,7 +26,7 @@
     /*-------------------------------MAPA--------------------------------*/
     .mapa{
         width: 100vw;
-        height: 40vh;
+        height: 22rem;
 
         background-size: 140vw;
 
@@ -140,7 +140,7 @@
         padding-top: 0;
         padding-bottom: 0%;
 
-        height:100vh;
+        height: 42rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
@@ -183,7 +183,7 @@
     
     /*-------------------------------MAPA--------------------------------*/
     .mapa{
-        height: 60vh;
+        height: 40rem;
     }
     /*-------------------------------INTRO--------------------------------*/
     .titulo__intro{
@@ -226,7 +226,7 @@
     }
     /*------------------------MAPA---------------------------*/
     .mapa{
-        height: 120vh;
+        height: 71rem;
     }
     .banner__intro-2{
         width: 60.625rem;

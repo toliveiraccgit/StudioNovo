@@ -23,18 +23,18 @@
     }
 
     .secao__video{
-        height: 18.688rem;
+        height: 19.688rem;
         width: 100vw;
     }
     .video-poster{
         width: 100vw;
-        height: 14.688rem;
+        height: 15.688rem;
         position: relative;
         top: 4.8rem;
     }
     .video-played{
         width: 100vw;
-        height: 14.688rem;
+        height: 15.688rem;
         position: relative;
         top: 2.8rem;
     }
@@ -75,7 +75,7 @@
     }
 
     .secao__works{
-        height: auto;
+        height: 40rem;
     }
     .container__works{
         padding-left: 0%;
@@ -189,7 +189,7 @@
     }*/
 
     .secao__patrocinadores{
-        height: 82vh;
+        height: 38rem;
     }
 
     .secao__comentarios{
@@ -197,7 +197,7 @@
         padding-right: 1.5rem;
         padding-top: 6.2rem;
 
-        height: 100vh;
+        height: 43rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
@@ -231,7 +231,7 @@
 
     .secao__scroll{
         margin-top: 0%;
-        height: 61vh;
+        height: 31.5rem;
     }
     .botao__get-in{
         width: 90vw;
@@ -260,7 +260,7 @@
 
         background-size:20.938rem 40.125rem ;
 
-        height: 125vh;
+        height: 57.5rem;
     }
     .subscribe{
         margin-left: 0%;
@@ -279,11 +279,11 @@
 
     
     .rodape{
-        height: auto;
+        height: 63rem;
         margin-top: 4rem;
     }
     .secao__info___rodape{
-        height: 44rem;
+        height: 51rem;
         flex-direction: column;
         border: none;
         padding-bottom: 0%;
@@ -334,7 +334,7 @@
     .secao__brand{
         width: 90vw;
         padding-top: 2rem;
-        padding-bottom: 7.313rem;
+        padding-bottom: 8.313rem;
     }
     .link__redes-sociais{
         visibility: hidden;
@@ -360,10 +360,17 @@
     .botao__play{
         top: -10rem;
     }
+    
+    .secao__passion{
+        padding-bottom: 0%;
+    }
     .titulo__passion{
         width: auto;
     }
 
+    .secao__works{
+        height: 39rem;
+    }
     .secao__muda-nome{
         margin-bottom: 7rem;
     }
@@ -382,6 +389,10 @@
     .botao__explore{
         width: 93vw;
     }
+
+    .secao__scroll{
+        height: 41rem;
+    }
     .titulo__scroll{
         font-size: var(--font-lg);
         position: relative;
@@ -395,7 +406,7 @@
     }
 
     .secao__comentarios{
-        height:75vh;
+        height:54rem;
     }
 
     .secao__titulo___rodape{
@@ -441,7 +452,11 @@
         padding-top: 31.5rem;
         background-size: 28rem 28rem;
 
-        height: 82vh;
+        height: 47rem;
+    }
+
+    .rodape{
+        height: 69.5rem;
     }
 
     .secao__info___rodape{
