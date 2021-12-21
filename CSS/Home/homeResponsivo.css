@@ -1,3 +1,4 @@
+
 @media (max-width:1024px){ 
     html{
         overflow-x: hidden;
@@ -40,6 +41,11 @@
     .botao__play{
         position: relative;
         top: -5rem;
+    }
+    .botao__play{
+        position: relative;
+        display: flex;
+        align-self: center;
     }
     .botao__desmuta, .botao__muta{
         top: -1.5rem;
@@ -277,15 +283,17 @@
         margin-top: 4rem;
     }
     .secao__info___rodape{
-        height: 100vh;
+        height: 44rem;
         flex-direction: column;
         border: none;
+        padding-bottom: 0%;
+        padding-left: 1rem;
     }
     .secao__titulo___rodape{
         flex-direction: column;
-        padding-left: 1.8rem;
+        padding-left: 0;
         padding-right: 1.5rem;
-        width: auto;
+        width: 90vw;
     }
     .titulo__rodape{
         padding-right: 2.6rem;
@@ -308,7 +316,7 @@
     .abas__footer{
         flex-direction: column;
         padding-bottom: 0%;
-        padding-left: .5rem;
+        padding-left: 0;
         padding-top: 3rem;
         width: 90vw;
     }
@@ -325,7 +333,7 @@
     }
     .secao__brand{
         width: 90vw;
-        padding-top: 6.5rem;
+        padding-top: 2rem;
         padding-bottom: 7.313rem;
     }
     .link__redes-sociais{
@@ -336,11 +344,10 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1439px){
+@media (min-width:768px) and (max-width:1024px){
     .titulo__banner{
         font-size: var(--font-lg);
     }
-    
     .secao__video{
         height: 31.688rem;
     }
@@ -352,10 +359,6 @@
     }
     .botao__play{
         top: -10rem;
-    }
-
-    .secao__passion{
-        padding-bottom: 0;
     }
     .titulo__passion{
         width: auto;
@@ -379,23 +382,13 @@
     .botao__explore{
         width: 93vw;
     }
+    .titulo__scroll{
+        font-size: var(--font-lg);
+        position: relative;
+    }
 
     .secao__comentarios{
-        padding-left: 15rem;
-    }
-    .container__carousel{
-        width: 90vw;
-    }
-    .comentario{
-        width: 90vw;
-        height: 9rem;
-    }
-    .lista__comentarios{
-        width: 180vw;
-    }
-    .container__botao___comentario{
-        width: 94vw;
-        gap: 1rem;
+        padding-left: 3.2rem;
     }
     .botao__anterior___comentario, .botao__proximo___comentario{
         width: 47vw;
@@ -403,6 +396,17 @@
 
     .secao__comentarios{
         height:75vh;
+    }
+
+    .secao__titulo___rodape{
+        padding-left: 0%;
+        width: 90vw;
+    }
+    .secao__info___rodape{
+        padding-left: 1rem;
+    }
+    .abas__footer{
+        padding-left: 0%;
     }
     @keyframes movimenta-titulo-1 {
         0%{
@@ -443,8 +447,12 @@
     .secao__info___rodape{
         padding-bottom: 0%;
         margin-bottom: 3rem;
-        height: 52rem;
+        height: 56rem;
     }
+    .secao__titulo___rodape{
+        padding-left: 0%;
+    }
+
     .titulo__rodape{
         font-size: 60px;
     }
@@ -468,7 +476,50 @@
         font-size: 20px;
     }
 }
+@media (min-width:1024px) and (max-width:1355px){
+    .titulo__passion{
+        font-size: 160px;
+    }
+    .titulo__we{
+        font-size: 160px;
+    }
+    .stroke__we{
+        font-size: 160px;
+    }
+    .muda-nome{
+        height: 10rem;
+    }
+    @keyframes mudaNome {
+        0%{
+            position: relative;
+            top: -12rem;
+        }
+        25%{
+            animation: paused;
+        }
+        50%{
+            position: relative;
+            top: -25rem;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            top: -35rem;
+        }
+    }
+    .scroll-1, .scroll-2{
+        width: 830vw;
+    }
+    .newsletter{
+        background-position-x: 8%;
+    }
+    .comentario {
+        padding-right: 2.417rem;
+    }
 
+}
 @media (min-width:1600px) {
     .secao__comentarios{
         padding-left: 12.5rem;
@@ -482,4 +533,5 @@
     .secao__we{
         padding-top: 4rem;
     }
+
 }
