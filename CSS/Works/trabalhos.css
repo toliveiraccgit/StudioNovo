@@ -182,7 +182,7 @@
         flex-direction: row;
         overflow-x: hidden;
 
-        transition: all .3s ease-in-out;
+        transition: all .4s ease-out;
     }
     .item__lista___comentarios{
         display: flex;

@@ -220,7 +220,7 @@
         animation: opacidadeBG .4s ease-in-out forwards;
         transition:all .4s ease-in-out;
     }
-    .card-works:hover{
+    .atarde:hover{
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
         filter: none;
     }
@@ -264,6 +264,10 @@
     .atarde:hover .info__card{
         animation: animaInfo .4s ease-in-out forwards;
         transition: transform .4s ease-in-out;
+    }
+
+    .loq:hover, .coke:hover, .salvado-fashion:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/em-breve.svg") 25 30, default;
     }
    /*-------------------------------WE--------------------------------*/
     .secao__we{
@@ -402,7 +406,7 @@
         flex-direction: row;
         overflow-x: hidden;
 
-        transition: all .4s ease-in;
+        transition: all .4s ease-out;
     }
     .item__lista___comentarios{
         display: flex;
@@ -484,6 +488,7 @@
         background-image: url("../../Assets/Setas/Right.svg");
         background-repeat: no-repeat;
         background-position-x: right;
+        transition: all .3s ease-in-out;
     }
     /*-------------------------------SCROLL--------------------------------*/
     .secao__scroll{
@@ -654,7 +659,7 @@
         background-position-x: right;
         background-position-y: -.2rem;
 
-        width: 12vw;
+        width: 10.938rem;
         margin-top: 2rem;
         padding-bottom: .5rem;
 
@@ -694,6 +699,7 @@
         display: flex;
         flex-direction: column;
         height: 14.5rem;
+        width: 8.5rem;
     }
     .titulo__aba{
         font-family: var(--paragraph-satoshi);
@@ -706,8 +712,9 @@
         font-weight: var(--regular);
         color: var(--low-medium);
         margin-bottom: 1rem;
-    }
 
+        transition: all .1s ease-in-out;
+    }
     .secao__brand{
         display: flex;
         flex-direction: row;

@@ -549,4 +549,11 @@
         padding-top: 4rem;
     }
 
+    .video-poster{
+        width: 70vw;
+    }
+    .video-played{
+        width: 70vw;
+    }
+
 }

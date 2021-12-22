@@ -43,13 +43,13 @@ export class Animacoes{
     
             if (posicaoSecao <= 958) {
                 this.video.volume = 0.4
-            }else{
+            }/*else{
                 this.video.pause()
             }
             
             if (posicaoSecao <= -839) {
                 this.video.pause()   
-            }
+            }*/
 
             /*if (posicaoSecao <= 3529) {
                 this.secaoCards.scroll((-posicaoBody/3.3 - 10), 0)
