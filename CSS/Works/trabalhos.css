@@ -103,11 +103,12 @@
         align-content: center;
         gap: 1rem;
 
-        justify-content: center;
+        padding-left: 11vw;
+        padding-right: 5vw;
     
     }
     .container__card___cliente-projetos{
-        width: 23rem;
+        width: 25vw;
         height: 15.125rem;
 
         display: flex;
@@ -125,7 +126,7 @@
         margin-bottom: 3.5rem;
     }
     .botao__case___cliente-projeto{
-        width: 23rem;
+        width: 25vw;
 
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
