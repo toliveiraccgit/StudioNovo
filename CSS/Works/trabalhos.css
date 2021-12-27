@@ -103,8 +103,7 @@
         align-content: center;
         gap: 1rem;
 
-        padding-left: 9.5rem;
-        padding-right: 8.313rem;
+        justify-content: center;
     
     }
     .container__card___cliente-projetos{

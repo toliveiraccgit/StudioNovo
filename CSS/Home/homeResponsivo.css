@@ -227,6 +227,7 @@
     .container__botao___comentario{
         width: 90vw;
         gap: 2rem;
+        margin-top: 2rem;
     }
 
     .secao__scroll{
@@ -408,6 +409,9 @@
     .secao__comentarios{
         height:54rem;
     }
+    .item__lista___comentarios{
+        height: 54rem;
+    }
 
     .secao__titulo___rodape{
         padding-left: 0%;
@@ -533,7 +537,10 @@
     .comentario {
         padding-right: 2.417rem;
     }
-
+    .item__lista___comentarios{
+        height: 54rem;
+    }
+    
 }
 @media (min-width:1600px) {
     .secao__comentarios{
