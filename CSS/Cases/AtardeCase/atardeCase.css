@@ -1,0 +1,24 @@
+@media (min-width:0px){
+    /*------------------------------BANNER-------------------------------*/
+    #imagem__banner___atarde{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #atarde-imagem__numeros-projetos{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-numeros-projetos.png");
+        background-repeat: no-repeat;
+    }
+    #atarde-imagem-did{
+        background-image:url("../../../Assets/Cases/Atarde/atarde-o-que-fizemos-1.png"), url("../../../Assets/Cases/Atarde/atarde-o-que-fizemos-2.png");
+    }
+    #atarde-imagem__sobre-projeto{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-sobre-projeto.png");
+    }
+    #atarde-imagem__menu-principal{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-menu-principal.png");
+    }
+    #atarde-imagem__proximo-projeto{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-footer.png");
+    }
+}
