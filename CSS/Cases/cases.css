@@ -93,6 +93,9 @@
         font-family: var(--heading-cabinet);
         margin-bottom: 1.563rem;
     }
+    .subtitulo__mobile{
+        display: none;
+    }
     .link__sobre{
         font-size: var(--font-xs);
         font-family: var(--paragraph-satoshi);
@@ -153,7 +156,7 @@
         height: 45.375rem;
 
         background-position-x: center;
-        background-size: 81vw 45.375rem;
+        background-size: 81vw 41.375rem;
     }
     /*----------------------------DID------------------------*/
     .secao__did{
@@ -427,7 +430,7 @@
         background-position-x: right;
         transition: all .3s ease-in-out;
     }
-    /*-----------------------NUMEROS-PROJETOS--------------------------*/
+    /*-----------------------PROXIMO-PROJETO--------------------------*/
     .secao__proximo-projeto{
         display: flex;
         flex-direction: column;

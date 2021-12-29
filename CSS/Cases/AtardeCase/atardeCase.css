@@ -22,3 +22,26 @@
         background-image: url("../../../Assets/Cases/Atarde/atarde-footer.png");
     }
 }
+@media (max-width:1024px){
+    #imagem__banner___atarde{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #atarde-imagem__numeros-projetos{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-numeros-projetos-mobile.png");
+        background-repeat: no-repeat;
+    }
+    #atarde-imagem-did{
+        background-image:url("../../../Assets/Cases/Atarde/atarde-o-que-fizemos-1-mobile.png"), url("../../../Assets/Cases/Atarde/atarde-o-que-fizemos-2-mobile.png");
+    }
+    #atarde-imagem__sobre-projeto{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-sobre-projeto-mobile.png");
+    }
+    #atarde-imagem__menu-principal{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-menu-principal-mobile.png");
+    }
+    #atarde-imagem__proximo-projeto{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-footer-mobile.png");
+    }
+}
