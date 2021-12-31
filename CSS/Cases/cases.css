@@ -373,7 +373,7 @@
         font-weight: var(--bold);
         font-size: var(--font-md);
 
-        background-image: url("../../../Assets/Home/aspas.png");
+        background-image: url("../../Assets/Home/aspas.png");
         background-repeat: no-repeat;     
     }
     .perfil__comentario{
@@ -413,7 +413,7 @@
         padding-bottom: 2.208rem;
 
         background-color: transparent;
-        background-image: url("../../../Assets/Setas/Left.svg");
+        background-image: url("../../Assets/Setas/Left.svg");
         background-repeat: no-repeat;
     }
     .botao__proximo___comentario{
@@ -425,7 +425,7 @@
         padding-bottom: 1.656rem;
 
         background-color: transparent;
-        background-image: url("../../../Assets/Setas/Right.svg");
+        background-image: url("../../Assets/Setas/Right.svg");
         background-repeat: no-repeat;
         background-position-x: right;
         transition: all .3s ease-in-out;
@@ -509,7 +509,7 @@
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
 
-        background-image: url("../../../Assets/Setas/Right-Down-Black.svg");
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: -.2rem;
@@ -521,7 +521,7 @@
         border-bottom: 2px solid var(--low-pure);
     }
     .botao__talk___footer:hover{
-        cursor: url("../../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
     .redes__sociais___rodape{
         display: flex;
