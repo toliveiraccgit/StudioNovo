@@ -205,7 +205,7 @@
 
         margin-top: 0%;
 
-        height: 42rem;
+        height: 44rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
@@ -324,5 +324,49 @@
     }
 }
 @media (min-width:768px) and (max-width:1355px){
-
+    /*-------------------------------BANNER--------------------------------*/
+    .titulo__banner{
+        font-size: var(--font-xl);
+    }
+    .descricao__banner{
+        font-size: var(--font-xs);
+        width: 29rem;
+    }
+    .imagem__banner{
+        height: 24.75rem;
+    }
+    /*--------------------------SOBRE-PROJETO---------------------------*/
+    .container__titulo__sobre{
+        width: 21.25rem;
+    }
+    .titulo__sobre{
+        font-size: var(--font-md);
+    }
+    .subtitulo__mobile{
+        font-size: var(--font-md);
+    }
+    .link__sobre{
+        font-size: var(--font-xs);
+    }
+    .descricao__sobre{
+        font-size: var(--font-xs);
+        width: 31.938rem;
+    }
+    /*-----------------------NUMEROS-PROJETOS--------------------------*/
+    .secao__numeros-projetos{
+        width: 37.375rem;
+    }
+    .titulo__numeros-projetos{
+        font-size: var(--font-md);
+    }
+    .numero-projetos{
+        font-size: var(--font-xl);
+    }
+    .descricao__numero-projetos{
+        font-size: 20px;
+    }
+    .imagem__numeros-projeto{
+        height: 25.313rem;
+        background-size: 90vw 25.313rem;
+    }
 }

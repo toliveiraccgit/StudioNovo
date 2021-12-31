@@ -45,3 +45,9 @@
         background-image: url("../../../Assets/Cases/Atarde/atarde-footer-mobile.png");
     }
 }
+@media (min-width:768px) and (max-width:1355px){
+    #atarde-imagem__numeros-projetos{
+        background-image: url("../../../Assets/Cases/Atarde/atarde-numeros-projetos.png");
+        background-repeat: no-repeat;
+    }
+}
