@@ -23,24 +23,15 @@
     }
 
     .secao__video{
-        height: 19.688rem;
         width: 100vw;
-    }
-    .video-poster{
-        width: 100vw;
-        height: 15.688rem;
-        position: relative;
-        top: 4.8rem;
+        height:18rem;
     }
     .video-played{
         width: 100vw;
-        height: 15.688rem;
-        position: relative;
-        top: 2.8rem;
     }
     .botao__play{
         position: relative;
-        top: -5rem;
+        top: -8.5rem;
     }
     .botao__play{
         position: relative;

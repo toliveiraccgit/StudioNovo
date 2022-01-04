@@ -15,7 +15,7 @@
         <link rel="shortcut icon" href="./Assets/Home/logo-studio.svg" type="image/x-icon"/>
     </head>
     
-    <body id="body">
+    <body id="body" ondragstart='return false'>
         
         <header class="cabecalho"  id="navbar">
             <a href="./index.html"><img src="./Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
@@ -39,9 +39,7 @@
             </section>
 
             <section id="secao__video" class="secao__video">
-                <video loop muted=true preload="metadata" autoplay class="video-poster"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
-                
-                <video loop preload="metadata" controls class="video-played"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
+                <video loop preload="metadata" muted=true  autoplay id="video-played__mobile" class="video-played"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
                 
                 <button class="botao__play" id="botao-play"><img src="./Assets/Home/botao-play.png" alt="Botão Play" class="imagem__play"></button>
                 <button class="botao__desmuta" id="botao__desmuta"><img src="./Assets/Home/desmuta.png" alt="Botão Desmuta" class="imagem__desmuta"></button>
@@ -322,7 +320,10 @@
                         }, 150);
                     });
                 });
-        </script>    
+        </script>
+        <script>
+            $('img').on('dragstart', function(event) { event.preventDefault(); });
+        </script> 
     </body>
 
 </html>

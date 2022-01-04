@@ -75,7 +75,11 @@ export class Animacoes{
     }
     playVideo(){
         this.video.play()
-        this.videoPoster.style.display = ' none '
+        this.video.currentTime = '0'
+        this.video.controls = true
+        this.video.volume = 0.2
+        this.video.muted = false
+        this.video.style.top = ` -2rem `
         this.video.style.display = ' block '
         this.botaoPlay.style.display = ' none '
     }

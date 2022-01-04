@@ -200,12 +200,9 @@
     .secao__comentarios{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        padding-top: 0;
-        padding-bottom: 0%;
+        padding-top: 6.2rem;
 
-        margin-top: 0%;
-
-        height: 44rem;
+        height: 43rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
@@ -213,6 +210,7 @@
     }
     .item__lista___comentarios{
         margin-bottom: 6.938rem;
+        height: 24rem;
     }
     .cabecalho__comentarios{
         bottom: -1.35rem;
@@ -234,9 +232,8 @@
     }
     .container__botao___comentario{
         width: 90vw;
-        gap: 0;
-        display: flex;
-        justify-content: space-between;
+        gap: 2rem;
+        margin-top: 2rem;
     }
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .secao__proximo-projeto{
@@ -255,7 +252,7 @@
     }
     /*----------------------RODAPE----------------------*/
     .rodape{
-        height: 66rem;
+        height: 67rem;
         margin-top: 4rem;
     }
     .secao__info___rodape{
@@ -323,7 +320,7 @@
         height: 52rem;
     }
 }
-@media (min-width:768px) and (max-width:1355px){
+@media (min-width:768px) and (max-width:1024px){
     /*-------------------------------BANNER--------------------------------*/
     .titulo__banner{
         font-size: var(--font-xl);
@@ -369,4 +366,127 @@
         height: 25.313rem;
         background-size: 90vw 25.313rem;
     }
+    /*----------------------------DID------------------------*/
+    .titulo__did{
+        font-size: var(--font-md);
+    }
+    .lista__did{
+        width: 45rem;
+        height: 6rem;
+    }
+    .item__lista___did{
+        font-size: 20px;
+    }
+    .imagem__did{
+        background-size: 33vw 19rem, 33vw 19rem;
+        background-image: url("../../Assets/Cases/Atarde/atarde-o-que-fizemos-1-mobile.png"), url("../../Assets/Cases/Atarde/atarde-o-que-fizemos-2-mobile.png");
+
+        height: 22.8rem;
+    }
+     /*---------------------------SOBRE-PROJETO--------------------------*/
+    .titulo__sobre-projeto{
+        font-size: var(--font-md); 
+    }
+    .descricao__sobre-projeto{
+        font-size: 20px;
+        width: 41.375rem;
+    }
+    .imagem__sobre-projeto{
+        background-size: 90vw 27rem;
+        background-image: url("../../Assets/Cases/Atarde/atarde-sobre-projeto.png");
+
+        height: 32.8rem;
+    }
+    /*------------------------------COMENTARIO-------------------------------*/
+    .container__carousel{
+        height: 27rem;
+    }
+    .secao__comentarios{
+        align-items: center;
+    }
+    .cabecalho__comentarios{
+        align-self: flex-start;
+        padding-left: 2.2rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 47vw;
+    }
+
+    .secao__comentarios{
+        height:54rem;
+    }
+    .item__lista___comentarios{
+        height: 22rem;
+    }
+    /*-----------------------PROXIMO-PROJETO--------------------------*/
+    .container__titulo___proximo-projeto{
+        padding-left: 2.5rem;
+    }
+    .imagem__proximo-projeto {
+        height: 15.813rem;
+        background-size: 100vw 15.813rem;
+    }
+    /*----------------RODAPE--------------*/
+    .rodape{
+        height: 57rem;
+    }
+    .secao__info___rodape{
+        padding: 0;
+        height: 44rem;
+    }
+}
+@media (min-width:1024px) and (max-width:1355px){
+    .secao__comentarios{
+        padding-left: 8rem;
+    }
+    .comentario{
+        padding-right: 3.417rem
+    }
+
+    .secao__brand{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+@media (min-width:1600px) {
+    /*-----------------------NUMEROS-PROJETOS--------------------------*/
+    .imagem__numeros-projeto{
+        height: 50.375rem;
+        background-size: 75vw 50.375rem;
+    }
+    /*----------------------------DID------------------------*/
+    .imagem__did{
+        width: 83vw;
+        height: 46.75rem;
+        background-size: 38rem 38.75rem, 38rem 38.75rem;
+        background-position-x: 9%, 91%;
+
+    }
+    /*---------------------------SOBRE-PROJETO--------------------------*/
+    .imagem__sobre-projeto{
+        width: 83vw;
+        height: 52.375rem;
+        background-size: 87rem 45rem;
+        background-position-x: center;
+    }
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__brand{
+        width: 87rem;
+    }
+    /*-------------------------------COMENTARIO--------------------*/
+    .secao__comentarios{
+        padding-left: 12.5rem;
+    }
+    /*-----------------------PROXIMO-PROJETO--------------------------*/
+    .container__titulo___proximo-projeto{
+        padding-left: 12.5rem;
+    }
+    .link__proximo-projeto:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+    }
+    .imagem__proximo-projeto{
+        height: 26.125rem;
+        background-size: 100vw 26.125rem;
+    }
+
 }
