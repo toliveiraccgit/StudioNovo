@@ -173,6 +173,75 @@
         display: flex;
         justify-content: space-between;
     }
+    /*----------------------RODAPE----------------------*/
+    .rodape{
+        height: 67rem;
+        margin-top: 4rem;
+    }
+    .secao__info___rodape{
+        height: 55rem;
+        flex-direction: column;
+        border: none;
+        padding-bottom: 0%;
+        padding-left: 1rem;
+    }
+    .secao__titulo___rodape{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 1.5rem;
+        width: 90vw;
+    }
+    .titulo__rodape{
+        padding-right: 2.6rem;
+    }
+    .botao__talk___footer{
+        width: 50vw;
+        margin-top: 2.9rem;
+    }
+    .redes__sociais___rodape{
+        gap: 0%;
+        justify-content: space-between;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .abas__footer{
+        flex-direction: column;
+        padding-bottom: 0%;
+        padding-left: 0;
+        padding-top: 3rem;
+        width: 90vw;
+    }
+    .container__abas{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+        gap: 0%;
+        border-bottom: 1px solid var(--low-pure);
+        padding-bottom: 3.125rem;
+        margin-top: 3.5rem;
+    }
+    .aba{
+        height: 10.688rem;
+    }
+    .secao__brand{
+        width: 90vw;
+        padding-top: 2rem;
+        padding-bottom: 8.313rem;
+    }
+    .link__redes-sociais{
+        visibility: hidden;
+    }
+    .link__fim{
+        margin-top: 4rem;
+    }
+
+    .newsletter{
+        height: 52rem;
+    }
 }
 
 @media (min-width:768px) and (max-width:1024px){
@@ -217,6 +286,44 @@
         width: 70vw;
         height: 38.438rem;
     }
+    
+    /*------------------------------RODAPE-------------------------*/
+    .rodape{
+        height: 69.5rem;
+    }
+
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 56rem;
+    }
+    .secao__titulo___rodape{
+        padding-left: 0%;
+    }
+
+    .titulo__rodape{
+        font-size: 60px;
+    }
+    .botao__talk___footer{
+        width: 60vw;
+    }
+
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size:var(--font-xs);
+    }
+    .aba{
+        height: 13.688rem;
+    }
+    .secao__brand{
+        padding-top: 0;
+    }
+    .titulo__brand{
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width:1600px) {
@@ -231,5 +338,9 @@
     .banner__intro-2{
         width: 60.625rem;
         height: 69.125rem;
+    }
+     /*-----------------------RODAPE----------------------------------*/
+     .secao__brand{
+        width: 87rem;
     }
 }
