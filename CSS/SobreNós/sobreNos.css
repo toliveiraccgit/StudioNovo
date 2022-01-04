@@ -468,8 +468,16 @@
         font-weight: var(--regular);
         color: var(--low-medium);
         margin-bottom: 1rem;
-
-        transition: all .1s ease-in-out;
+        
+        background-position-x: 80%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        transition: all .3s ease-out;
+    }
+    .item__aba:hover{
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
+        background-position-x: right;
+        transition: all .3s ease-out;    
     }
     .secao__brand{
         display: flex;
