@@ -1,0 +1,128 @@
+@media (max-width:1024px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .logo-studio{
+        margin: 0%;
+    }
+    .container__nav{
+        margin: 0%;
+    }
+    .traducao__pagina{
+        visibility: hidden;
+    }
+    /*-------------------------------BANNER--------------------------------*/
+    .secao__banner{
+        padding: 11rem 0 0 .938rem ;
+        margin-top:0%;
+
+        flex-direction: column;
+        justify-content: center;
+
+        margin-bottom: 3.75rem;
+    }
+    .titulo__banner{
+        font-size: 40px;
+        line-height: 100%;
+
+        margin-bottom: 2rem;
+
+        width: 20.688rem;
+    }
+    .container__subtitulo___banner{
+        width: 19rem;
+        
+        font-family: var(--paragraph-satoshi);
+    }
+    .subtitulo__banner{
+        font-weight: 400;
+        font-size: 16px;
+        
+        line-height: 140%;
+        
+        opacity: .7;
+    }
+     /*---------------------FORMAS-CONTATO-----------------------*/
+     .formas-contato{
+        flex-direction: column;
+        gap: 4.431rem;
+    }
+    .imagem__formas-contato{
+        height: 14.25rem;
+        width: 90vw;
+        background-size: 90vw 14.25rem;
+    }
+    /*----------------------RODAPE----------------------*/
+    .rodape{
+        height: 62rem;
+        margin-top: 4rem;
+    }
+    .secao__info___rodape{
+        height: 55rem;
+        flex-direction: column;
+        border: none;
+        padding-bottom: 0%;
+        padding-left: 1rem;
+    }
+    .secao__titulo___rodape{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 1.5rem;
+        width: 90vw;
+    }
+    .titulo__rodape{
+        padding-right: 2.6rem;
+    }
+    .botao__talk___footer{
+        width: 50vw;
+        margin-top: 2.9rem;
+    }
+    .redes__sociais___rodape{
+        gap: 0%;
+        justify-content: space-between;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .abas__footer{
+        flex-direction: column;
+        padding-bottom: 0%;
+        padding-left: 0;
+        padding-top: 3rem;
+        width: 90vw;
+    }
+    .container__abas{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+        gap: 0%;
+        border-bottom: 1px solid var(--low-pure);
+        padding-bottom: 3.125rem;
+        margin-top: 3.5rem;
+    }
+    .aba{
+        height: 10.688rem;
+    }
+    .secao__brand{
+        width: 90vw;
+        padding-top: 2rem;
+        padding-bottom: 3.813rem;
+    }
+    .link__redes-sociais{
+        visibility: hidden;
+    }
+    .link__fim{
+        margin-top: 4rem;
+    }
+
+    .newsletter{
+        height: 52rem;
+    }
+
+}

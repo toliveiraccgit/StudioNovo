@@ -1,0 +1,270 @@
+@media (min-width:0px){
+    /*-------------------------------CABECALHO--------------------------------*/
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100vw;
+        height: 7rem;
+        
+        padding: 2rem 9.5rem;
+        
+        font-family: var(--paragraph-satoshi);
+
+        border-bottom: 1px solid var(--high-low);
+
+        background-color: var(--high-pure);
+        z-index: 1000;
+        transition: all .4s ease-in-out;
+    }
+    .container__nav{
+        display: flex;
+        background-color: var(--high-pure);
+        transition: all .4s ease-in-out;
+    }
+    .container__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        padding: .5rem 0;
+
+        background-color: transparent;
+        
+        border: none;
+        background-color: var(--high-pure);
+        transition: all .4s ease-in-out;
+    }
+    .traducao__pagina{
+        border: none;
+        background-color: transparent;
+        
+        margin-right: 3.438rem;
+
+        font-weight: 500;
+    }
+    /*-------------------------------BANNER--------------------------------*/
+    .secao__banner{
+        padding: 8.875rem 11.5rem 5.375rem 9.5rem;
+        margin-top: 4.5rem;
+        background-color: var(--high-pure);
+    }
+    .titulo__banner{
+        font-size: var(--font-xl);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        line-height: var(--line-sm);
+
+        color: var(--low-pure);
+
+        margin: 0%;
+        margin-bottom: 2rem;
+    }
+    .container__subtitulo___banner{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        width: 40.375rem;
+
+        font-family: var(--paragraph-satoshi);
+        color: var(--low-pure);
+    }
+    .subtitulo__banner{
+        margin: 0%;
+
+        font-size: 23px;
+        line-height: 140%;
+        font-weight: var(--regular);
+    }
+    /*---------------------FORMAS-CONTATO-----------------------*/
+    .secao__formas-contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.905rem;
+    }
+    .formas-contato{
+        display: flex;
+        gap: 13.375rem;
+    }
+    .container__forma-contato{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagem__formas-contato{
+        background-image: url("../../Assets/Contato/imagem-banner.png");
+        background-repeat: no-repeat;
+        background-size: 78vw 36.813rem;
+
+        width: 78vw;
+        height: 36.813rem;
+    }
+    .titulo__forma-contato{
+        font-size: var(--font-xs);
+        font-family: var(--paragraph-satoshi);
+        font-weight: 500;
+        line-height: var(--line-lg);
+        color: var(--low-pure);
+
+        opacity: .7;
+
+        margin-bottom: 1.25rem;
+    }
+    .link__forma-de-contato{
+        font-size: var(--font-xs);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        line-height: var(--line-sm);
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .local__formas-contato{
+        font-size: var(--font-xs);
+        font-family: var(--paragraph-satoshi);
+        font-weight: 500;
+        line-height: var(--line-lg);
+        color: var(--low-pure);
+
+        opacity: .7;
+
+        margin: 0%;
+    }
+    .regiao__formas-contato{
+        font-size: var(--font-xs);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        line-height: var(--line-sm);
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    /*-------------------------------RODAPE--------------------------------*/
+    .rodape{
+        width: 100vw;
+        background-color: var(--high-pure);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 13.438rem;
+    }
+    .secao__info___rodape{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 25rem;
+
+        padding-bottom: 10.813rem;
+
+        border-bottom: 1px solid var(--low-medium);
+    }
+    .secao__titulo___rodape{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .titulo__rodape{
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        font-size: var(--font-md);
+        color: var(--low-pure);
+    }
+    #titulo__rodape-2{
+        color: var(--low-light);
+    }
+    .botao__talk___footer{
+        color: var(--low-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: -.2rem;
+
+        width: 10.938rem;
+        margin-top: 2rem;
+        padding-bottom: .5rem;
+
+        border-bottom: 2px solid var(--low-pure);
+    }
+    .botao__talk___footer:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+    }
+    .redes__sociais___rodape{
+        display: flex;
+        align-items: center;
+        gap: 2.813rem;   
+    }
+    .hashtag__footer{
+        font-family: var(--heading-cabinet);
+        font-weight: 500;
+        color: var(--high-pure);
+    }
+    .patrocinadores__rodape{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .abas__footer{
+        display: flex;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+    }
+    .container__abas{
+        display: flex;
+        flex-direction: row;
+        gap: 10.313rem;
+    }
+    .aba{
+        display: flex;
+        flex-direction: column;
+        height: 14.5rem;
+        width: 9.5rem;
+    }
+    .titulo__aba{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--bold);
+        color: var(--low-pure);
+        margin-bottom: 1.5rem;
+    }
+    .item__aba{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+        color: var(--low-medium);
+        margin-bottom: 1rem;
+    
+        transition: all .1s ease-in-out;
+    }
+    .item__aba:hover{
+        color: var(--low-pure);
+        transition: all .1s ease-in-out;    
+    }
+    .secao__brand{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 71rem;
+        justify-content: space-between;
+        
+        font-family: var(--heading-cabinet);
+        font-style: normal;
+        font-weight: var(--bold);
+
+        padding-top: 2.938rem;
+        padding-bottom: 6.625rem;
+    }
+    .link__redes-sociais, .icone__redes{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .link__redes-sociais___mobile{
+        display: none;
+    }
+}
