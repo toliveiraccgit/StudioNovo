@@ -42,11 +42,11 @@ export class Animacoes{
             }*/
     
             if (posicaoSecao <= 958) {
+                this.video.volume = 0.2
+            }else{
                 this.video.volume = 0.4
-            }/*else{
-                this.video.pause()
             }
-            
+            /*
             if (posicaoSecao <= -839) {
                 this.video.pause()   
             }*/
@@ -77,7 +77,7 @@ export class Animacoes{
         this.video.play()
         this.video.currentTime = '0'
         this.video.controls = true
-        this.video.volume = 0.2
+        this.video.volume = 0.4
         this.video.muted = false
         this.video.style.top = ` -2rem `
         this.video.style.display = ' block '

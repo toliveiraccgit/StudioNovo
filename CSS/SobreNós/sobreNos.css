@@ -246,7 +246,7 @@
 
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 63rem;
+        height: 68rem;
 
         display: flex;
         flex-direction: column;
@@ -275,7 +275,7 @@
     }
     .container__carousel{
         width: 79vw;
-        height: 32rem;
+        height: 37rem;
         overflow-x: hidden;
         overflow-y: hidden;
     }

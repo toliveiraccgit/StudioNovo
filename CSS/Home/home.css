@@ -55,12 +55,20 @@
         font-weight: var(--bold);
         line-height: var(--line-sm);
 
-        color: var(--low-dark);
+        color: var(--low-pure);
+    }
+    .titulo__banner::selection{
+        background-color: var(--low-dark);
+        color: var(--high-pure);
+    }
+    .ponto__red::selection{
+        background-color: var(--low-dark);
+        color: var(--high-pure);
     }
     .botao__view-cases___banner{
         background-color: none;
         border: none;
-        border-bottom: 2px solid var(--low-pure);
+        border-bottom: 2px solid var(--low-dark);
         font-family: var(--heading-cabinet);
         font-weight: 700;
 
@@ -71,6 +79,10 @@
         background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: 100%;
+    }
+    .botao__view-cases___banner::selection{
+        background-color: var(--low-pure);
+        color: var(--high-pure);
     }
     .botao__view-cases___banner:hover{
         cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg")25 30, default ;
@@ -155,6 +167,18 @@
         font-size: var(--font-xxl);
         color: var(--high-pure);
     }
+    .titulo__passion::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
+    .stroke::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
+    .ponto__white::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
     /*-------------------------------WORKS--------------------------------*/   
     .secao__works{
         display: flex;
@@ -177,6 +201,10 @@
         padding: 0 9.5rem 0 0;
         margin-bottom: 3.813rem;
     }
+    .titulo__cabecalho___works::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
     .botao__view-cases{
         background-color: none;
         border: none;
@@ -189,6 +217,10 @@
         background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
         background-position-x: right;
+    }
+    .botao__view-cases::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
     }
     .botao__view-cases:hover{
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 12, default;
@@ -300,6 +332,10 @@
 
         color: var(--high-pure);
     }
+    .titulo__we::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
     .stroke__we{
         -webkit-text-stroke: 1px var(--high-pure);
         color: transparent;
@@ -308,6 +344,10 @@
         font-weight: var(--bold);
 
         margin: 0%;
+    }
+    .stroke__we::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
     }
     .container__muda-nome{
         animation: mudaNome 10s ease-in-out infinite alternate;
@@ -334,6 +374,10 @@
         background-repeat: no-repeat;
         background-position-x: 100%;
     }
+    .botao__explore::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
     .botao__explore:hover{
         cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
     }
@@ -355,7 +399,10 @@
     .titulo__patrocinadores{
         margin-bottom: 5.5rem;
     }
-
+    .titulo__patrocinadores::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
     .container__logo___patrocinadores{
         display: flex;
         flex-direction: row;
@@ -371,17 +418,17 @@
 
     .logo__patrocinadores-1{
         position: relative;
-        /*animation: anima-logo-1 9s infinite alternate;
-        transition: all .4s ease-in-out;*/
+        animation: anima-logo-1 4s infinite alternate;
+        
+        
     } 
     .logo__patrocinadores-2{
         position: relative;
-        /*animation: anima-logo-2 9s infinite alternate;
-        transition: all .4s ease-in-out;*/
+        animation: anima-logo-2 4s infinite alternate;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 52rem;
+        height: 56rem;
 
         display: flex;
         flex-direction: column;
@@ -403,7 +450,7 @@
     }
     .container__carousel{
         width: 79vw;
-        height: 32rem;
+        height: 37rem;
         overflow-x: hidden;
         overflow-y: hidden;
     }

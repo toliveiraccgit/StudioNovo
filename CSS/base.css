@@ -176,21 +176,47 @@ html{
 
 @keyframes anima-logo-1 {
     0%{
-        bottom: 0%;
-        opacity: 1;
+        animation: paused;
     }
     25%{
-        bottom: 0%;
+        top: 0;
         opacity: 1;
     }
-    40%{
-        bottom: 56px;
+    50%{
+        top: 0;
+        opacity: 1;
+    }
+    75%{
+        top: -56px;
         opacity: 0;
     }
     100%{
-        bottom: 112px;
+        top: -56px;
         opacity: 0;
-        animation: paused;
     }
 
 }
+@keyframes anima-logo-2 {
+    0%{
+        animation: paused;
+    }
+    25%{
+        top: 0;
+        opacity: 0;
+    }
+    50%{
+        top: 0;
+        opacity: 0;
+    }
+    75%{
+        top: 56px;
+        opacity: 1;
+    }
+    100%{
+        top: 56px;
+        opacity: 1;
+    }
+}
+
+
+/*----6s de animação----*/
