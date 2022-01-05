@@ -42,8 +42,9 @@ export class Animacoes{
             }*/
     
             if (posicaoSecao <= 958) {
-                this.video.volume = 0.2
-            }else{
+                this.video.volume = 0.1
+            }
+            if (posicaoSecao > -713){
                 this.video.volume = 0.4
             }
             /*
