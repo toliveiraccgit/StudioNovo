@@ -180,7 +180,10 @@
     }*/
 
     .secao__patrocinadores{
-        height: 38rem;
+        height: 58rem;
+    }
+    .container__logo___patrocinadores{
+        flex-direction: column;
     }
 
     .secao__comentarios{
