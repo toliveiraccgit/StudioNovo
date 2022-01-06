@@ -513,6 +513,10 @@
     .item__lista___comentarios{
         height: 54rem;
     }
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__brand{
+        width: 80vw;
+    }
     
 }
 @media (min-width:1600px) {

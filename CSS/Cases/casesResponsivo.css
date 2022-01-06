@@ -443,9 +443,9 @@
         padding-right: 3.417rem
     }
 
+    /*-----------------------RODAPE----------------------------------*/
     .secao__brand{
-        padding-left: 3%;
-        padding-right: 3%;
+        width: 80vw;
     }
 }
 @media (min-width:1600px) {
@@ -486,11 +486,17 @@
     }
     .imagem__proximo-projeto{
         height: 26.125rem;
-        background-size: 100vw 26.125rem;
+        background-size: 100vw 28.125rem;
     }
      /*-----------------------RODAPE----------------------------------*/
      .secao__brand{
         width: 87rem;
+    }
+    /*--------------------------MENU-PRINCIPAL-------------------------*/
+    .imagem__menu-principal{
+        width: 100vw;
+        height: 32.8rem;
+        background-size: 100vw 32.8rem;
     }
 
 }
