@@ -80,8 +80,6 @@ export class Animacoes{
         this.video.controls = true
         this.video.volume = 0.4
         this.video.muted = false
-        this.video.style.top = ` -2rem `
-        this.video.style.display = ' block '
         this.botaoPlay.style.display = ' none '
     }
 

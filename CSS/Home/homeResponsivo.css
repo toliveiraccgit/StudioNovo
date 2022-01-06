@@ -24,32 +24,12 @@
 
     .secao__video{
         width: 100vw;
-        height:18rem;
+        height:auto;
     }
     .video-played{
         width: 100vw;
     }
-    .botao__play{
-        position: relative;
-        top: -8.5rem;
-    }
-    .botao__play{
-        position: relative;
-        display: flex;
-        align-self: center;
-    }
-    .botao__desmuta, .botao__muta{
-        top: -1.5rem;
-        left: center;
-        width: 2.5rem;
-        height: 2.5rem;
-        display: none;
-    }
-    .imagem__desmuta, .imagem__muta{
-        width: 2.5rem;
-        height: 2.5rem;
-        opacity: .5;
-    }
+    
 
     .secao__passion{
         padding-top: 7.5rem;
@@ -345,19 +325,11 @@
     }
     .secao__video{
         height: 31.688rem;
+        align-content: center;
     }
     .video-played{
         height: 27rem;
-    }
-    .video-poster{
-        height: 27rem;
-    }
-    .botao__play{
-        top: -10rem;
-    }
-    
-    .secao__passion{
-        padding-bottom: 0%;
+        width: 75vw;
     }
     .titulo__passion{
         width: auto;
@@ -404,7 +376,10 @@
         height:54rem;
     }
     .item__lista___comentarios{
-        height: 54rem;
+        height: 21rem;
+    }
+    .container__carousel{
+        height: 26rem;
     }
 
     .secao__titulo___rodape{
@@ -412,7 +387,7 @@
         width: 90vw;
     }
     .secao__info___rodape{
-        padding-left: 1rem;
+        padding-left: 0rem;
     }
     .abas__footer{
         padding-left: 0%;
@@ -447,6 +422,7 @@
 
     .newsletter{
         background-position-y: top;
+        background-position-x: 2.7rem;
         padding-top: 31.5rem;
         background-size: 28rem 28rem;
 
@@ -454,16 +430,19 @@
     }
 
     .rodape{
-        height: 69.5rem;
+        height: 71.5rem;
     }
 
     .secao__info___rodape{
         padding-bottom: 0%;
         margin-bottom: 3rem;
-        height: 56rem;
+        height: 57rem;
     }
     .secao__titulo___rodape{
         padding-left: 0%;
+    }
+    .container__abas{
+        padding-bottom: 9.125rem;
     }
 
     .titulo__rodape{
@@ -489,7 +468,7 @@
         font-size: 20px;
     }
 }
-@media (min-width:1024px) and (max-width:1355px){
+@media (min-width:1025px) and (max-width:1355px){
     .titulo__passion{
         font-size: 160px;
     }
@@ -526,7 +505,7 @@
         width: 830vw;
     }
     .newsletter{
-        background-position-x: 8%;
+        background-position-x: 9%;
     }
     .comentario {
         padding-right: 2.417rem;
@@ -542,9 +521,6 @@
     }
     .banner{
         margin-bottom: 3rem;
-    }
-    .botao__play{
-        top: -27rem;
     }
     .secao__we{
         padding-top: 4rem;

@@ -92,9 +92,7 @@
     .secao__video{
         display: flex;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
         height: 56.125rem;
         width: 100vw;
 
@@ -117,44 +115,19 @@
         width: 75vw;
         height: auto;
     }
-    .botao__desmuta, .botao__muta{
-        position: relative;
-        align-self: center;
-        justify-self: center;
-        display: none;
-        visibility: hidden;
-        height: 4rem;
-        width: 4rem;
-        left: center;
-        top: -10rem;
-
-        
-        border: none;
-        background-color: transparent;
-        z-index: 20;
-    }
     .botao__play{
-        border: none;
-        background-color: transparent;
-        position: relative;
-        top: -36%;
+        border: transparent;
+        background-color: var(--high-pure);
+        border-radius: var(--border-circular);
+        position: absolute;
         width: 4rem;
         height: 4rem;
+        align-items: center;
+        padding: 0%;
     }
     .imagem__play{
-        position: relative;
         width: 4rem;
         height: 4rem;
-    }
-    .botao__desmuta{
-        display: block;
-    }
-    .botao__muta{
-        display: none;
-    }
-    .imagem__desmuta, .imagem__muta{
-        height: 4rem;
-        width: 4rem;
     }
     /*-------------------------------PASSION--------------------------------*/
     .secao__passion{
@@ -435,7 +408,7 @@
         align-content: center;
         justify-content: center;
         padding-top: 15.938rem;
-        padding-left: 10rem;
+        padding-left: 9.5rem;
         padding-right: 9.5rem;
         background-color: var(--high-pure);
         
@@ -525,12 +498,22 @@
         
         border: none;
         border-bottom: 2px solid var(--low-pure);
+        border-right: 2px solid var(--high-pure);
         
         padding-bottom: 2.208rem;
 
         background-color: transparent;
         background-image: url("../../Assets/Setas/Left.svg");
         background-repeat: no-repeat;
+
+        transition: all .1s ease-in-out;
+    }
+    .botao__anterior___comentario:active{        
+        transition: all .1s ease-in-out;
+
+        transform: scaleX(0.98);
+
+        border-bottom: 2px solid var(--high-pure);
     }
     .botao__proximo___comentario{
         width: 39.5vw;
@@ -545,6 +528,13 @@
         background-repeat: no-repeat;
         background-position-x: right;
         transition: all .3s ease-in-out;
+    }
+    .botao__proximo___comentario:active{        
+        transition: all .1s ease-in-out;
+
+        transform: scaleX(0.98);
+
+        border-bottom: 2px solid var(--high-pure);
     }
     /*-------------------------------SCROLL--------------------------------*/
     .secao__scroll{

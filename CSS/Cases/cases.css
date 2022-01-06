@@ -312,7 +312,7 @@
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 52rem;
+        height: 56rem;
 
         display: flex;
         flex-direction: column;
@@ -334,7 +334,7 @@
     }
     .container__carousel{
         width: 79vw;
-        height: 32rem;
+        height: 37rem;
         overflow-x: hidden;
         overflow-y: hidden;
     }
@@ -416,6 +416,13 @@
         background-image: url("../../Assets/Setas/Left.svg");
         background-repeat: no-repeat;
     }
+    .botao__anterior___comentario:active{        
+        transition: all .1s ease-in-out;
+
+        transform: scaleX(0.98);
+
+        border-bottom: 2px solid var(--high-pure);
+    }
     .botao__proximo___comentario{
         width: 39.5vw;
         
@@ -429,6 +436,13 @@
         background-repeat: no-repeat;
         background-position-x: right;
         transition: all .3s ease-in-out;
+    }
+    .botao__proximo___comentario:active{        
+        transition: all .1s ease-in-out;
+
+        transform: scaleX(0.98);
+
+        border-bottom: 2px solid var(--high-pure);
     }
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .secao__proximo-projeto{

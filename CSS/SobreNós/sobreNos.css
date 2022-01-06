@@ -357,6 +357,13 @@
         background-image: url("../../Assets/Setas/Left.svg");
         background-repeat: no-repeat;
     }
+    .botao__anterior___comentario:active{        
+        transition: all .1s ease-in-out;
+
+        transform: scaleX(0.98);
+
+        border-bottom: 2px solid var(--high-pure);
+    }
     .botao__proximo___comentario{
         width: 39.5vw;
         
@@ -369,6 +376,13 @@
         background-image: url("../../Assets/Setas/Right.svg");
         background-repeat: no-repeat;
         background-position-x: right;
+    }
+    .botao__proximo___comentario:active{        
+        transition: all .1s ease-in-out;
+
+        transform: scaleX(0.98);
+
+        border-bottom: 2px solid var(--high-pure);
     }
     /*-------------------------------RODAPE--------------------------------*/
     .rodape{

@@ -488,5 +488,9 @@
         height: 26.125rem;
         background-size: 100vw 26.125rem;
     }
+     /*-----------------------RODAPE----------------------------------*/
+     .secao__brand{
+        width: 87rem;
+    }
 
 }

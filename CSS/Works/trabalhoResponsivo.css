@@ -71,12 +71,9 @@
     .secao__comentarios{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        padding-top: 0;
-        padding-bottom: 0%;
+        padding-top: 6.2rem;
 
-        margin-top: 0%;
-
-        height: 42rem;
+        height: 43rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
@@ -105,17 +102,17 @@
     }
     .container__botao___comentario{
         width: 90vw;
-        gap: 0;
-        display: flex;
-        justify-content: space-between;
+        gap: 2rem;
+        margin-top: 2rem;
     }
+
     /*----------------------RODAPE----------------------*/
     .rodape{
-        height: 63rem;
+        height: 67rem;
         margin-top: 4rem;
     }
     .secao__info___rodape{
-        height: 51rem;
+        height: 55rem;
         flex-direction: column;
         border: none;
         padding-bottom: 0%;
@@ -180,7 +177,7 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1355px){
+@media (min-width:768px) and (max-width:1024px){
     /*--------------BANNER-------------------*/
     .banner{
         margin-bottom: 4rem;
@@ -208,8 +205,52 @@
         height: 52rem;
     }
 
+    .secao__comentarios{
+        padding-left: 3.2rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 47vw;
+    }
+
+    .secao__comentarios{
+        height:54rem;
+    }
+    .item__lista___comentarios{
+        height: 19rem;
+    }
+    .container__carousel{
+        height: 26rem;
+    }
     
 
+}
+@media (min-width:1025px) and (max-width:1355px){
+    .newsletter{
+        background-position-x: 9%;
+    }
+    .secao__comentarios{
+        padding-left: 7rem;
+    }
+    .comentario {
+        padding-right: 2.417rem;
+    }
+    .item__lista___comentarios{
+        height: 28rem;
+    }
+    .lista__comentarios{
+        height: 39rem;
+    }
+    .container__carousel{
+        height: 35rem;
+    }
+    
+    .botao__talk___footer{
+        width: 17vw;
+    }
+
+    .secao__brand{
+        width: 59rem;
+    }
 }
 
 @media (min-width:1600px) {
@@ -222,5 +263,9 @@
     /*----------------------------COMENTARIO-----------------*/
     .cabecalho__comentarios{
         padding-left: 2.2rem;
+    }
+     /*-----------------------RODAPE----------------------------------*/
+     .secao__brand{
+        width: 87rem;
     }
 }
