@@ -414,8 +414,16 @@
         width: 60.625rem;
         height: 69.125rem;
     }
-     /*-----------------------RODAPE----------------------------------*/
+    /*-------------------------------COMENTARIO--------------------*/
+    .secao__comentarios{
+        padding-left: 12.5rem;
+        padding-right: 4.5rem;
+    }
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__info___rodape{
+        width: 80vw;
+     }
      .secao__brand{
-        width: 87rem;
+        width: 80vw;
     }
 }

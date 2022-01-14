@@ -476,6 +476,7 @@
     /*-------------------------------COMENTARIO--------------------*/
     .secao__comentarios{
         padding-left: 12.5rem;
+        padding-right: 4.5rem;
     }
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .container__titulo___proximo-projeto{
@@ -488,9 +489,12 @@
         height: 26.125rem;
         background-size: 100vw 28.125rem;
     }
-     /*-----------------------RODAPE----------------------------------*/
+    /*-----------------------RODAPE----------------------------------*/
+    .secao__info___rodape{
+        width: 80vw;
+     }
      .secao__brand{
-        width: 87rem;
+        width: 80vw;
     }
     /*--------------------------MENU-PRINCIPAL-------------------------*/
     .imagem__menu-principal{

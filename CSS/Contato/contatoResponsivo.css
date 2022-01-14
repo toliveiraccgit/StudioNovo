@@ -165,8 +165,16 @@
         width: 84vw;
         background-size: 90vw 47.25rem;
     }
-    /*-----------------------RODAPE----------------------------------*/
+   /*-----------------------RODAPE----------------------------------*/
+    .secao__info___rodape{
+        width: 80vw;
+    }
     .secao__brand{
-        width: 87rem;
+       width: 80vw;
+    }
+    /*-------------------------------COMENTARIO--------------------*/
+    .secao__comentarios{
+        padding-left: 12.5rem;
+        padding-right: 4.5rem;
     }
 }
