@@ -406,10 +406,6 @@
 }
 
 @media (min-width:1600px) {
-    /*----------------------------COMENTARIO-----------------*/
-    .cabecalho__comentarios{
-        padding-left: 2.2rem;
-    }
     /*------------------------MAPA---------------------------*/
     .mapa{
         height: 71rem;
