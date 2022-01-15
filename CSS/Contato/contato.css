@@ -260,6 +260,11 @@
         padding-top: 2.938rem;
         padding-bottom: 6.625rem;
     }
+    .container__ico___redes-sociais{
+        display: flex;
+        flex-direction: row;
+        gap: 1.188rem;
+    }
     .link__redes-sociais, .icone__redes{
         width: 1.5rem;
         height: 1.5rem;

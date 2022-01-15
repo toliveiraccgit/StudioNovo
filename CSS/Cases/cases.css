@@ -448,7 +448,7 @@
     .secao__proximo-projeto{
         display: flex;
         flex-direction: column;
-        gap: 8.125rem;
+        gap: 3.75rem;
 
         padding: 8.125rem 0 0 0;
     }
@@ -474,7 +474,7 @@
     }
     .imagem__proximo-projeto{
         width: 100vw;
-        height: 24.125rem;
+        height: 21.375rem;
 
         display: flex;
         align-self: center;

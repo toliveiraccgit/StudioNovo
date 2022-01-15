@@ -53,7 +53,7 @@
         font-size: var(--font-xl);
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
-        line-height: var(--line-sm);
+        line-height: 100%;
 
         color: var(--low-pure);
     }
@@ -356,7 +356,7 @@
     }
     /*-------------------------------PATROCINADORES--------------------------------*/
     .secao__patrocinadores{
-        height: 47.063rem;
+        height: 42.313rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -777,6 +777,11 @@
 
         padding-top: 2.938rem;
         padding-bottom: 6.625rem;
+    }
+    .container__ico___redes-sociais{
+        display: flex;
+        flex-direction: row;
+        gap: 1.188rem;
     }
     .link__redes-sociais, .icone__redes{
         width: 1.5rem;

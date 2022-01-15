@@ -113,6 +113,12 @@
 
         display: flex;
         flex-direction: column;
+
+        margin-bottom: 3rem;
+
+    }
+    .container__card___cliente-projetos:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
     .titulo__card___cliente-projeto{
         font-family: var(--heading-cabinet);
@@ -142,7 +148,7 @@
 
     }
     .botao__case___cliente-projeto:hover{
-            cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
@@ -398,6 +404,11 @@
 
         padding-top: 2.938rem;
         padding-bottom: 6.625rem;
+    }
+    .container__ico___redes-sociais{
+        display: flex;
+        flex-direction: row;
+        gap: 1.188rem;
     }
     .link__redes-sociais, .icone__redes{
         width: 1.5rem;

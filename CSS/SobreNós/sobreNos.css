@@ -85,7 +85,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 13.125rem;
+        gap: 8.125rem;
     }
     .container__info___intro{
         display: flex;
@@ -112,6 +112,8 @@
     .banner__intro-1{
         display: flex;
         justify-content: center;
+
+        margin-bottom: 5rem;
     }
 
     .banner__intro-2{
@@ -499,6 +501,11 @@
 
         padding-top: 2.938rem;
         padding-bottom: 6.625rem;
+    }
+    .container__ico___redes-sociais{
+        display: flex;
+        flex-direction: row;
+        gap: 1.188rem;
     }
     .link__redes-sociais, .icone__redes{
         width: 1.5rem;
