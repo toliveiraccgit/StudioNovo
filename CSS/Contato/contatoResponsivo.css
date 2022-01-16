@@ -112,6 +112,9 @@
         width: 90vw;
         padding-top: 2rem;
         padding-bottom: 3.813rem;
+    } 
+    .container__ico___redes-sociais{
+        display: none;
     }
     .link__redes-sociais{
         visibility: hidden;
@@ -145,17 +148,92 @@
         width: 90vw;
         background-size: 90vw 25.25rem;
     }
-    /*----------------------RODAPE----------------------*/
-    .rodape{
-        height: 52rem;
-        margin-top: 4rem;
+    /*------------------------------RODAPE-------------------------*/
+    .secao__titulo___rodape{
+        padding-left: 0%;
+        width: 90vw;
     }
     .secao__info___rodape{
-        height: 54rem;
+        padding-left: 0rem;
+    }
+    .abas__footer{
+        padding-left: 0%;
+    }
+    @keyframes movimenta-titulo-1 {
+        0%{
+            position: relative;
+            right: 10%;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            right: 350%;
+        }  
+    }
+    
+    @keyframes movimenta-titulo-2 {
+        0%{
+            position: relative;
+            left: -350%;
+        }
+        35%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            left: 10%;
+        }  
+    }
 
+    .newsletter{
+        background-position-y: top;
+        background-position-x: 2.7rem;
+        padding-top: 31.5rem;
+        background-size: 28rem 28rem;
+
+        height: 47rem;
+    }
+
+    .rodape{
+        height: 71.5rem;
+    }
+
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 57rem;
+    }
+    .secao__titulo___rodape{
+        padding-left: 0%;
+    }
+    .container__abas{
+        padding-bottom: 9.125rem;
+    }
+
+    .titulo__rodape{
+        font-size: 60px;
+    }
+    .botao__talk___footer{
+        width: 60vw;
+    }
+
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size:var(--font-xs);
+    }
+    .aba{
+        height: 13.688rem;
+        width: 12.5rem
     }
     .secao__brand{
-        width: 80vw;
+        padding-top: 0;
+    }
+    .titulo__brand{
+        font-size: 20px;
     }
 }
 @media (min-width:1600px){

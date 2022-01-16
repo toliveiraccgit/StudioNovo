@@ -198,8 +198,8 @@
     }*/
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 4.5vw;
+        padding-right: 4.5vw;
         padding-top: 6.2rem;
 
         height: 43rem;
@@ -210,18 +210,17 @@
     }
     .item__lista___comentarios{
         margin-bottom: 6.938rem;
-        height: 24rem;
     }
     .cabecalho__comentarios{
         bottom: -1.35rem;
     }
     .container__carousel{
-        width: 83vw;
+        width: 91vw;
     }
     .comentario{
         font-size: var(--font-sm);
         padding-right: 0%;
-        width: 83vw;
+        width:91vw;
     }
     .icone__perfil___comentario{
         width: 2.5rem;
@@ -231,9 +230,12 @@
         font-size: 20px;
     }
     .container__botao___comentario{
-        width: 90vw;
+        width: 91vw;
         gap: 2rem;
         margin-top: 2rem;
+    }
+    .botao__anterior___comentario, .botao__proximo___comentario{
+        width: 44.5vw;
     }
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .secao__proximo-projeto{
@@ -309,8 +311,8 @@
         padding-top: 2rem;
         padding-bottom: 8.313rem;
     }
-    .link__redes-sociais{
-        visibility: hidden;
+    .container__ico___redes-sociais{
+        display: none;
     }
     .link__fim{
         margin-top: 4rem;
@@ -397,16 +399,9 @@
 
         height: 32.8rem;
     }
-    /*------------------------------COMENTARIO-------------------------------*/
-    .container__carousel{
-        height: 27rem;
-    }
+    /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
-        align-items: center;
-    }
-    .cabecalho__comentarios{
-        align-self: flex-start;
-        padding-left: 2.2rem;
+        padding-left: 2.5rem;
     }
     .botao__anterior___comentario, .botao__proximo___comentario{
         width: 47vw;
@@ -416,7 +411,10 @@
         height:54rem;
     }
     .item__lista___comentarios{
-        height: 22rem;
+        height: 21rem;
+    }
+    .container__carousel{
+        height: 26rem;
     }
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .container__titulo___proximo-projeto{
@@ -426,19 +424,95 @@
         height: 15.813rem;
         background-size: 100vw 15.813rem;
     }
-    /*----------------RODAPE--------------*/
-    .rodape{
-        height: 57rem;
+    /*------------------------------RODAPE-------------------------*/
+    .secao__titulo___rodape{
+        padding-left: 0%;
+        width: 90vw;
     }
     .secao__info___rodape{
-        padding: 0;
-        height: 44rem;
+        padding-left: 0rem;
+    }
+    .abas__footer{
+        padding-left: 0%;
+    }
+    @keyframes movimenta-titulo-1 {
+        0%{
+            position: relative;
+            right: 10%;
+        }
+        75%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            right: 350%;
+        }  
+    }
+    
+    @keyframes movimenta-titulo-2 {
+        0%{
+            position: relative;
+            left: -350%;
+        }
+        35%{
+            animation: paused;
+        }
+        100%{
+            position: relative;
+            left: 10%;
+        }  
+    }
+
+    .newsletter{
+        background-position-y: top;
+        background-position-x: 2.7rem;
+        padding-top: 31.5rem;
+        background-size: 28rem 28rem;
+
+        height: 47rem;
+    }
+
+    .rodape{
+        height: 71.5rem;
+    }
+
+    .secao__info___rodape{
+        padding-bottom: 0%;
+        margin-bottom: 3rem;
+        height: 57rem;
+    }
+    .secao__titulo___rodape{
+        padding-left: 0%;
+    }
+    .container__abas{
+        padding-bottom: 9.125rem;
+    }
+
+    .titulo__rodape{
+        font-size: 60px;
+    }
+    .botao__talk___footer{
+        width: 60vw;
+    }
+
+    .titulo__aba{
+        font-size: var(--font-sm);
+    }
+    .item__aba{
+        font-size:var(--font-xs);
+    }
+    .aba{
+        height: 13.688rem;
+        width: 12.5rem
+    }
+    .secao__brand{
+        padding-top: 0;
+    }
+    .titulo__brand{
+        font-size: 20px;
     }
 }
 @media (min-width:1024px) and (max-width:1355px){
-    .secao__comentarios{
-        padding-left: 8rem;
-    }
     .comentario{
         padding-right: 3.417rem
     }
@@ -496,6 +570,7 @@
      .secao__brand{
         width: 80vw;
     }
+    
     /*--------------------------MENU-PRINCIPAL-------------------------*/
     .imagem__menu-principal{
         width: 100vw;
