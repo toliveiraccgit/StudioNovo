@@ -16,122 +16,93 @@
     }
     /*-------------------------------BANNER--------------------------------*/
     .banner{
-        padding: 11rem 0 0 .938rem ;
-        margin-top:0%;
+        padding: 11.25rem 2.188rem 3.75rem 2.25rem;
+
+        gap: 1.875rem;
     }
     .titulo__banner{
-        font-size: 88px;
-        line-height: 100%;
-    }
-    /*-------------------------------MAPA--------------------------------*/
-    .mapa{
-        width: 100vw;
-        height: 22rem;
-
-        background-size: 140vw;
-
-        margin-top: 4.375rem;
-    }
-    /*-------------------------------INTRO--------------------------------*/
-    .intro{
-        padding-left: 0%;
-        padding-right: 0%;
-        padding-top: 7.5rem;
-
-        gap: 4.375rem;
-    }
-    .container__info___intro{
-        flex-direction: column;
-        gap: 0%;
-    }
-    .titulo__intro{
         font-size: 40px;
     }
-    .container__descricao___info{
-        width: 20.75rem;
+    /*--------------------------METODOLOGIA---------------------------*/
+    .metodologia{
+        padding: 3.75rem 0 3.688rem 0;
 
-        font-size: 16px;
-    }
-    .sub-descricao__intro, .descricao__intro{
-        display: none;
-    }
-    .descricao__mobile{
-        display: flex;
-    }
+        align-items: flex-start;
 
-    .banner__intro-1, .imagem__banner__intro-1{
-        width: 20.875rem;
-        height: 25.188rem;
     }
-    .banner__intro-2{
-        width: 90vw;
-        height: 51.125rem;
-
-        background-position-x: center, center, center;
-        background-position-y: top, 54.5%, bottom;
-        background-size: 20.938rem 16.375rem, 12.063rem 17.063rem, 20.875rem 13.375rem;
-
-        margin-top: 3.3rem;
-    }
-    /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
-    .do{
-        padding-top: 7.5rem;
-        gap: 4.375rem;
-    }
-    .container__info___do{
-        padding-left: 1.375rem;
-        width: 20.75rem;
-    }
-    .titulo__do{
-        font-size: 40px;
-    }
-    .descricao__do{
-        font-size: 16px;
-        line-height: var(--line-lg);
-    }
-    .banner__do{
-        width: 20.75rem;
-        height: 16.875rem;
-
+    .imagem__metodologia{
         background-image: url("../../Assets/SobreNos/banner-oquefazer-mobile.png");
-        background-size: 20.75rem 16.875rem;
         background-position-x: center;
-        background-position-y: center;
+
+        width: 90vw;
+        height: 15.25rem;
     }
-    .botao__explore{
-        display: none;
+    .container__lista___metodologia{
+        align-items: flex-start;
+        gap: 3.75rem;
+
+        margin-left: 1.813rem;
     }
-    /*-------------------------------TIME--------------------------------*/
-    .time{
-        padding-bottom: 9.063rem;
+    .titulo__metodologia{
+        font-size: var(--font-xs);
     }
-    .info__time{
-        padding-left: 1.375rem;
-    }
-    .titulo__info___time{
-        font-size: 40px;
-    }
-    .descricao__info___time{
-        display: none;
-    }
-    .time-studio{
+    .lista__metodologia{
         flex-direction: column;
+        gap: 3.75rem;
+
+        padding-left: 0%;
+        margin-top: 0%;    
     }
-    .time-studio-2, .time-studio-1{
-        display: none;
+    /*-----------------------NUMEROS-PROJETOS--------------------------*/
+    .secao__numeros-projeto{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.75rem;
+
+        padding: 3.75rem 10.813rem 3.75rem 1.375rem;
     }
-    .time-studio__mobile{
+    .titulo__numeros-projetos{
+        font-size: var(--font-xs);
+
+        align-self: flex-start;
+
+        margin-top: 0;
+        
+    }
+    .secao__numeros-projetos{
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+    .imagem__numeros-projeto{
+        width: 100vw;
+        height: 10.438rem;
+
+        background-size: 90vw 10.438rem;
+
+        margin-bottom: 3.75rem;
+    }
+    /*-----------------------INDUSTRIAS-------------------------*/
+    .industrias{
+        gap: 1.875rem;
+
+        padding: 0 2.75rem 0 1.3rem;
+    }
+    .titulo__industrias{
+        font-size: var(--font-xs);
+    }
+    .secao__cards___industrias{
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+    .container__card___industria{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 4.375rem;
+        gap: 1.875rem;
+
+        width: 19.313rem;
     }
-    .container__time-studio{
-        width: 20.688rem;
-    }
-    .imagem__time{
-        width: 20.688rem;
-        height: 26.438rem;
+    .titulo__card___industria{
+        font-size: var(--font-xs);
     }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
@@ -174,7 +145,6 @@
     .botao__anterior___comentario, .botao__proximo___comentario{
         width: 44.5vw;
     }
-    
     /*----------------------RODAPE----------------------*/
     .rodape{
         height: 67rem;
@@ -185,7 +155,7 @@
         flex-direction: column;
         border: none;
         padding-bottom: 0%;
-        padding-left: 1rem;
+        padding-left: 0;
     }
     .secao__titulo___rodape{
         flex-direction: column;
@@ -243,53 +213,63 @@
     .link__fim{
         margin-top: 4rem;
     }
+    
 }
 
 @media (min-width:768px) and (max-width:1024px){
     /*-------------------------------BANNER--------------------------------*/
     .titulo__banner{
-        font-size: var(--font-xl);
-    }
-    
-    /*-------------------------------MAPA--------------------------------*/
-    .mapa{
-        height: 40rem;
-    }
-    /*-------------------------------INTRO--------------------------------*/
-    .titulo__intro{
         font-size: var(--font-md);
     }
-    .descricao__mobile{
-        display: flex;
-        font-size: 20px;
-    }
-    /*-------------------------------DO--------------------------------*/
-    .container__info___do{
-        width: 21.75rem;
-    }
-    .titulo__do{
-        font-size: var(--font-md);
-    }
-    .descricao__do{
-        font-size: 20px;
-    }
-    .banner__do {
-        width: 43.75rem;
-        height: 31.875rem;
+    .imagem__metodologia{
         background-image: url("../../Assets/SobreNos/banner-oquefazer.png");
-        background-size: 43.75rem 31.875rem;
+        background-size: 35rem 22.25rem;
+
+        height: 22.25rem;
     }
-    /*-------------------------------TIME--------------------------------*/
-    .container__time-studio{
-        width: 32.688rem;
+    /*--------------------------METODOLOGIA---------------------------*/
+    .container__lista___metodologia {
+        align-items: flex-start;
+        gap: 4.75rem;
+        margin-left: 2.813rem;
     }
-    .imagem__time{
-        width: 32.688rem;
-        height: 36.438rem;
+    .titulo__metodologia{
+        font-size: var(--font-sm);
+    }
+    /*-----------------------NUMEROS-PROJETOS--------------------------*/
+    .secao__numeros-projeto{
+        gap: 3.75rem;
+
+        padding: 3.75rem 10.813rem 3.75rem 2.813rem;
+    }
+    .titulo__numeros-projetos{
+        font-size: var(--font-sm);
+    }
+    .secao__numeros-projetos{
+        flex-direction: row;
+        gap: 2.875rem;
+    }
+    .imagem__numeros-projeto{
+        height: 21.438rem;
+
+        background-size: 90vw 21.438rem;
+    }
+    /*-----------------------INDUSTRIAS-------------------------*/
+    .industrias{
+        gap: 3.75rem;
+
+        padding: 0 2.75rem 0 2.813rem;
+    }
+    .titulo__industrias{
+        font-size: var(--font-sm);
+    }
+    .secao__cards___industrias{
+        gap: 3.875rem;
+        height: 48rem;  
     }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
-        padding-left: 3.2rem;
+        padding-left: 2.813rem;
     }
     .botao__anterior___comentario, .botao__proximo___comentario{
         width: 47vw;
@@ -315,34 +295,6 @@
     .abas__footer{
         padding-left: 0%;
     }
-    @keyframes movimenta-titulo-1 {
-        0%{
-            position: relative;
-            right: 10%;
-        }
-        75%{
-            animation: paused;
-        }
-        100%{
-            position: relative;
-            right: 350%;
-        }  
-    }
-    
-    @keyframes movimenta-titulo-2 {
-        0%{
-            position: relative;
-            left: -350%;
-        }
-        35%{
-            animation: paused;
-        }
-        100%{
-            position: relative;
-            left: 10%;
-        }  
-    }
-
     .newsletter{
         background-position-y: top;
         background-position-x: 2.7rem;
@@ -393,10 +345,18 @@
     }
 
 }
+
 @media (min-width:1025px) and (max-width:1355px){
-    /*-------------------------------TIME--------------------------------*/
-    .time-studio{
-        gap: 9vw;
+    /*-----------------------INDUSTRIAS-------------------------*/
+    .industrias {
+        padding: 0 10.188rem 0 9.5rem;
+    }
+    .titulo__industrias{
+        font-size: var(--font-sm);
+    }
+    .secao__cards___industrias{
+        gap: 3.875rem;
+        height: 40rem; 
     }
     /*----------------------------COMENTARIO-----------------*/
     .comentario {
@@ -406,19 +366,27 @@
         height: 54rem;
     }
     /*-----------------------RODAPE----------------------------------*/
-    .secao__brand{
-        width: 80vw;
+    .secao__titulo___rodape {
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .secao__brand {
+        width: 78vw;
     }
 }
 
 @media (min-width:1600px) {
-    /*------------------------MAPA---------------------------*/
-    .mapa{
-        height: 71rem;
+    /*------------------NUMEROS-PROJETO-------------------*/
+    .secao__numeros-projeto {
+        padding: 8.125rem 12.5rem 8.125rem 12.5rem;
     }
-    .banner__intro-2{
-        width: 60.625rem;
-        height: 69.125rem;
+    /*-----------------------INDUSTRIAS-------------------------*/
+    .industrias {
+        padding: 0 12.5rem 0 12.5rem;
+    }
+    .secao__cards___industrias{
+        gap: 5.875rem;
     }
     /*-------------------------------COMENTARIO--------------------*/
     .secao__comentarios{
