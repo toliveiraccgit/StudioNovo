@@ -21,6 +21,14 @@
     #atarde-imagem__proximo-projeto{
         background-image: url("../../../Assets/Cases/Atarde/atarde-footer.png");
     }
+
+    .titulo__banner{
+        color: #02DF82;
+    }
+    /*------------------------NUMERO-PROJETOS-------------------------*/
+    .numero-projetos{
+        color: #02DF82;
+    }
 }
 @media (max-width:1024px){
     #imagem__banner___atarde{
