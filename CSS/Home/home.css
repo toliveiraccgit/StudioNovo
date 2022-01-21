@@ -282,7 +282,7 @@
         background-color: var(--low-pure);
     }
     .secao__we:hover{
-        cursor: url("/Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
+        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
     }
     .secao__muda-nome{
         display: flex;
