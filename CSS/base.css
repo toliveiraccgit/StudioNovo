@@ -85,6 +85,9 @@ html{
 }
 
 @keyframes animaInfo {
+    from{
+        opacity: 0;
+    }
     to{
         opacity: 1;
         transform: translateY(-10rem)
