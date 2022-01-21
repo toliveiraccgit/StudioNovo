@@ -177,11 +177,11 @@
     
     /*----------------------RODAPE----------------------*/
     .rodape{
-        height: 67rem;
+        height: auto;
         margin-top: 4rem;
     }
     .secao__info___rodape{
-        height: 55rem;
+        height: auto;
         flex-direction: column;
         border: none;
         padding-bottom: 0%;
@@ -224,7 +224,7 @@
         gap: 0%;
         border-bottom: 1px solid var(--low-pure);
         padding-bottom: 3.125rem;
-        margin-top: 3.5rem;
+        margin-top: 2.5rem;
     }
     .aba{
         height: 10.688rem;
