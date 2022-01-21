@@ -183,9 +183,6 @@
         display: flex;
         align-self: center;
     }
-    .botao__explore:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
-    }
     /*-------------------------------TIME--------------------------------*/
     .time{
         background-color: var(--low-pure);
@@ -245,8 +242,6 @@
     .time-studio__mobile{
         display: none;
     }
-
-    /*------------------------------COMENTARIO-------------------------------*/
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
         height: 56rem;
@@ -433,9 +428,6 @@
         padding-bottom: .5rem;
 
         border-bottom: 2px solid var(--low-pure);
-    }
-    .botao__talk___footer:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
     .redes__sociais___rodape{
         display: flex;

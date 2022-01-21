@@ -56,6 +56,10 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+::selection{
+    color: transparent;
+    user-select: none;
+}
 
 .ponto__red{
     color: var(--primary-medium);

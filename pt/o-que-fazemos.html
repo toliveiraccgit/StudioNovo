@@ -9,13 +9,12 @@
         <link rel="stylesheet" href="../CSS/OqueFazemos/oQueFazemos.css">
         <link rel="stylesheet" href="../CSS/OqueFazemos/oQueFazemosResponsivo.css">
         <link rel="stylesheet" href="../CSS/animacaoScroll.css">
-        <link rel="stylesheet" href="../CSS/loading.css">
         <link href="../CSS/reset.css" rel="stylesheet">
         <link href="../CSS/normalize.css" rel="stylesheet">
         <title>O Que Fazemos | Toliveira.cc</title>
     </head>
 
-    <body id="body">
+    <body id="body" onselectstart='return false'>
 
         <header class="cabecalho" id="navbar">
             <a href="../index.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
@@ -28,7 +27,7 @@
             </aside>
         </header>
 
-        <main class="conteudo" id="conteudo-loading">
+        <main class="conteudo">
 
             <section class="banner">
 
@@ -271,7 +270,7 @@
 
         </main>
 
-        <footer class="rodape" id="conteudo-loading-flex">
+        <footer class="rodape">
             <section class="secao__info___rodape">
                 <section class="secao__titulo___rodape anime">
                     <h10 class="titulo__rodape">
@@ -311,12 +310,7 @@
                 </div>
             </address>
         </footer>
-        <div class="loader" id="loading">
-
-            <img src="../Assets/Home/logo-grande.svg" alt="Logo Estúdio" class="logo-loader bounce">
-
-        </div>
-        <script src="../Componentes/index.js" type="module"></script>
+        <script src="../Componentes/moduleCaroussel.js" type="module"></script>
         <script src="../Componentes/navFixed.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
         <script>
@@ -379,19 +373,6 @@
                         }, 150);
                     });
                 });
-        </script>
-        <script>
-            // Just to simulates loading delay.
-            var i = setInterval(function () {
-            clearInterval(i);
-
-            // The desired code is only this:
-            document.getElementById("loading").style.display = "none";
-            document.getElementById("conteudo-loading").style.display = "block";
-            document.getElementById("conteudo-loading-flex").style.display = "flex";
-            document.getElementById("navbar").style.display = "flex";
-            
-            }, 3000);
         </script>
     </body>
 

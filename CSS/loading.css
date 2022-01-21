@@ -16,9 +16,6 @@
     align-items: center;
     justify-content: center;
 
-    overflow-y: hidden;
-    overflow-x: hidden;
-
     background-color: var(--high-pure);
     z-index: 200000;
 
@@ -45,6 +42,7 @@
     display: none;
     opacity: 0;
     animation: opacidadeLoading .6s ease-out forwards;
+    flex-direction: column;
 }
 #conteudo-loading-flex{
     display: none;

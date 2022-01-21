@@ -9,14 +9,13 @@
         <link rel="stylesheet" href="../CSS/Contato/contato.css">
         <link rel="stylesheet" href="../CSS/Contato/contatoResponsivo.css">
         <link rel="stylesheet" href="../CSS/animacaoScroll.css">
-        <link rel="stylesheet" href="../CSS/loading.css">
         <link href="../CSS/reset.css" rel="stylesheet">
         <link href="../CSS/normalize.css" rel="stylesheet">
         <title>Home | Toliveira.cc</title>
         <link rel="shortcut icon" href="../Assets/Home/logo-studio.svg" type="image/x-icon"/>
     </head>
     
-    <body id="body">
+    <body id="body" onselectstart='return false'>
         <header class="cabecalho"  id="navbar">
             <a href="../index.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
             <aside class="container__nav">
@@ -28,7 +27,7 @@
             </aside>
         </header>
         
-        <main class="conteudo" id="conteudo-loading">
+        <main class="conteudo">
             <section class="secao__banner">
 
                 <h1 class="titulo__banner">Olá! Tudo bem?</h1>
@@ -74,7 +73,7 @@
 
         </main>
         
-        <footer class="rodape" id="conteudo-loading-flex">
+        <footer class="rodape">
             <section class="secao__info___rodape">
                 <section class="secao__titulo___rodape anime">
                     <h10 class="titulo__rodape">
@@ -116,12 +115,8 @@
                 
             </address>
         </footer>
-        <div class="loader" id="loading">
-
-            <img src="../Assets/Home/logo-grande.svg" alt="Logo Estúdio" class="logo-loader bounce">
-
-        </div>
         <script src="../Componentes/navFixed.js" type="text/javascript"></script>
+        <script src="../Componentes/moduleCaroussel.js" type="module"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
         <script>
             // Adiciona a classe .js ao elemento HTML. Assim eu garanto que os elementos só serão escondidos caso o JavaScript esteja habilitado
@@ -183,19 +178,6 @@
                         }, 150);
                     });
                 });
-        </script>
-        <script>
-            // Just to simulates loading delay.
-            var i = setInterval(function () {
-            clearInterval(i);
-
-            // The desired code is only this:
-            document.getElementById("loading").style.display = "none";
-            document.getElementById("conteudo-loading").style.display = "block";
-            document.getElementById("conteudo-loading-flex").style.display = "flex";
-            document.getElementById("navbar").style.display = "flex";
-            
-            }, 3000);
         </script>
     </body>
 </html>
