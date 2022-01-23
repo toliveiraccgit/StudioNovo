@@ -1,0 +1,42 @@
+@media (min-width:0px){
+    /*------------------------------BANNER-------------------------------*/
+    #imagem__banner___atarde{
+        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-banner-cyrela-vivaz.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #atarde-imagem__numeros-projetos{
+        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-numeros-projetos-cyrela-vivaz.png");
+        background-repeat: no-repeat;
+    }
+    #atarde-imagem-did{
+        background-image:url("../../../Assets/Cases/Cyrela-Vivaz/imagem-1-sobre-projeto-cyrela-vivaz.png"), url("../../../Assets/Cases/Cyrela-Vivaz/imagem-2-sobre-projeto-cyrela-vivaz.png");
+    }
+    #atarde-imagem__sobre-projeto{
+        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-menu-principal-cyrela-vivaz.png");
+    }
+    #atarde-imagem__menu-principal{
+        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-menu-principal-cyrela-vivaz.png");
+    }
+    /*#atarde-imagem__proximo-projeto{
+        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/Frame\ 6275.png");
+    }*/
+
+    .titulo__banner{
+        color: #960064;
+    }
+    .titulo__sobre{
+        margin-top: 1.375rem;
+    }
+    /*------------------------NUMERO-PROJETOS-------------------------*/
+    .numero-projetos{
+        color: #960064;
+    }
+
+    #link__sobre-app-vivaz{
+        visibility: hidden;
+    }
+    .subtitulo__mobile{
+        display: none;
+    }
+}

@@ -16,7 +16,7 @@
     }
     /*-------------------------------BANNER--------------------------------*/
     .banner{
-        padding: 11rem 0 0 .938rem ;
+        padding: 11rem 0 0 0rem ;
         margin-top:0%;
 
         flex-direction: column;
@@ -43,7 +43,7 @@
     }
     /*------------------------------CLIENTES-PROJETOS-------------------*/
     .cliente-projetos{
-        padding-left: 2rem;
+        padding-left: 1.25rem;
         padding-right: 1.5rem;
 
         padding-top: 3.563rem;
@@ -69,8 +69,8 @@
     }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
-        padding-left: 4.5vw;
-        padding-right: 4.5vw;
+        padding-left:  5vw;
+        padding-right: 5vw;
         padding-top: 6.2rem;
 
         height: 43rem;
@@ -119,7 +119,7 @@
         flex-direction: column;
         border: none;
         padding-bottom: 0%;
-        padding-left: 1rem;
+        padding-left: 0;
     }
     .secao__titulo___rodape{
         flex-direction: column;

@@ -109,7 +109,7 @@
     }
     .container__card___cliente-projetos{
         width: 25vw;
-        height: 15.125rem;
+        height: 16.125rem;
 
         display: flex;
         flex-direction: column;
@@ -119,6 +119,9 @@
     }
     .container__card___cliente-projetos:hover{
         cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+    }
+    .container__info{
+        height: 12.828rem;
     }
     .titulo__card___cliente-projeto{
         font-family: var(--heading-cabinet);
@@ -147,15 +150,17 @@
         background-position-x: 100%;
 
     }
+    .botao__case___cliente-projeto:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+    }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 56rem;
-
+        height: 43rem;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-top: 15.938rem;
+        padding-top: 1.938rem;
         padding-left: 10rem;
         padding-right: 9.5rem;
         background-color: var(--high-pure);

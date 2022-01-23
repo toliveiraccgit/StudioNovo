@@ -230,16 +230,16 @@
     }
 
     .newsletter{
-        background-position-y: 8rem;
+        background-position-y: -2rem;
         background-position-x: center;
+        
         padding-right: 0%;
         padding-left: 0%;
         padding-bottom: 0%;
-        padding-top: 42.5rem;
-
-        background-size:20.938rem 40.125rem ;
-
-        height: 57.5rem;
+        padding-top: 32.5rem;
+        
+        background-size: 20.938rem 40.125rem;
+        height: auto;
     }
     .subscribe{
         margin-left: 0%;
@@ -266,7 +266,7 @@
         flex-direction: column;
         border: none;
         padding-bottom: 0%;
-        padding-left: 1rem;
+        padding-left: 0;
     }
     .secao__titulo___rodape{
         flex-direction: column;

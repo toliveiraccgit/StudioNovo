@@ -137,10 +137,10 @@
     }
     .imagem__did{
         width: 90vw;
-        height: 15.8rem;
+        height: 23.8rem;
 
         padding-bottom: 4.387rem;
-        background-size: auto;
+        background-size: 90vw 20.313rem;
     }
     /*---------------------------SOBRE-PROJETO--------------------------*/
     .secao__sobre-projeto{
@@ -167,6 +167,8 @@
     .imagem__sobre-projeto{
         width: 90vw;
         height: 15.8rem;
+
+        background-size: 90vw 12.313rem;
     }
     /*--------------------------MENU-PRINCIPAL-------------------------*/
     .secao__menu-principal{
