@@ -8,31 +8,109 @@
         <link rel="stylesheet" href="../CSS/Works/trabalhos.css">
         <link rel="stylesheet" href="../CSS/Works/trabalhoResponsivo.css">
         <link rel="stylesheet" href="../CSS/animacaoScroll.css">
+        <link rel="stylesheet" href="../CSS/menu.css">
         <link href="../CSS/reset.css" rel="stylesheet">
         <link href="../CSS/base.css" rel="stylesheet">
         <link href="../CSS/normalize.css" rel="stylesheet">
-        <title>Clientes e Projetos | Toliveira.cc</title>
+        <title>Trabalhos | Toliveira.cc</title>
     </head>
     
     <body id="body" onselectstart='return false'>
         
-        <header class="cabecalho" id="navbar">
+        <header class="cabecalho"  id="navbar">
             <a href="../index.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
             <aside class="container__nav">
-                <button class="traducao__pagina">EN</button>
-                <button class="container__menu">
-                    <img class="icone__menu" src="../Assets/Home/line-menu.svg" alt="Menu">
-                    <img class="icone__menu" src="../Assets/Home/line-menu.svg" alt="Menu">
-                </button>
+
+                <div class="container__traducao-pagina">
+
+                    <a href="./index.html" class="traducao-pagina-pt">PT</a>
+                    <p class="traducao-pagina-en">EN</p>
+
+                </div>
+                
+                <div class="container__botao___menu" id="botao__hamburguer">
+
+                    <h1 class="titulo__menu">MENU</h1>
+
+                    <button class="container__menu">
+                        <img class="icone__menu" src="../Assets/Home/line-menu.svg" alt="Menu">
+                        <img class="icone__menu" src="../Assets/Home/line-menu.svg" alt="Menu">
+                    </button>
+
+                </div>
             </aside>
         </header>
-        <main class="conteudo">
-            <div class="container__lets-talk">
-                <a href="./contato.html" class="lets-talk"><img class="imagem__lets-talk" src="../Assets/Interações/GetInTouch/lets-talk-pt.svg" alt="Entrar em Contat"></a>
+
+        <section class="menu__aberto" id="menu-aberto">
+
+            <div class="cabecalho__navegacao___menu-aberto" id="animacao__menu-opacity">
+
+                <img src="../Assets/Home/logo-studio-white.svg" alt="Logo Estúdio" class="logo__studio-branco">
+
+                <button class="botao__fecha___menu-aberto" id="botao-fecha-menu">FECHAR</button>
+
             </div>
 
+            <nav class="secao__link-menu" id="animacao__menu-opacity">
+
+                <a href="../index.html" class="link__menu-aberto">HOME</a>
+                <a href="./sobre-nos.html" class="link__menu-aberto" >QUEM SOMOS</a>
+                <a href="./o-que-fazemos.html" class="link__menu-aberto">O QUE FAZEMOS</a>
+                <a href="./trabalhos.html" class="link__menu-aberto" id="link__atual">TRABALHOS</a>
+
+            </nav>
+
+            <section class="secao__cards___industrias-menu" id="animacao__menu-opacity">
+
+                <div class="container__card___industria anime">
+
+                    <h8 class="titulo__card___industria-menu">Fintech</h8>
+
+                    <p class="descricao__card___industria-menu">Apple, <span class="destaque__underline-menu">YouTube</span>, Mailchimp, Google, Amazon, Mozilla</p>
+
+                </div>
+
+                <div class="container__card___industria-menu anime">
+
+                    <h8 class="titulo__card___industria-menu">Martech</h8>
+
+                    <p class="descricao__card___industria-menu">Apple, <span class="destaque__underline">YouTube</span>, Mailchimp, Google, Amazon, Mozilla</p>
+
+                </div>
+
+                <div class="container__card___industria-menu anime">
+
+                    <h8 class="titulo__card___industria-menu">RetailTech</h8>
+
+                    <p class="descricao__card___industria-menu">Apple, <span class="destaque__underline-menu">YouTube</span>, Mailchimp, Google, Amazon, Mozilla</p>
+
+                </div>
+
+            </section>
+
+            <a href="./pt/contato.html" class="link__menu-aberto-contato" id="animacao__menu-opacity">CONTATO</a>
+
+            <section class="rodape__menu-aberto" id="animacao__menu-opacity">
+
+                <div class="container__localizacao-menu">
+                    <h1 class="titulo__localizacao-menu">Localização</h1>
+                    <p class="localizacao-menu">Bahia, Brazil</p>
+                </div>
+
+                <div class="container__ico___redes-sociais">
+                    
+                    <a href="https://www.linkedin.com/company/toliveira-cc/" class="link__redes-sociais"><img class="icone__redes" src="../Assets/Social Media/linkedin-ico-white.svg" alt="Link Linkedin"></a>
+                    <a href="https://www.instagram.com/toliveira.cc/" class="link__redes-sociais"><img class="icone__redes" src="../Assets/Social Media/instagram-ico-white.svg" alt="Link Instagram"></a>
+                    <a href="https://dribbble.com/toliveiracc" class="link__redes-sociais"><img class="icone__redes" src="../Assets/Social Media/dribbble-ico-white.svg" alt="Link Dribbble"></a>
+                
+                </div>
+            </section>
+        
+        </section>
+
+        <main class="conteudo">
             <section class="banner">
-                <h1 class="titulo__banner">Clientes & Cases</h1>
+                <h1 class="titulo__banner">Trabalhos</h1>
                 
                 <div class="container__descricao">
                     <p class="descricao__banner">We've partnered with everyone from early-stage startups to Fortune 100 companies.</p>
@@ -305,7 +383,7 @@
                             <h11 class="titulo__aba">O estúdio</h11>
                             <a href="./sobre-nos.html" class="item__aba">Sobre o estúdio</a>
                             <a href="./o-que-fazemos.html" class="item__aba">O que fazemos</a>
-                            <a href="./clientes.html" class="item__aba">Clientes e Projetos</a>
+                            <a href="./trabalhos.html" class="item__aba">Trabalhos</a>
                             <a href="./contato.html" class="item__aba">Contato</a>
                         </li>
                         <li class="aba">
@@ -331,6 +409,7 @@
         
         <script src="../Componentes/navFixed.js" type="text/javascript"></script>
         <script src="../Componentes/moduleCaroussel.js" type="module"></script>
+        <script src="../Componentes/index.js" type="module"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
         <script>
             // Adiciona a classe .js ao elemento HTML. Assim eu garanto que os elementos só serão escondidos caso o JavaScript esteja habilitado

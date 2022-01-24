@@ -1,6 +1,9 @@
 import { Animacoes } from "./animacoes.js";
 import { Scroll } from "./tituloScrol.js"
 
+import { AbreMenu } from "./menuComponente.js";
+
+new AbreMenu()
 
 window.onload = () => {
     const animaVideo = new Animacoes()
@@ -10,7 +13,3 @@ window.onload = () => {
     document.addEventListener('scroll', scroll.scrollTitulo.bind(scroll))   
 }
 new Animacoes()
-
-import { AbreMenu } from "./menuComponente.js";
-
-new AbreMenu()

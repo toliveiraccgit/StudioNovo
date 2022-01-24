@@ -21,6 +21,7 @@
     }
     .container__nav{
         display: flex;
+        gap: 7.125rem;
         background-color: var(--high-pure);
         transition: all .4s ease-in-out;
     }
@@ -37,11 +38,34 @@
         background-color: var(--high-pure);
         transition: all .4s ease-in-out;
     }
-    .traducao__pagina{
-        border: none;
-        background-color: transparent;
-        
-        margin-right: 3.438rem;
+    .container__botao___menu{
+        display: flex;
+        flex-direction: row;
+        gap: 0.813rem;
+    }
+    .titulo__menu{
+        font-family: var(--paragraph-satoshi);
+        font-weight: 500;
+        font-size: 16px;
+
+        margin: 0%;
+        margin-top: .9rem;
+
+        cursor: pointer;
+    }
+    .container__traducao-pagina{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    .traducao-pagina-pt{
+        color: var(--low-pure);
+
+        font-weight: 500;
+    }
+    .traducao-pagina-en{
+        color: var(--high-dark);
 
         font-weight: 500;
     }

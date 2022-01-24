@@ -7,8 +7,7 @@
         width: 100vw;
         height: 7rem;
         
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 2rem 9.5rem;
         
         font-family: var(--paragraph-satoshi);
 
@@ -17,15 +16,14 @@
         background-color: var(--high-pure);
         z-index: 1000;
         transition: all .4s ease-in-out;
+
+        opacity: 1;
     }
     .container__nav{
         display: flex;
+        gap: 7.125rem;
         background-color: var(--high-pure);
-
-        margin-right: 9.5rem;
-    }
-    .logo-studio{
-        margin-left: 9.5rem;
+        transition: all .4s ease-in-out;
     }
     .container__menu{
         display: flex;
@@ -38,24 +36,38 @@
         
         border: none;
         background-color: var(--high-pure);
+        transition: all .4s ease-in-out;
     }
-    .traducao__pagina{
-        border: none;
-        background-color: transparent;
-        
-        margin-right: 3.438rem;
+    .container__botao___menu{
+        display: flex;
+        flex-direction: row;
+        gap: 0.813rem;
+    }
+    .titulo__menu{
+        font-family: var(--paragraph-satoshi);
+        font-weight: 500;
+        font-size: 16px;
+
+        margin: 0%;
+        margin-top: .9rem;
+
+        cursor: pointer;
+    }
+    .container__traducao-pagina{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    .traducao-pagina-pt{
+        color: var(--low-pure);
 
         font-weight: 500;
     }
-    .container__lets-talk{
-        display: flex;
-        position: fixed;
-        width: 100vw;
-        justify-content: flex-end;
-        top: 8rem;
-        padding-right: 2rem;
-        padding-top: 0;
-        z-index: 22;
+    .traducao-pagina-en{
+        color: var(--high-dark);
+
+        font-weight: 500;
     }
     /*-------------------------------BANNER--------------------------------*/
     .banner{
