@@ -6,7 +6,7 @@
         height: 100vh;
         width: 100vw;
         
-        top: -64rem;
+        top: -100vh;
         bottom: 0%;
         z-index: 400000;
 
@@ -50,7 +50,7 @@
 
     @keyframes menuDown {
         from{
-            top: -64rem;
+            top: -100vh;
         }
         to{
             top: 0;
@@ -63,7 +63,7 @@
         }
         to{
             
-            top: -64rem;
+            top: -100vh;
         }
     }
     /*----------------LINKS-MENU---------------*/
@@ -188,5 +188,72 @@
     #animacao__menu-opacity{
        animation: opacidadeMenu .5s ease-in-out forwards;
     }
+    .container__ico___redes-sociais-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 1.188rem;
+    }
+    .link__redes-sociais-menu{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@media (max-width:1024px){
+    /*----------------CABECALHO-MENU---------------*/
+    .menu__aberto{
+        padding-top: 1.25rem;
+        padding-bottom: 4.25rem;
+        padding-left: 1.25rem;
+        padding-right: 2.438rem;
+    }
+    .botao__fecha___menu-aberto{
+        font-size: 12px;
+    }
+    /*----------------LINKS-MENU---------------*/
+    .secao__link-menu{
+        gap: 2.188rem;
 
+        width: 15.188rem;
+        
+        padding-top: 4.875rem;
+        padding-bottom: 2.188rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .link__menu-aberto{
+        font-size: 30px;
+    }
+    /*----------------CARDS-INDUSTRIAS-MENU---------------*/
+    .secao__cards___industrias-menu{
+        display: none;
+    }
+    /*----------------LINK-CONTATO-MENU---------------*/
+    .link__menu-aberto-contato{
+        font-size: 30px;
+        margin-left: 0%;
+    }
+    .link__menu-aberto-contato:hover{
+        color: var(--high-pure);
+
+        transition: all .1s ease-out;
+    }
+    /*----------------RODAPE-MENU---------------*/
+    .rodape__menu-aberto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 4.875rem;
+
+        padding-top: 4.875rem;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .titulo__localizacao-menu{
+        font-size: 20px;
+    }
+    .localizacao-menu{
+        font-size: 25px;
+    }
 }
