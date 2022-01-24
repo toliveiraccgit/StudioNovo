@@ -16,6 +16,8 @@
         background-color: var(--high-pure);
         z-index: 1000;
         transition: all .4s ease-in-out;
+
+        opacity: 1;
     }
     .container__nav{
         display: flex;

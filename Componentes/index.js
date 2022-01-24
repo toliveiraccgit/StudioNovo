@@ -10,3 +10,7 @@ window.onload = () => {
     document.addEventListener('scroll', scroll.scrollTitulo.bind(scroll))   
 }
 new Animacoes()
+
+import { AbreMenu } from "./menuComponente.js";
+
+new AbreMenu()

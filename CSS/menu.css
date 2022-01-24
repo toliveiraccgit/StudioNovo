@@ -1,0 +1,192 @@
+@media (min-width:0px){
+    /*----------------CABECALHO-MENU---------------*/
+    .menu__aberto{
+        position: fixed;
+
+        height: 100vh;
+        width: 100vw;
+        
+        top: -64rem;
+        bottom: 0%;
+        z-index: 400000;
+
+        background-color: var(--low-pure);
+
+        padding-top: 3.375rem;
+        padding-bottom: 4.688rem;
+        padding-left: 4.375rem;
+        padding-right: 4.375rem;
+
+        overflow-y:scroll;
+        overflow-x:scroll;
+
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+        overscroll-behavior: contain;
+    }
+    .menu__aberto::-webkit-scrollbar{
+        display: none;
+    }
+    #menu-aberto{
+        overflow-y:scroll;
+        overflow-x:scroll;
+    }
+    .cabecalho__navegacao___menu-aberto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .botao__fecha___menu-aberto{
+        border: none;
+        background-color: transparent;
+
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--bold);
+        font-size: 15px;
+        color: var(--high-pure);
+    }
+
+    @keyframes menuDown {
+        from{
+            top: -64rem;
+        }
+        to{
+            top: 0;
+        }
+    }
+
+    @keyframes menuUp{
+        from{
+            top: 0;
+        }
+        to{
+            
+            top: -64rem;
+        }
+    }
+    /*----------------LINKS-MENU---------------*/
+    .secao__link-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        width: 34.688rem;
+        
+        padding-top: 5.875rem;
+        padding-bottom: 3.938rem;
+        padding-left: 4.563rem;
+        padding-right: 4.375rem;
+
+    }
+    .link__menu-aberto{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--bold);
+        font-size: 50px;
+        color: var(--low-light);
+
+        transition: all .1s ease-out;
+    }
+    .link__menu-aberto:hover{
+        color: var(--high-pure);
+
+        transition: all .1s ease-out;
+    }
+    #link__atual{
+        color: var(--high-pure);
+    }
+    /*----------------CARDS-INDUSTRIAS-MENU---------------*/
+
+    .secao__cards___industrias{
+        display: flex;
+        flex-direction: row;
+        gap: 2.938rem;
+
+        padding-bottom: 3.938rem;
+        padding-left: 4.563rem;
+        padding-right: 4.375rem;
+
+    }
+    .container__card___industria{
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+
+        width: 21.459vw;
+    }
+    .titulo__card___industria{
+        font-size: var(--font-xs);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+
+        color: var(--high-pure);
+        padding: 0%;
+        margin: 0%;
+    }
+    .descricao__card___industria{
+        margin: 0%;
+
+        font-size: 19px;
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+
+        color: var(--high-pure);
+    }
+    .destaque__underline{
+        text-decoration: underline;
+    }
+    /*----------------LINK-CONTATO-MENU---------------*/
+    .link__menu-aberto-contato{
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--bold);
+        font-size: 50px;
+        color: var(--low-light);
+
+        transition: all .1s ease-out;
+
+        margin-left: 4.563rem;
+    }
+    .link__menu-aberto-contato:hover{
+        color: var(--high-pure);
+
+        transition: all .1s ease-out;
+    }
+    /*----------------RODAPE-MENU---------------*/
+    .rodape__menu-aberto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 6.375rem;
+        padding-left: 4.563rem;
+        padding-right: 4.375rem;
+
+    }
+    .container__localizacao-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 0.438rem;
+    }
+    .titulo__localizacao-menu{
+        font-family: var(--heading-cabinet);
+        font-size: 20px;
+
+        color: var(--low-medium);
+
+        margin: 0%;
+    }
+    .localizacao-menu{
+        font-family: var(--heading-cabinet);
+        font-size: 30px;
+
+        color: var(--high-pure);
+
+        margin: 0%;
+    }
+    #animacao__menu-opacity{
+       animation: opacidadeMenu .5s ease-in-out forwards;
+    }
+
+}
