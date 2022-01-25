@@ -86,3 +86,24 @@
         background-size: 100vw 21.375rem;
     }
 }
+
+@media (min-width:1600px){
+    #imagem__numeros-projetos{
+        background-size: 84vw 55.375rem;
+    }
+    #imagem-did{
+        height: 62.75rem;
+        background-size: 84vw 55.375rem;        
+    }
+    #imagem__sobre-projeto{
+        height: 60.75rem;
+        background-size: 84vw 53.375rem;
+    }
+    #imagem__menu-principal{
+        height: 60.75rem;
+        background-size: 100vw 53.375rem;
+    }
+    #imagem__proximo-projeto {
+        background-size: 100vw 27.375rem;
+    }
+}

@@ -53,19 +53,17 @@
 
 }
 
-@media (min-width:1024px){
+@media (min-width:1600px){
+    #atarde-imagem__numeros-projetos{
+        background-size: 84vw 55.375rem;
+    }
     #atarde-imagem-did{
-        height: 45.75rem;
-
-        background-position-x: center;
-        background-size: 81vw 39.75rem;
+        height: 62.75rem;
+        background-size: 84vw 55.375rem;        
     }
     #atarde-imagem__sobre-projeto{
-        height: 45rem;
-
-        background-repeat: no-repeat;
-        background-position-x: left, right;
-        background-size: 35rem 36.75rem, 35rem 36.75rem;
+        width: 50vw;
+        height: 57.75rem;
+        background-size: 50vw 50rem;
     }
-
 }
