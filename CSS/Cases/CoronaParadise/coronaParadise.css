@@ -1,0 +1,85 @@
+@media (min-width:0px){
+    .titulo__banner{
+        color: #ffc72c;
+    }
+    .numero-projetos {
+        color: #ffc72c;
+    }
+    #imagem-did{
+        width: 80vw;
+        height: auto;
+    }
+    #imagem-sobre-projeto{
+        width: 80vw;
+        height: auto;
+    }
+    #imagem-banner{
+        width: 100vw;
+        height: auto;
+    }
+    .container__imagem-numeros{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #imagem-numeros{
+        width: 80vw;
+        height: auto;
+
+        display: flex;
+        align-self: center;
+    }
+    #imagem__menu-principal{
+        width: 100vw;
+        height: auto;
+    }
+    #imagem-proximo-projeto{
+        width: 100vw;
+        height: auto;
+    }
+
+    #link__sobre-app-sell.it{
+        visibility: hidden;
+    }
+    .subtitulo__mobile{
+        display: none;
+    }
+}
+@media (max-width:1024px){
+    #imagem-did{
+        width: 90vw;
+        height: auto;
+    }
+    #imagem-sobre-projeto{
+        width: 90vw;
+        height: auto;
+    }
+    #imagem-banner{
+        width: 100vw;
+        height: auto;
+    }
+    #imagem-numeros{
+        width: 90vw;
+        height: auto;
+
+    }
+    #imagem__menu-principal{
+        width: 100vw;
+        height: auto;
+    }
+    #imagem-proximo-projeto{
+        width: 129vw;
+        height: auto;
+    }
+    .titulo__sobre{
+        margin-top: 1.375rem;
+    }
+    /*------------------------NUMERO-PROJETOS-------------------------*/
+    #link__sobre-app-vivaz{
+        visibility: hidden;
+    }
+    .subtitulo__mobile{
+        display: none;
+    }
+}
