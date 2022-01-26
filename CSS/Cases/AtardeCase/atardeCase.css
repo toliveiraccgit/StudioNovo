@@ -42,6 +42,12 @@
     }
     #atarde-imagem-did{
         background-image:url("../../../Assets/Cases/Atarde/atarde-o-que-fizemos-1-mobile.png"), url("../../../Assets/Cases/Atarde/atarde-o-que-fizemos-2-mobile.png");
+
+        height: 17.8rem;
+
+        background-repeat: no-repeat;
+        background-position-x: left, right;
+        background-size: 45vw auto, 45vw auto;
     }
     #atarde-imagem__sobre-projeto{
         background-image: url("../../../Assets/Cases/Atarde/atarde-sobre-projeto-mobile.png");

@@ -1,27 +1,43 @@
 @media (min-width:0px){
-    /*------------------------------BANNER-------------------------------*/
-    #imagem__banner{
-        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-banner-cyrela-vivaz.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #imagem__numeros-projetos{
-        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-numeros-projetos-cyrela-vivaz.png");
-        background-repeat: no-repeat;
+    .container__imagem-sobre-projeto{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        gap: 1rem;
+
+        border-bottom: 1px solid #C4C4C4;
     }
     #imagem-did{
-        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-o-que-fizemos-cyrela-vivaz.png");
+        width: 79.2vw;
+        height: auto;
     }
-    #imagem__sobre-projeto{
-        background-image:url("../../../Assets/Cases/Cyrela-Vivaz/imagem-1-sobre-projeto-cyrela-vivaz.png"), url("../../../Assets/Cases/Cyrela-Vivaz/imagem-2-sobre-projeto-cyrela-vivaz.png");
+    #imagem-sobre-projeto{
+        width: 38.5vw;
+        height: auto;
+    }
+    #imagem-banner{
+        width: 100vw;
+        height: auto;
+    }
+    .container__imagem-numeros{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #imagem-numeros{
+        width: 79.2vw;
+        height: auto;
+
     }
     #imagem__menu-principal{
-        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-menu-principal-cyrela-vivaz.png");
+        width: 100vw;
+        height: auto;
     }
-    /*#atarde-imagem__proximo-projeto{
-        background-image: url("../../../Assets/Cases/Cyrela-Vivaz/Frame\ 6275.png");
-    }*/
-
+    #imagem-proximo-projeto{
+        width: 100vw;
+        height: auto;
+    }
     .titulo__banner{
         color: #960064;
     }
@@ -40,34 +56,41 @@
         display: none;
     }
 }
+
 @media (max-width:1024px){
     #imagem-did{
-        height: 16.8rem;
+        width: 90vw;
+        height: auto;
+    }
+    #imagem-sobre-projeto{
+        width: 43.5vw;
+        height: auto;
+    }
+    #imagem-banner{
+        width: 100vw;
+        height: auto;
+    }
+    #imagem-numeros{
+        width: 90vw;
+        height: auto;
 
-        background-size: 90vw 13.313rem;
-    }
-    #imagem__sobre-projeto{
-        height: 24.8rem;
-        background-size: 90vw 21.313rem;
-    }
-
-}
-
-@media (min-width:1600px){
-    #imagem__numeros-projetos{
-        background-size: 84vw 55.375rem;
-    }
-    #imagem-did{
-        height: 62.75rem;
-        background-size: 84vw 55.375rem;        
-    }
-    #imagem__sobre-projeto{
-        width: 58vw;
-        height: 72.75rem;
-        background-size: 58vw 65rem;
     }
     #imagem__menu-principal{
-        height: 45.375rem;
-        background-size: 100vw 45.375rem;
+        width: 100vw;
+        height: auto;
+    }
+    #imagem-proximo-projeto{
+        width: 129vw;
+        height: auto;
+    }
+    .titulo__sobre{
+        margin-top: 1.375rem;
+    }
+    /*------------------------NUMERO-PROJETOS-------------------------*/
+    #link__sobre-app-vivaz{
+        visibility: hidden;
+    }
+    .subtitulo__mobile{
+        display: none;
     }
 }

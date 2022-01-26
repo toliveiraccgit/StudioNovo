@@ -177,13 +177,6 @@
 
         opacity: 0.7;
     }
-    .imagem__numeros-projeto{
-        width: 100vw;
-        height: 45.375rem;
-
-        background-position-x: center;
-        background-size: 81vw 41.375rem;
-    }
     /*----------------------------DID------------------------*/
     .secao__did{
         display: flex;
@@ -227,15 +220,8 @@
         list-style-type: disc;
     }
     .imagem__did{
-        width: 71rem;
-        height: 44.75rem;
-
         display: flex;
         align-self: center;
-
-        background-repeat: no-repeat;
-        background-position-x: left, right;
-        background-size: 35rem 36.75rem, 35rem 36.75rem;
 
         padding-bottom: 8.125rem;
         border-bottom: 1px solid #C4C4C4;
@@ -278,16 +264,10 @@
         opacity: 0.7;
     }
     .imagem__sobre-projeto{
-        width: 71rem;
-        height: 48.375rem;
-
         display: flex;
         align-self: center;
 
-        background-repeat: no-repeat;
-
         padding-bottom: 8.125rem;
-        border-bottom: 1px solid #C4C4C4;
     }
     /*--------------------------MENU-PRINCIPAL-------------------------*/
     .secao__menu-principal{
@@ -326,15 +306,8 @@
         opacity: 0.7;
     }
     .imagem__menu-principal{
-        width: 100vw;
-        height: 40.375rem;
-
         display: flex;
         align-self: center;
-
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-size: 100vw 40.375rem;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
@@ -499,15 +472,8 @@
         color: var(--low-pure);
     }
     .imagem__proximo-projeto{
-        width: 100vw;
-        height: 21.375rem;
-
         display: flex;
         align-self: center;
-
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-size: 100vw 21.375rem;
     }
     /*-------------------------------RODAPE--------------------------------*/
     .rodape{

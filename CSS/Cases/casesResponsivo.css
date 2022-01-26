@@ -49,9 +49,6 @@
 
         opacity: .8;
     }
-    .imagem__banner{
-        height: 13.75rem;
-    }
     /*--------------------------SOBRE-PROJETO---------------------------*/
     .secao__sobre{
         flex-direction: column;
@@ -107,10 +104,6 @@
     .numero-projetos{
         font-size: var(--font-lg);
     }
-    .imagem__numeros-projeto{
-        height: 12.313rem;
-        background-size: 90vw 12.313rem;
-    }
     /*----------------------------DID------------------------*/
     .secao__did{
         gap: 4.375rem;
@@ -136,11 +129,7 @@
         opacity: 0.7;
     }
     .imagem__did{
-        width: 90vw;
-        height: 23.8rem;
-
-        padding-bottom: 4.387rem;
-        background-size: 90vw 20.313rem;
+        padding-bottom: 4.125rem;
     }
     /*---------------------------SOBRE-PROJETO--------------------------*/
     .secao__sobre-projeto{
@@ -163,12 +152,6 @@
         line-height: 150%;
 
         margin: 0%;
-    }
-    .imagem__sobre-projeto{
-        width: 90vw;
-        height: 15.8rem;
-
-        background-size: 90vw 12.313rem;
     }
     /*--------------------------MENU-PRINCIPAL-------------------------*/
     .secao__menu-principal{
@@ -249,11 +232,6 @@
         padding-left: 1.25rem;
         padding-right: 0%;
     }
-    .imagem__proximo-projeto{
-        width: 100vw;
-        height: 11.813rem;
-        background-size: 100vw 11.813rem;
-    }
     /*----------------------RODAPE----------------------*/
     .rodape{
         height: auto;
@@ -327,7 +305,7 @@
 @media (min-width:768px) and (max-width:1024px){
     /*-------------------------------BANNER--------------------------------*/
     .titulo__banner{
-        font-size: var(--font-xl);
+        font-size: var(--font-lg);
     }
     .descricao__banner{
         font-size: var(--font-xs);
@@ -366,10 +344,6 @@
     .descricao__numero-projetos{
         font-size: 20px;
     }
-    .imagem__numeros-projeto{
-        height: 25.313rem;
-        background-size: 90vw 25.313rem;
-    }
     /*----------------------------DID------------------------*/
     .titulo__did{
         font-size: var(--font-md);
@@ -381,12 +355,6 @@
     .item__lista___did{
         font-size: 20px;
     }
-    .imagem__did{
-        background-size: 33vw 19rem, 33vw 19rem;
-        background-image: url("../../Assets/Cases/Atarde/atarde-o-que-fizemos-1-mobile.png"), url("../../Assets/Cases/Atarde/atarde-o-que-fizemos-2-mobile.png");
-
-        height: 22.8rem;
-    }
      /*---------------------------SOBRE-PROJETO--------------------------*/
     .titulo__sobre-projeto{
         font-size: var(--font-md); 
@@ -394,12 +362,6 @@
     .descricao__sobre-projeto{
         font-size: 20px;
         width: 41.375rem;
-    }
-    .imagem__sobre-projeto{
-        background-size: 90vw 27rem;
-        background-image: url("../../Assets/Cases/Atarde/atarde-sobre-projeto.png");
-
-        height: 32.8rem;
     }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
@@ -421,10 +383,6 @@
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .container__titulo___proximo-projeto{
         padding-left: 2.5rem;
-    }
-    .imagem__proximo-projeto {
-        height: 15.813rem;
-        background-size: 100vw 15.813rem;
     }
     /*------------------------------RODAPE-------------------------*/
     .secao__titulo___rodape{
@@ -526,25 +484,11 @@
 }
 @media (min-width:1600px) {
     /*-----------------------NUMEROS-PROJETOS--------------------------*/
-    .imagem__numeros-projeto{
-        height: 50.375rem;
-        background-size: 75vw 50.375rem;
-    }
-    /*----------------------------DID------------------------*/
-    .imagem__did{
-        width: 83vw;
-        height: 46.75rem;
-        background-size: 38rem 38.75rem, 38rem 38.75rem;
-        background-position-x: 9%, 91%;
 
-    }
+    /*----------------------------DID------------------------*/
+
     /*---------------------------SOBRE-PROJETO--------------------------*/
-    .imagem__sobre-projeto{
-        width: 83vw;
-        height: 52.375rem;
-        background-size: 87rem 45rem;
-        background-position-x: center;
-    }
+
     /*-----------------------RODAPE----------------------------------*/
     .secao__brand{
         width: 87rem;
@@ -561,11 +505,7 @@
     .link__proximo-projeto:hover{
         cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
-    .imagem__proximo-projeto{
-        height: 26.375rem;
-        background-size: 100vw 28.125rem;
-    }
-    /*-----------------------RODAPE----------------------------------*/
+----------------------RODAPE----------------------------------*/
     .secao__info___rodape{
         width: 80vw;
      }
@@ -574,10 +514,5 @@
     }
     
     /*--------------------------MENU-PRINCIPAL-------------------------*/
-    .imagem__menu-principal{
-        width: 100vw;
-        height: 32.8rem;
-        background-size: 100vw 32.8rem;
-    }
 
 }
