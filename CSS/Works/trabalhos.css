@@ -133,7 +133,7 @@
         cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
     .container__info{
-        height: 12.828rem;
+        height: 13.828rem;
     }
     .titulo__card___cliente-projeto{
         font-family: var(--heading-cabinet);

@@ -1,21 +1,21 @@
 @media (min-width:0px){
     /*------------------------------BANNER-------------------------------*/
-    #imagem__banner___atarde{
+    #imagem__banner{
         background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-banner-cyrela-vivaz.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
-    #atarde-imagem__numeros-projetos{
+    #imagem__numeros-projetos{
         background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-numeros-projetos-cyrela-vivaz.png");
         background-repeat: no-repeat;
     }
-    #atarde-imagem-did{
+    #imagem-did{
         background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-o-que-fizemos-cyrela-vivaz.png");
     }
-    #atarde-imagem__sobre-projeto{
+    #imagem__sobre-projeto{
         background-image:url("../../../Assets/Cases/Cyrela-Vivaz/imagem-1-sobre-projeto-cyrela-vivaz.png"), url("../../../Assets/Cases/Cyrela-Vivaz/imagem-2-sobre-projeto-cyrela-vivaz.png");
     }
-    #atarde-imagem__menu-principal{
+    #imagem__menu-principal{
         background-image: url("../../../Assets/Cases/Cyrela-Vivaz/imagem-menu-principal-cyrela-vivaz.png");
     }
     /*#atarde-imagem__proximo-projeto{
@@ -41,12 +41,12 @@
     }
 }
 @media (max-width:1024px){
-    #atarde-imagem-did{
+    #imagem-did{
         height: 16.8rem;
 
         background-size: 90vw 13.313rem;
     }
-    #atarde-imagem__sobre-projeto{
+    #imagem__sobre-projeto{
         height: 24.8rem;
         background-size: 90vw 21.313rem;
     }
@@ -54,14 +54,14 @@
 }
 
 @media (min-width:1600px){
-    #atarde-imagem__numeros-projetos{
+    #imagem__numeros-projetos{
         background-size: 84vw 55.375rem;
     }
-    #atarde-imagem-did{
+    #imagem-did{
         height: 62.75rem;
         background-size: 84vw 55.375rem;        
     }
-    #atarde-imagem__sobre-projeto{
+    #imagem__sobre-projeto{
         width: 50vw;
         height: 57.75rem;
         background-size: 50vw 50rem;
