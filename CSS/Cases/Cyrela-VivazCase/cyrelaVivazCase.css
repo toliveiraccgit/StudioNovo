@@ -62,8 +62,12 @@
         background-size: 84vw 55.375rem;        
     }
     #imagem__sobre-projeto{
-        width: 50vw;
-        height: 57.75rem;
-        background-size: 50vw 50rem;
+        width: 58vw;
+        height: 72.75rem;
+        background-size: 58vw 65rem;
+    }
+    #imagem__menu-principal{
+        height: 45.375rem;
+        background-size: 100vw 45.375rem;
     }
 }
