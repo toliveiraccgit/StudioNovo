@@ -16,9 +16,9 @@ export class AbreMenu{
         const menuAberto = this.menuAberto
         const menuFixo = this.menuFixo
         const conteudoMenu = this.conteudoMenu
-        menuAberto.style.animation = `menuDown .6s ease-in-out forwards`
+        menuAberto.style.animation = `menuDown .7s ease-in-out forwards`
         menuFixo.style.opacity = ` 0 `
-        conteudoMenu.style.animation = ` opacidadeMenu 1s ease-in-out forwards `
+        conteudoMenu.style.animation = ` opacidadeMenu 1.4s ease-in-out forwards `
 
     }
 
@@ -26,9 +26,9 @@ export class AbreMenu{
         const menuAberto = this.menuAberto
         const menuFixo = this.menuFixo
         const conteudoMenu = this.conteudoMenu
-        menuAberto.style.animation = `menuUp .6s ease-in-out backwards`
+        menuAberto.style.animation = `menuUp .7s ease-in-out backwards`
         menuFixo.style.opacity = ` 1 `
-        conteudoMenu.style.animation = ` opacidadeMenu .1s ease-in-out backwards `
+        conteudoMenu.style.animation = ` opacidadeMenu 1.4s ease-in-out backwards `
     }
 
 }

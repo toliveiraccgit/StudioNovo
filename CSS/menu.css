@@ -10,7 +10,7 @@
         bottom: 0%;
         z-index: 400000;
 
-        background-color: var(--low-pure);
+        
 
         padding-top: 3.375rem;
         padding-bottom: 4.688rem;
@@ -49,21 +49,25 @@
     }
 
     @keyframes menuDown {
-        from{
+        0%{
             top: -100vh;
+            background-color: var(--high-pure);
         }
-        to{
+        100%{
             top: 0;
+            background-color: var(--low-pure);
         }
     }
 
     @keyframes menuUp{
-        from{
+        0%{
             top: 0;
-        }
-        to{
             
+            background-color: var(--low-pure);
+        }
+        100%{
             top: -100vh;
+            background-color: var(--high-pure);
         }
     }
     /*----------------LINKS-MENU---------------*/
