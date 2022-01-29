@@ -80,7 +80,7 @@ export class Animacoes{
         this.video.controls = true
         this.video.volume = 0.4
         this.video.muted = false
-        this.botaoPlay.style.display = ' none '
+        this.botaoPlay.style.animation = ' animaBotaoPlay .2s ease-in-out forwards '
     }
 
     /*showBotao() {

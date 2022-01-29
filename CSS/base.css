@@ -83,7 +83,19 @@ html{
     z-index: 10;
 
 }
+@keyframes animaBotaoPlay {
+    0%{
+        display: block;
+        opacity: 1;
+        transform: scale(1.1)
+    }
+    100%{
+        display: none;
+        opacity: 0;
+        transform: scale(.9)
+    }
 
+}
 @keyframes animaInfo {
     0%{
         opacity: 0;
