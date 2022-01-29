@@ -132,6 +132,9 @@
     .container__card___cliente-projetos:hover{
         cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
+    .cliente-projetos:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+    }
     .container__info{
         height: 13.828rem;
     }
