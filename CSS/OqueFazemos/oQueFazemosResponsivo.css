@@ -123,12 +123,12 @@
         bottom: -1.35rem;
     }
     .container__carousel{
-        width: 92vw;
+        width: 90vw;
     }
     .comentario{
         font-size: var(--font-sm);
         padding-right: 0%;
-        width:92vw;
+        width:90vw;
     }
     .icone__perfil___comentario{
         width: 2.5rem;
@@ -138,7 +138,7 @@
         font-size: 20px;
     }
     .container__botao___comentario{
-        width: 92vw;
+        width: 90vw;
         gap: 2rem;
         margin-top: 2rem;
     }

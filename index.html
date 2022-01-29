@@ -17,6 +17,24 @@
         <link href="./CSS/normalize.css" rel="stylesheet">
         <title>Home | Toliveira.cc</title>
         <link rel="shortcut icon" href="./Assets/Home/logo-studio.svg" type="image/x-icon"/>
+        <style>
+            #mc_embed_signup input.mce_inline_error {
+            border-color: none;
+            }
+            .mce_inline_error {
+            background-color: transparent;
+            z-index: 1;
+            color: #131416;
+            }
+            #mc_embed_signup div.mce_inline_error {
+                margin: 0 0 1em 0;
+                padding: 5px 10px;
+                background-color: #FF1919;
+                font-weight: bold;
+                z-index: 1;
+                color: #fff;
+            }
+        </style>
     </head>
     
     <body id="body" ondragstart='return false'>
@@ -128,7 +146,7 @@
                 <section id="secao__video" class="secao__video">
                     <video loop preload="metadata" muted=true autoplay="autoplay" muted autoplay id="video-played__mobile" class="video-played"><source width="auto" height="auto" src="./Assets/Home/Demo-Reel-Studio.mp4" type="video/mp4"></video>
                     
-                    <button class="botao__play" id="botao-play"><img src="./Assets/Home/botao-play.png" alt="Botão Play" class="imagem__play"></button>
+                    <button class="botao__play" id="botao-play"><img src="./Assets/Home/botao-play.svg" alt="Botão Play" class="imagem__play"></button>
                 </section>
 
                 <section class="secao__passion">
@@ -242,14 +260,6 @@
                         </div>
                     </section>
                 </section>
-                
-                <a href="./pt/o-que-fazemos.html" class="secao__we">
-
-                    <section class="secao__muda-nome  anime">
-                        <h4 class="titulo__we">O que <span class="stroke">fazemos</span><span class="ponto__red">.</span></h4>
-                    </section>
-                
-                </a>
                     
                 <section class="secao__patrocinadores">
                         <h5 class="titulo__patrocinadores  anime">CLIENTES</h5>
@@ -351,7 +361,7 @@
                 </section>
 
                 <section class="newsletter anime" id="mc_embed_signup">  
-                        <form action="https://toliveira.us7.list-manage.com/subscribe/post?u=61a9c6abd3a3f54615dfe5d2f&amp;id=6618887ac8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe" target="_blank" novalidate>
+                        <form action="https://toliveira.us7.list-manage.com/subscribe/post?u=61a9c6abd3a3f54615dfe5d2f&amp;id=6618887ac8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe" target="_blank" validate>
 
                             <h9 class="titulo__subscribe">Inscreva-se em </br> nossa newsletter</h9>
 
@@ -387,7 +397,14 @@
                     </section>
                     
                     <section class="abas__footer anime">
-                        <a href="https://www.linkedin.com/company/toliveira-cc/" class="link__redes-sociais___mobile"><img class="icone__redes" src="./Assets/Social Media/linkedin-ico.svg" alt="Link Linkedin"></a>
+                        <div class="container__redes-sociais__mobile anime">
+                            <a href="https://www.linkedin.com/company/toliveira-cc/" class="link__redes-sociais___mobile"><img class="icone__redes" src="./Assets/Social Media/linkedin-ico.svg" alt="Link Linkedin"></a>
+
+                            <a href="https://www.instagram.com/toliveira.cc/" class="link__redes-sociais___mobile"><img class="icone__redes" src="./Assets/Social Media/instagram-ico.svg" alt="Link Instagram"></a>
+                            
+                            <a href="https://dribbble.com/toliveiracc" class="link__redes-sociais___mobile"><img class="icone__redes" src="./Assets/Social Media/dribble-ico.svg" alt="Link Dribbble"></a>
+                        </div>
+            
                         <ul class="container__abas">
                             <li class="aba">
                                 <h11 class="titulo__aba">O estúdio</h11>
@@ -486,6 +503,8 @@
         <script>
             $('img').on('dragstart', function(event) { event.preventDefault(); });
         </script>
+    
+
     </body>
 
 </html>

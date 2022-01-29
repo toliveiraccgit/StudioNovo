@@ -1,5 +1,5 @@
 
-@media (max-width:1024px){ 
+@media (max-width:1023px){ 
     html{
         overflow-x: hidden;
     }
@@ -22,10 +22,14 @@
     .titulo__banner{
         font-size: var(--font-md);
     }
+    .botao__view-cases___banner{
+        width: 88vw;
+    }
     /*-------------------------------VIDEO--------------------------------*/
     .secao__video{
         width: 100vw;
         height:auto;
+        margin-bottom: 5.125rem;
     }
     .video-played{
         width: 100vw;
@@ -36,14 +40,16 @@
         padding-top: 7.5rem;
         padding-left: 1.25rem;
         padding-right: 1.5rem;
-        padding-bottom: 18.5rem;
+        padding-bottom: 9.5rem;
         
     }
     .titulo__passion{
         font-size: var(--font-xl);
         width: 20.938rem;
-        height: 30rem;
+        height: auto;
         word-break: break-word;
+
+        line-height: 95%;
     }
     /*-------------------------------WORKS--------------------------------*/
     .secao__works{
@@ -62,7 +68,7 @@
         gap: 0%;
     }
     .botao__view-cases{
-        padding: 0 1rem 1.156rem 0;
+        padding: 0 1rem .5rem 0;
         font-size: 16px;
         width: 45vw;
         background-position-x: right;
@@ -107,6 +113,7 @@
     }
     .descricao__info___card{
         font-size: 16px;
+        animation: none;
     }
     .gradient{
         opacity: .5;
@@ -116,7 +123,7 @@
 
     /*-------------------------------WE--------------------------------*/
     .secao__we{
-        padding: 7.5rem 1rem 0 1.5rem;
+        padding: 2.5rem 1rem 0 1.5rem;
     }
     .secao__muda-nome{
         flex-direction: column;
@@ -124,6 +131,7 @@
     }
     .titulo__we{
         font-size: 88px;
+        line-height: 95%;
     }
     .stroke__we{
         font-size: 88px;
@@ -174,7 +182,8 @@
     }*/
     /*-----------------------PATROCINADORES----------------------------*/
     .secao__patrocinadores{
-        height: 58rem;
+        height: 42rem;
+        padding-bottom: 0%;
     }
     .container__logo___patrocinadores{
         flex-direction: column;
@@ -182,7 +191,7 @@
 
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
-        padding-left: 4.5vw;
+        padding-left: 4.3vw;
         padding-right: 4.5vw;
         padding-top: 6.2rem;
 
@@ -260,7 +269,7 @@
         height: auto;
     }
     .subscribe{
-        margin-left: 0%;
+        margin-left: -2%;
     }
     .titulo__subscribe{
         font-size: 40px;
@@ -314,7 +323,7 @@
         flex-direction: column;
         padding-bottom: 0%;
         padding-left: 0;
-        padding-top: 3rem;
+        padding-top: 2rem;
         width: 90vw;
     }
     .container__abas{
@@ -339,6 +348,11 @@
     .link__redes-sociais{
         visibility: hidden;
     }
+    .container__redes-sociais__mobile{
+        display: flex;
+        flex-direction: row;
+        gap: 1.188rem;
+    }
     .link__fim{
         margin-top: 4rem;
     }
@@ -353,15 +367,27 @@
         align-content: center;
     }
     .video-played{
-        height: 27rem;
-        width: 75vw;
+        height: auto;
+        width: 100vw;
     }
     .titulo__passion{
         width: auto;
     }
 
+    .card__works{
+        animation: none;
+    }
     .secao__works{
         height: 39rem;
+    }
+    .titulo__card{
+        animation: none;
+    }
+    .info__card{
+        animation: none;
+    }
+    .descricao__info___card{
+        animation: none;
     }
     .secao__muda-nome{
         margin-bottom: 7rem;
@@ -420,28 +446,28 @@
     @keyframes movimenta-titulo-1 {
         0%{
             position: relative;
-            right: 10%;
+            right: 0%;
         }
         75%{
             animation: paused;
         }
         100%{
             position: relative;
-            right: 350%;
+            right: 400%;
         }  
     }
     
     @keyframes movimenta-titulo-2 {
         0%{
             position: relative;
-            left: -350%;
+            left: -400%;
         }
         35%{
             animation: paused;
         }
         100%{
             position: relative;
-            left: 10%;
+            left: 20%;
         }  
     }
 

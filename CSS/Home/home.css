@@ -71,7 +71,7 @@
     }
     /*-------------------------------BANNER-VIDEO--------------------------------*/
     .banner{
-        padding: 3.875rem 11.5rem 9.563rem 9.5rem;
+        padding: 3.875rem 11.5rem 0 9.5rem;
         margin-top: 8.5rem;
         background-color: var(--high-pure);
     }
@@ -154,13 +154,11 @@
     }
     .botao__play{
         border: transparent;
-        background-color: var(--high-pure);
-        border-radius: var(--border-circular);
+        background-color: transparent;
         position: absolute;
         width: 4rem;
         height: 4rem;
         align-items: center;
-        padding: 0%;
     }
     .imagem__play{
         width: 4rem;
@@ -312,6 +310,7 @@
 
         width: 23rem;
 
+        
         opacity: 1;
         z-index: 20;
 
@@ -416,7 +415,7 @@
         align-items: center;
 
         padding-bottom: 9.563rem;
-        padding-top: 0;
+        padding-top: 9.5rem;
 
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
@@ -424,6 +423,7 @@
         background-color: var(--low-pure);
     }
     .titulo__patrocinadores{
+        font-size: 16px;
         margin-bottom: 5.5rem;
     }
     .titulo__patrocinadores::selection{
@@ -774,6 +774,7 @@
         padding-right: 3rem;
         padding-top: 0rem;
         display: flex;
+        width: 17.625rem;
         justify-content: flex-start;
     }
     .container__botao-footer:hover .botao__talk___footer{
@@ -882,7 +883,7 @@
         width: 1.5rem;
         height: 1.5rem;
     }
-    .link__redes-sociais___mobile{
+    .link__redes-sociais___mobile, .container__redes-sociais__mobile{
         display: none;
     }
 }
