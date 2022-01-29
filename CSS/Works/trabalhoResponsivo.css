@@ -326,12 +326,22 @@
         height: 16.125rem;
         justify-content: space-between;
     }
+    .cliente-projetos{
+        gap: 5rem;
+
+        padding-left: 8.5vw;
+    
+    }
     /*-------------------------------COMENTARIO--------------------*/
     .secao__comentarios{
-        padding-left: 12.5rem;
+        padding-left: 10.2rem;
         padding-right: 4.5rem;
     }
     /*-----------------------RODAPE----------------------------------*/
+    .rodape{
+        padding-left: 2rem;
+        padding-right: 5vw;
+    }
     .secao__info___rodape{
         width: 80vw;
      }

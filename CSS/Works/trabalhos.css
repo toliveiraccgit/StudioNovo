@@ -217,7 +217,7 @@
         font-size: 16px;
     }
     .comentario{
-        width: 79vw;
+        width: 78vw;
 
         padding-top: 3.5rem;
         padding-right: 23.417rem;
@@ -254,7 +254,7 @@
         margin-top: 0%;
     }
     .container__botao___comentario{
-        width: 79vw;
+        width: 78vw;
         
         display: flex;
         gap: 1rem;
