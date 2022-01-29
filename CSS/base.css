@@ -56,10 +56,6 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-::selection{
-    color: transparent;
-    user-select: none;
-}
 
 .ponto__red{
     color: var(--primary-medium);
@@ -89,12 +85,41 @@ html{
 }
 
 @keyframes animaInfo {
-    from{
+    0%{
         opacity: 0;
+        transform: translateY(0rem)
     }
-    to{
+    100%{
         opacity: 1;
-        transform: translateY(-10rem)
+        transform: translateY(-14.3rem)
+    }
+}
+
+@keyframes animaInfoOutHover {
+    0%{
+        opacity: 1;
+        transform: translateY(-14.3rem)
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(0rem)
+    }
+}
+@keyframes animaTituloCardDown {
+    0%{
+        top: -6.5rem;
+    }
+    100%{
+        top: -11.9rem;
+    }
+}
+@keyframes animaTituloCardUp {
+    0%{
+        top: -11.9rem;
+    }
+    100%{
+        
+        top: -6.5rem;
     }
 }
 @keyframes opacidade-we-1{
@@ -182,9 +207,47 @@ html{
 
 
 @keyframes anima-logo-1 {
-    0%{
-        animation: paused;
+    10%{
+        top: 0;
+        opacity: 1;
     }
+    20%{
+        top: 0;
+        opacity: 1;
+    }
+    30%{
+        top: -56px;
+        opacity: 0;
+    }
+    40%{
+        top: -56px;
+        opacity: 0;
+    }
+    50%{
+        top: -56px;
+        opacity: 0;
+    }
+    60%{
+        top: -56px;
+        opacity: 0;
+    }
+    70%{
+        top: -56px;
+        opacity: 0;
+    }
+    80%{
+        top: -56px;
+        opacity: 0;
+    }
+    90%{
+        top: -56px;
+        opacity: 0;
+    }
+    100%{
+        top: -56px;
+        opacity: 0;
+    }
+    /*
     25%{
         top: 0;
         opacity: 1;
@@ -200,10 +263,51 @@ html{
     100%{
         top: -56px;
         opacity: 0;
-    }
+    }*/
 
 }
 @keyframes anima-logo-2 {
+    10%{
+        top: 0;
+        opacity: 0;
+    }
+    20%{
+        top: 0;
+        opacity: 0;
+    }
+    30%{
+        top: 56px;
+        opacity: 1;
+    }
+    40%{
+        top: 56px;
+        opacity: 1;
+    }
+    50%{
+        top: 56px;
+        opacity: 1;
+    }
+    60%{
+        top: 56px;
+        opacity: 1;
+    }
+    70%{
+        top: 0;
+        opacity: 0;
+    }
+    80%{
+        top: 0;
+        opacity: 0;
+    }
+    90%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        opacity: 0;
+    }
+    /*
     0%{
         animation: paused;
     }
@@ -222,7 +326,70 @@ html{
     100%{
         top: 56px;
         opacity: 1;
+    }*/
+}
+
+@keyframes anima-logo-3 {
+    10%{
+        top: 0;
+        opacity: 0;
     }
+    20%{
+        top: 0;
+        opacity: 0;
+    }
+    30%{
+        top: 0;
+        opacity: 0;
+    }
+    40%{
+        top: 0;
+        opacity: 0;
+    }
+    50%{
+        top: 0;
+        opacity: 0;
+    }
+    60%{
+        top: 0;
+        opacity: 0;
+    }
+    70%{
+        top: 112px;
+        opacity: 1;
+    }
+    80%{
+        top: 112px;
+        opacity: 1;
+    }
+    90%{
+        top: 112px;
+        opacity: 1;
+    }
+    100%{
+        top: 112px;
+        opacity: 1;
+    }
+    /*
+    0%{
+        animation: paused;
+    }
+    25%{
+        top: 0;
+        opacity: 0;
+    }
+    50%{
+        top: 0;
+        opacity: 0;
+    }
+    75%{
+        top: 0;
+        opacity: 1;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+    }*/
 }
 
 

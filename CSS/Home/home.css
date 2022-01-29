@@ -82,6 +82,8 @@
         line-height: 100%;
 
         color: var(--low-pure);
+
+        margin: 0%;
     }
     .titulo__banner::selection{
         background-color: var(--low-dark);
@@ -91,7 +93,22 @@
         background-color: var(--low-dark);
         color: var(--high-pure);
     }
+    .container__botao-banner{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+
+        width: 10.688rem;
+    }
+    .container__botao-banner:hover .botao__view-cases___banner{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
     .botao__view-cases___banner{
+        width: 13.688rem;
         background-color: none;
         border: none;
         border-bottom: 2px solid var(--low-dark);
@@ -105,8 +122,18 @@
         background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: 100%;
-    }
 
+        margin: 0%;
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__view-cases___banner:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
     .secao__video{
         display: flex;
         justify-content: center;
@@ -116,14 +143,6 @@
 
         overflow-y: hidden;
         overflow-x: hidden;
-    }
-    .video-poster{
-        overflow-y: hidden;
-        overflow-x: hidden;
-        width: 75vw;
-        height: auto;
-
-        display: none;
     }
     .video-played{
         display: block;
@@ -149,7 +168,7 @@
     }
     /*-------------------------------PASSION--------------------------------*/
     .secao__passion{
-        padding: 9.563rem 9.5rem 9.563rem 9.563rem;
+        padding: 9.563rem 9.5rem 5.563rem 9.563rem;
         font-family: var(--heading-cabinet);
 
         background-color: var(--low-pure);
@@ -179,10 +198,14 @@
         height: auto;
 
     }
+    .container__cards:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/ver-case-cursor.svg") 25 30, default ;
+    }
     .cabecalho__secao___works{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        align-items: flex-end;
+        gap: 32.5rem;
 
         color: var(--high-pure);
         font-family: var(--heading-cabinet);
@@ -192,9 +215,10 @@
         padding: 0 9.5rem 0 0;
         margin-bottom: 3.813rem;
     }
-    .titulo__cabecalho___works::selection{
-        background-color: var(--high-pure);
-        color: var(--low-pure);
+    .container__botao{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
     }
     .botao__view-cases{
         background-color: none;
@@ -203,15 +227,25 @@
 
         color: var(--high-pure);
 
-        padding: 0 18rem 1.656rem 0;
+        padding: 0rem 2.5rem .5rem 0;
+
+        border-bottom: 2px solid var(--high-pure);
 
         background-image: url("../../Assets/Setas/Right-Down-White.svg");
         background-repeat: no-repeat;
         background-position-x: right;
+        background-position-y: -.2rem;
+
+        transition: all .2s ease-in-out;
+
+        margin: 0%;
     }
-    .botao__view-cases::selection{
-        background-color: var(--high-pure);
-        color: var(--low-pure);
+    .container__botao-ver-cases:hover .botao__view-cases{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     .container__works{
         position: sticky;
@@ -237,38 +271,44 @@
     }
     .card-works{
         transition:all .4s ease-in-out;
-        filter: grayscale(100%) brightness(40%);
+        
     }
     .imagem__card___works{
         user-select: none;
         user-select: unset;
         -moz-user-select: none;
         -webkit-user-select: none;
-    }
-    .card-works:hover .gradient{
-        animation: opacidadeBG .4s ease-in-out forwards;
+        filter: grayscale(160%) brightness(40%);
         transition:all .4s ease-in-out;
     }
-    .atarde:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
-        filter: none;
+    .imagem__card___works:hover{
+        filter: grayscale(160%) brightness(60%);
+        transition:all .4s ease-in-out;
+    }
+    .card-works:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/ver-case-cursor.svg") 25 30, default;
     }
     .card-works:hover .titulo__card{
-        display: none;
+        animation: animaTituloCardDown .5s ease-in-out forwards;
     }
     .titulo__card{
         position: relative;
         top: -6.5rem;
         padding-left: 1.5rem;
+        display: flex;
 
-        font-family: var(--paragraph-satoshi);
+        font-family: var(--heading-cabinet);
         font-size: var(--font-sm);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+
+        animation: animaTituloCardUp .8s ease-in-out forwards;
     }
     .info__card{
         position: relative;
-        display: flex;
         align-self: flex-end;
         flex-direction: column;
+        display: flex;
 
         width: 23rem;
 
@@ -278,6 +318,10 @@
         padding: 0 1.5rem 0 1.5rem ;
 
         transition: all .4s ease-in-out;
+        animation: animaInfoOutHover 1s ease-in-out forwards;
+    }
+    .info__card:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/ver-case-cursor.svg") 25 30, default;
     }
     .titulo__info___card{
         font-family: var(--heading-cabinet);
@@ -291,7 +335,7 @@
         margin-top: 1rem;
     }
     .atarde:hover .info__card{
-        animation: animaInfo .4s ease-in-out forwards;
+        animation: animaInfo .5s ease-in-out forwards;
         transition: all .4s ease-in-out;
     }
 
@@ -300,7 +344,7 @@
     }
    /*-------------------------------WE--------------------------------*/
     .secao__we{
-        padding: 9.563rem 9.5rem 0 9.5rem;
+        padding: 9.563rem 0rem 0 9.5rem;
 
         display: flex;
         flex-direction: column;
@@ -308,7 +352,7 @@
         background-color: var(--low-pure);
     }
     .secao__we:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/view-white-en.svg") 25 30, default;
+        cursor: url("../../Assets/Interações/GetInTouch/saiba-mais-white.svg") 25 30, default;
     }
     .secao__muda-nome{
         display: flex;
@@ -401,13 +445,17 @@
 
     .logo__patrocinadores-1{
         position: relative;
-        animation: anima-logo-1 3.5s infinite alternate ease-in-out;
+        animation: anima-logo-1 7s infinite alternate ease-in-out;
         
         
     } 
     .logo__patrocinadores-2{
         position: relative;
-        animation: anima-logo-2 3.5s infinite alternate ease-in-out;
+        animation: anima-logo-2 7s infinite alternate ease-in-out;
+    }
+    .logo__patrocinadores-3{
+        position: relative;
+        animation: anima-logo-3 7s infinite alternate ease-in-out;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
@@ -576,7 +624,21 @@
         width: 800vw;
         position: relative;
 
-        margin-bottom: 7.063rem;
+        margin-bottom: 4.063rem;
+    }
+    .container__botao-scroll{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .container__botao-scroll:hover .botao__get-in{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     .botao__get-in{
         width: 79vw;
@@ -595,6 +657,16 @@
         background-image: url("../../Assets/Setas/Right-Down-Black.svg");
         background-repeat: no-repeat;
         background-position-x: right;
+        transition: all .2s ease-in-out;
+
+        margin: 0%;
+    }
+    .botao__get-in:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     /*-------------------------------NEWSLETTER--------------------------------*/
     .newsletter{
@@ -698,6 +770,19 @@
     #titulo__rodape-2{
         color: var(--low-light);
     }
+    .container__botao-footer{
+        padding-right: 3rem;
+        padding-top: 0rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container__botao-footer:hover .botao__talk___footer{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
     .botao__talk___footer{
         color: var(--low-pure);
         font-family: var(--heading-cabinet);
@@ -714,6 +799,14 @@
         padding-bottom: .5rem;
 
         border-bottom: 2px solid var(--low-pure);
+        transition: all .2s ease-in-out;
+    }
+    .botao__talk___footer:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     .redes__sociais___rodape{
         display: flex;
@@ -770,7 +863,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 71rem;
+        width: 75rem;
         justify-content: space-between;
         
         font-family: var(--heading-cabinet);
