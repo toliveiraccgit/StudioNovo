@@ -13,7 +13,7 @@
         
 
         padding-top: 3.375rem;
-        padding-bottom: 4.688rem;
+        padding-bottom: 3.688rem;
         padding-left: 4.375rem;
         padding-right: 4.375rem;
 
@@ -71,23 +71,28 @@
         }
     }
     /*----------------LINKS-MENU---------------*/
+    .container__navegacao-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding-top: 5.875rem;
+        padding-bottom: 6.938rem;
+        padding-left: 4.563rem;
+        padding-right: 18.25rem;
+    }
     .secao__link-menu{
         display: flex;
         flex-direction: column;
         gap: 2rem;
 
-        width: 34.688rem;
-        
-        padding-top: 5.875rem;
-        padding-bottom: 3.938rem;
-        padding-left: 4.563rem;
-        padding-right: 4.375rem;
+        width: 26.313rem;
 
     }
     .link__menu-aberto{
         font-family: var(--paragraph-satoshi);
         font-weight: var(--bold);
-        font-size: 50px;
+        font-size: 3.125rem;
         color: var(--low-light);
 
         transition: all .1s ease-out;
@@ -100,51 +105,30 @@
     #link__atual{
         color: var(--high-pure);
     }
-    /*----------------CARDS-INDUSTRIAS-MENU---------------*/
 
-    .secao__cards___industrias-menu{
-        display: flex;
-        flex-direction: row;
-        gap: 2.938rem;
-
-        padding-bottom: 3.938rem;
-        padding-left: 4.563rem;
-        padding-right: 4.375rem;
-
-    }
-    .container__card___industria-menu{
+    .container__info___menu-aberto{
         display: flex;
         flex-direction: column;
-        gap: 1.875rem;
+        gap: 2rem;
 
-        width: 21.459vw;
+        width: 24.375rem;
     }
-    .titulo__card___industria-menu{
-        font-size: var(--font-xs);
-        font-family: var(--heading-cabinet);
-        font-weight: var(--bold);
-
-        color: var(--high-pure);
-        padding: 0%;
-        margin: 0%;
-    }
-    .descricao__card___industria-menu{
-        margin: 0%;
-
-        font-size: 19px;
+    .info__menu-aberto{
         font-family: var(--paragraph-satoshi);
         font-weight: var(--regular);
+        font-size: 1.188rem;
 
-        color: var(--high-pure);
+        color: #FFFFFF;
+
+        opacity: .6;
+        line-height: 140%;
     }
-    .destaque__underline-menu{
-        text-decoration: underline;
-    }
+
     /*----------------LINK-CONTATO-MENU---------------*/
     .link__menu-aberto-contato{
         font-family: var(--paragraph-satoshi);
         font-weight: var(--bold);
-        font-size: 50px;
+        font-size: 3.125rem;
         color: var(--low-light);
 
         transition: all .1s ease-out;
@@ -163,7 +147,7 @@
         align-items: center;
         justify-content: space-between;
 
-        padding-top: 6.375rem;
+        padding-top: 0;
         padding-left: 4.563rem;
         padding-right: 4.375rem;
 
@@ -259,5 +243,26 @@
     }
     .localizacao-menu{
         font-size: 25px;
+    }
+}
+@media (min-width:1600px) {
+    .rodape__menu-aberto{
+
+        padding-top: 10rem;
+        padding-left: 4.563rem;
+        padding-right: 4.375rem;
+
+    }
+}
+@media (max-height:720px){
+
+    .container__navegacao-info {
+        display: flex;
+        flex-direction: row;
+        gap: 10.125rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 4.563rem;
+        padding-right: 4.375rem;
     }
 }
