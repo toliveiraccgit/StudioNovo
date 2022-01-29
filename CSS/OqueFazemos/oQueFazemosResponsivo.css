@@ -114,7 +114,7 @@
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
-        width: 166vw;
+        width: 184vw;
     }
     .item__lista___comentarios{
         margin-bottom: 6.938rem;
