@@ -64,6 +64,10 @@
         font-size: 16px;
         margin-bottom: 2.969rem;
     }
+    #card-incompleto{
+        height: 10.5rem;
+        margin-bottom: 0%;
+    }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
         padding-left:  5vw;
