@@ -129,12 +129,6 @@
         margin-bottom: 3rem;
 
     }
-    .container__card___cliente-projetos:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
-    }
-    .cliente-projetos:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
-    }
     .container__info{
         height: 13.828rem;
     }
@@ -164,9 +158,6 @@
         background-repeat: no-repeat;
         background-position-x: 100%;
 
-    }
-    .botao__case___cliente-projeto:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
@@ -338,6 +329,20 @@
     #titulo__rodape-2{
         color: var(--low-light);
     }
+    .container__botao-footer{
+        padding-right: 3rem;
+        padding-top: 0rem;
+        display: flex;
+        width: 17.625rem;
+        justify-content: flex-start;
+    }
+    .container__botao-footer:hover .botao__talk___footer{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
     .botao__talk___footer{
         color: var(--low-pure);
         font-family: var(--heading-cabinet);
@@ -353,6 +358,13 @@
         padding-bottom: .5rem;
 
         border-bottom: 2px solid var(--low-pure);
+    }
+    .botao__talk___footer:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     .redes__sociais___rodape{
         display: flex;
