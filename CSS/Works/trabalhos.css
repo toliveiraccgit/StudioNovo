@@ -159,6 +159,13 @@
         background-position-x: 100%;
 
     }
+    .botao__case___cliente-projeto:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
         height: 43rem;
