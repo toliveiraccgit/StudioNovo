@@ -199,12 +199,21 @@
         font-size: 12px;
     }
     /*----------------LINKS-MENU---------------*/
+    .container__navegacao-info{
+        padding-left: 0;
+        padding-right: 2rem;
+
+        padding-top: 0;
+    }
+    .container__info___menu-aberto{
+        display: none;
+    }
     .secao__link-menu{
         gap: 2.188rem;
 
         width: 15.188rem;
         
-        padding-top: 4.875rem;
+        padding-top: 0;
         padding-bottom: 2.188rem;
         padding-left: 0;
         padding-right: 0;
