@@ -106,26 +106,41 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 8.125rem;
     }
     .container__info___intro{
         display: flex;
         color: var(--high-pure);
         justify-content: center;
         gap: 9.625rem;
+
+        margin-bottom: 14.625rem;
     }
     .titulo__intro{
         font-size: var(--font-lg);
         font-family: var(--heading-cabinet);
         font-weight: var(--bold);
+
+        margin: 0%;
+    }
+    .descricao__intro{
+        margin: 0%;
+    }
+    .sub-descricao__intro{
+        margin: 0%;
     }
     .container__descricao___info{
-        width: 29rem;
+        width: 25rem;
         font-family: var(--paragraph-satoshi);
         font-weight: var(--regular);
         line-height: var(--line-sm);
         opacity: .7;
         font-size: 20px;
+
+        margin: 0%;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
     .descricao__mobile{
         display: none;
@@ -134,10 +149,10 @@
         display: flex;
         justify-content: center;
 
-        margin-bottom: 5rem;
+        margin-bottom: 10.25rem;
     }
 
-    .banner__intro-2{
+    .banner__intro-3{
         width: 50.625rem;
         height: 59.125rem;
 
@@ -146,26 +161,80 @@
         background-position-x: left, right, center;
         background-position-y: top, 8.625rem, bottom;
     }
+
+    .banner__intro-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+
+        width: 36.375rem;
+
+        margin-bottom: 12.75rem;
+    }
+    .titulo__banner___intro{
+        font-size: var(--font-lg);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+
+        margin: 0%;
+        margin-bottom: 1.5rem;
+    }
+    .container__descricao___banner-1{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .titulo__banner___intro-2{
+        font-size: 1.188rem;
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+
+        margin: 0%;
+
+        opacity: .8;
+    }
+    .descricao__banner___intro{
+        margin: 0%;
+
+        font-family: var(--paragraph-satoshi);
+        font-weight: var(--regular);
+        color: var(--high-pure);
+
+        line-height: var(--line-sm);
+
+        opacity: .7;
+        font-size: 1.188rem;
+    }
     /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
     .do{
         background-color: var(--low-pure);
         display: flex;
         flex-direction: column;
 
-        padding-top: 13.125rem;
+        padding-top: 21.625rem;
         
         gap: 13.125rem;
     }
     .container__info___do{
         padding-left: 9.438rem;
         
-        width: 39.188rem;
+        width: 42.188rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
     }
     .titulo__do{
         font-family: var(--heading-cabinet);
         font-size: var(--font-lg);
         font-weight: var(--bold);
         color: var(--high-pure);
+
+        margin: 0%;
     }
     .descricao__do{
         font-family: var(--paragraph-satoshi);
@@ -174,6 +243,8 @@
         color: var(--high-pure);
         opacity: .7;
         font-size: 20px;
+
+        margin: 0%;
     }
     .banner__do{
         background-image: url("../../Assets/SobreNos/banner-oquefazer.png");
