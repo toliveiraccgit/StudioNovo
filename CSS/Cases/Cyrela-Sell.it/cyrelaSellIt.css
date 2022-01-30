@@ -1,4 +1,9 @@
 @media (min-width:0px){
+    .secao__numeros-projetos {
+        display: flex;
+        flex-direction: row;
+        gap: 3.5rem;
+    }
     .titulo__menu{
         color: #02DE7F;
     }
