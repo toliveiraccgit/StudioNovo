@@ -105,7 +105,7 @@
     }
     .container__imagem-sobre-projeto{
         align-items: center;
-        padding-bottom: 4.219rem;
+        padding-bottom: 0rem;
 
         gap: 1rem;
     }
@@ -128,7 +128,7 @@
     }
     .secao__menu-principal {
         align-items: flex-start;
-        padding: 4.375rem 0 0 0;
+        padding: 2rem 0 0 0;
         gap: 4.375rem;
     }
     .container__titulo___sobre-projeto {

@@ -97,6 +97,7 @@
     #imagem-sobre-projeto{
         width: 90vw;
         height: auto;
+        padding-bottom: 0rem;
     }
     #imagem-banner{
         width: 100vw;
@@ -119,7 +120,7 @@
 
     }
     .container__imagem-menu-principal{
-        padding-bottom: 4.125rem;
+        padding-bottom: 0rem;
     }
     #imagem__menu-principal{
         width: 90vw;
