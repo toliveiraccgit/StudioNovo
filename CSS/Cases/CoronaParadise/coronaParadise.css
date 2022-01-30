@@ -94,10 +94,14 @@
     }
     .container__imagens-duplas{
         width: 90vw;
+        gap: 1rem;
     }
     #imagem-numeros-duplo{
-        width: 40.5vw;
+        width: 43vw;
         height: auto;
+    }
+    .container__imagem-numeros{
+        gap: 1rem;
     }
     #imagem-numeros{
         width: 90vw;

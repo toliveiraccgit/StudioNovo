@@ -225,6 +225,10 @@
     .container__ico___redes-sociais{
         display: none;
     }
+    .container__ico___redes-sociais-mobile{
+        display: flex;
+        gap: .5rem;
+    }
     .link__redes-sociais{
         visibility: hidden;
     }

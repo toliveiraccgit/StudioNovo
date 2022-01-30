@@ -646,6 +646,9 @@
         width: 1.5rem;
         height: 1.5rem;
     }
+    .container__ico___redes-sociais-moblie{
+        display: none;
+    }
     .link__redes-sociais___mobile{
         display: none;
     }

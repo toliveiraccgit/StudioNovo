@@ -111,10 +111,14 @@
     .secao__brand{
         width: 90vw;
         padding-top: 2rem;
-        padding-bottom: 3.813rem;
+        padding-bottom: 2.813rem;
     } 
     .container__ico___redes-sociais{
         display: none;
+    }
+    .container__ico___redes-sociais-mobile{
+        display: flex;
+        gap: .5rem;
     }
     .link__redes-sociais{
         visibility: hidden;
@@ -229,6 +233,7 @@
         height: 13.688rem;
         width: 12.5rem
     }
+    
     .secao__brand{
         padding-top: 0;
     }

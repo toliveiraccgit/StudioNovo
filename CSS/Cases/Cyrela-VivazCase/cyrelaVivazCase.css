@@ -124,6 +124,7 @@
     }
     .container__imagem-menu-principal-secao-2{
         padding-bottom: 4.125rem;
+        gap: 1rem;
     }
     .container__imagens-duplas{
         width: 90vw;
