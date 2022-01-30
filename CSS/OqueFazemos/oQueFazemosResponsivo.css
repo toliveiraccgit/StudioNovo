@@ -23,11 +23,19 @@
     .titulo__banner{
         font-size: 40px;
     }
+    .container__botao-banner {
+        width: 90vw;
+        padding-right: 0%;
+    }
+    .botao__view-cases___banner{
+        width: 90vw;
+    }
     /*--------------------------METODOLOGIA---------------------------*/
     .metodologia{
-        padding: 3.75rem 0 3.688rem 0;
+        padding: 5.75rem 0 3.688rem 0;
 
         align-items: flex-start;
+        gap: 6.25rem;
 
     }
     .imagem__metodologia{
@@ -85,6 +93,8 @@
     .titulo__clientes{
         padding-left: 5vw;
         padding-bottom: 0;
+
+        font-size: 16px;
     }
     .cliente-projetos{
         padding-left: 1.25rem;
@@ -116,13 +126,13 @@
     .secao__comentarios{
         padding-left: 5vw;
         padding-right: 5vw;
-        padding-top: 6.2rem;
+        padding-top: 3.75rem;
 
         height: 43rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
-        width: 184vw;
+        width: 180vw;
     }
     .item__lista___comentarios{
         margin-bottom: 6.938rem;
@@ -210,7 +220,7 @@
     .secao__brand{
         width: 90vw;
         padding-top: 2rem;
-        padding-bottom: 8.313rem;
+        padding-bottom: 2.313rem;
     } 
     .container__ico___redes-sociais{
         display: none;
