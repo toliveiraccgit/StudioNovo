@@ -17,6 +17,7 @@
     #imagem-sobre-projeto{
         width: 79.5vw;
         height: auto;
+        padding-bottom: 0%;
     }
     #imagem-banner{
         width: 100vw;
@@ -42,7 +43,7 @@
         align-self: center;
         gap: 2rem;
 
-        padding-bottom:  8.125rem;
+        padding-bottom:  4.125rem;
 
         border-bottom: 1px solid #C4C4C4;
     }
