@@ -8,6 +8,8 @@ export class AbreMenu{
 
         this.conteudoMenu = document.querySelector('#animacao__menu-opacity')
 
+        this.conteudo = document.querySelector('#body')
+
         this.botaoAbreMenu.addEventListener('click', this.abrirMenu.bind(this))
         this.botaoFechaMenu.addEventListener('click', this.fechaMenu.bind(this))
     }
@@ -16,9 +18,11 @@ export class AbreMenu{
         const menuAberto = this.menuAberto
         const menuFixo = this.menuFixo
         const conteudoMenu = this.conteudoMenu
+        const conteudo = this.conteudo
         menuAberto.style.animation = `menuDown .7s ease-in-out forwards`
         menuFixo.style.opacity = ` 0 `
         conteudoMenu.style.animation = ` opacidadeMenu 1.4s ease-in-out forwards `
+        conteudo.style.scrollbarWidth = ` none `
 
     }
 

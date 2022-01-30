@@ -17,19 +17,23 @@
         padding-left: 4.375rem;
         padding-right: 4.375rem;
 
-        overflow-y:scroll;
-        overflow-x:scroll;
+        overflow-y:hidden;
+        overflow-x:hidden;
 
         scrollbar-width: thin;
         scrollbar-color: transparent transparent;
         overscroll-behavior: contain;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .menu__aberto::-webkit-scrollbar{
         display: none;
     }
     #menu-aberto{
-        overflow-y:scroll;
-        overflow-x:scroll;
+        overflow-y:hidden;
+        overflow-x:hidden;
     }
     .cabecalho__navegacao___menu-aberto{
         display: flex;
@@ -76,8 +80,6 @@
         flex-direction: row;
         justify-content: space-between;
 
-        padding-top: 5.875rem;
-        padding-bottom: 6.938rem;
         padding-left: 4.563rem;
         padding-right: 18.25rem;
     }
@@ -147,7 +149,6 @@
         align-items: center;
         justify-content: space-between;
 
-        padding-top: 0;
         padding-left: 4.563rem;
         padding-right: 4.375rem;
 
@@ -233,7 +234,6 @@
         justify-content: flex-start;
         gap: 4.875rem;
 
-        padding-top: 4.875rem;
         padding-left: 0;
         padding-right: 0;
 
@@ -248,21 +248,8 @@
 @media (min-width:1600px) {
     .rodape__menu-aberto{
 
-        padding-top: 10rem;
         padding-left: 4.563rem;
         padding-right: 4.375rem;
 
-    }
-}
-@media (max-height:720px){
-
-    .container__navegacao-info {
-        display: flex;
-        flex-direction: row;
-        gap: 10.125rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 4.563rem;
-        padding-right: 4.375rem;
     }
 }
