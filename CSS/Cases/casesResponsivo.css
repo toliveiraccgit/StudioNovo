@@ -50,10 +50,17 @@
         opacity: .8;
     }
     /*--------------------------SOBRE-PROJETO---------------------------*/
+    .container__secoes-alinhadas{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .secao__sobre{
         flex-direction: column;
         align-items: flex-start;
-        padding: 1.875rem 0 4.375rem 1.25rem;
+        padding: 1.875rem 2rem 4.375rem 0rem;
+
+        width: 89.2vw;
     }
     .container__titulo__sobre{
         display: flex;
@@ -109,6 +116,8 @@
         gap: 4.375rem;
 
         padding: 4.375rem 0 0 0;
+
+        align-items: flex-start;
     }
     .container__titulo___did{
         flex-direction: column;
@@ -136,6 +145,8 @@
         gap: 4.375rem;
 
         padding: 4.375rem 0 0 0;
+
+        align-items: flex-start;
     }
     .container__titulo___sobre-projeto{
         flex-direction: column;
@@ -155,13 +166,18 @@
     }
     /*--------------------------MENU-PRINCIPAL-------------------------*/
     .secao__menu-principal{
-        display: none;
+        align-items: flex-start;
+        padding: 4.375rem 0 0 0;
 
-        /*padding: 4.375rem 0 0 0;
-
-        gap: 4.375rem;*/
+        gap: 4.375rem;
     }
-    /*.container__menu-principal{
+    .container__menu-principal{
+        flex-direction: column;
+
+        padding-left: 1.25rem;
+        padding-right: 0%;
+    }
+    .container__menu-principal-secao-2{
         flex-direction: column;
 
         padding-left: 1.25rem;
@@ -180,7 +196,7 @@
         height: 15.8rem;
 
         background-size: 100vw 15.8rem;
-    }*/
+    }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
         padding-left: 4.5vw;
@@ -191,7 +207,7 @@
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
-        width: 183vw;
+        width: 180vw;
     }
     .item__lista___comentarios{
         margin-bottom: 6.938rem;
@@ -200,12 +216,12 @@
         bottom: -1.35rem;
     }
     .container__carousel{
-        width: 92vw;
+        width: 90vw;
     }
     .comentario{
         font-size: var(--font-sm);
         padding-right: 0%;
-        width:92vw;
+        width:90vw;
     }
     .icone__perfil___comentario{
         width: 2.5rem;
@@ -215,7 +231,7 @@
         font-size: 20px;
     }
     .container__botao___comentario{
-        width: 92vw;
+        width: 90vw;
         gap: 2rem;
         margin-top: 2rem;
     }
@@ -289,10 +305,14 @@
     .secao__brand{
         width: 90vw;
         padding-top: 2rem;
-        padding-bottom: 8.313rem;
+        padding-bottom: 2.313rem;
     }
     .container__ico___redes-sociais{
         display: none;
+    }
+    .container__ico___redes-sociais-mobile{
+        display: flex;
+        gap: .5rem;
     }
     .link__fim{
         margin-top: 4rem;
@@ -510,7 +530,7 @@
         width: 80vw;
      }
      .secao__brand{
-        width: 80vw;
+        width: 73.3vw;
     }
     
     /*--------------------------MENU-PRINCIPAL-------------------------*/

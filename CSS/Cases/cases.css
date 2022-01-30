@@ -103,13 +103,23 @@
         height: 46rem;
     }
     /*--------------------------SOBRE-PROJETO---------------------------*/
+    .container__secoes-alinhadas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .secao__sobre{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        justify-self: center;
+        align-self: center;
+        align-content: center;
 
-        padding: 8.5rem 11.5rem 8.125rem 9.5rem;
+        padding: 8.5rem 0rem 8.125rem 0rem;
+
+        width: 79.2vw;
     }
     .container__titulo__sobre{
         width: 17.25rem;
@@ -147,7 +157,9 @@
         justify-content: space-between;
         align-items: center;
 
-        padding: 0 7.5rem 8.125rem 9.5rem;
+        width: 79.2vw;
+
+        padding: 0 0rem 8.125rem 0rem;
     }
     .titulo__numeros-projetos{
         font-size: var(--font-sm);
@@ -181,6 +193,7 @@
     .secao__did{
         display: flex;
         flex-direction: column;
+        align-items: center;
 
         gap: 8.125rem;
 
@@ -191,6 +204,8 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+
+        width: 79.2vw;
     }
     .titulo__did{
         font-size: var(--font-sm);
@@ -230,6 +245,7 @@
     .secao__sobre-projeto{
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 8.125rem;
 
         padding: 8.125rem 9.5rem 0 9.5rem;
@@ -239,7 +255,7 @@
         flex-direction: row;
         justify-content: space-between;
 
-        width: 79vw;
+        width: 79.2vw;
 
         align-items: flex-start;
     }
@@ -273,17 +289,31 @@
     .secao__menu-principal{
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 8.125rem;
 
         padding: 8.125rem 0 0 0;
     }
+    .container__menu-principal-secao-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 79.2vw;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .container__menu-principal{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
-        padding-left: 9.5rem;
-        padding-right: 9.5rem;
+        width: 79.2vw;
+
+        padding-left: 0;
+        padding-right: 0;
     }
     .titulo__menu-principal{
         font-size: var(--font-sm);
