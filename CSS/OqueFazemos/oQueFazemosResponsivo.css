@@ -81,28 +81,36 @@
 
         margin-bottom: 3.75rem;
     }
-    /*-----------------------INDUSTRIAS-------------------------*/
-    .industrias{
-        gap: 1.875rem;
+    /*------------------------------CLIENTES-PROJETOS-------------------*/
+    .titulo__clientes{
+        padding-left: 5vw;
+        padding-bottom: 0;
+    }
+    .cliente-projetos{
+        padding-left: 1.25rem;
+        padding-right: 1.5rem;
 
-        padding: 0 2.75rem 0 1.3rem;
-    }
-    .titulo__industrias{
-        font-size: var(--font-xs);
-    }
-    .secao__cards___industrias{
-        flex-direction: column;
-        gap: 1.875rem;
-    }
-    .container__card___industria{
-        display: flex;
-        flex-direction: column;
-        gap: 1.875rem;
+        padding-top: 3.563rem;
 
-        width: 19.313rem;
+        justify-content: center;
     }
-    .titulo__card___industria{
-        font-size: var(--font-xs);
+    .container__card___cliente-projetos{
+        width: 20.688rem;
+        height: 13rem;
+    }
+    .botao__case___cliente-projeto{
+        width: auto;
+    }
+    .titulo__card___cliente-projeto{
+        font-size: 24px;
+    }
+    .descricao__card___cliente-projeto{
+        font-size: 16px;
+        margin-bottom: 2.969rem;
+    }
+    #card-incompleto{
+        height: 10.5rem;
+        margin-bottom: 0%;
     }
     /*-----------------------COMENTARIOS----------------------------*/
     .secao__comentarios{
@@ -381,12 +389,19 @@
     .secao__numeros-projeto {
         padding: 8.125rem 12.5rem 8.125rem 12.5rem;
     }
-    /*-----------------------INDUSTRIAS-------------------------*/
-    .industrias {
-        padding: 0 12.5rem 0 12.5rem;
+    /*-----------------CLIENTES-----------*/
+    .titulo__clientes{
+        padding-left: 9.5vw;
     }
-    .secao__cards___industrias{
-        gap: 5.875rem;
+    .container__card___cliente-projetos{
+        height: 16.125rem;
+        justify-content: space-between;
+    }
+    .cliente-projetos{
+        gap: 5rem;
+
+        padding-left: 9.5vw;
+    
     }
     /*-------------------------------COMENTARIO--------------------*/
     .secao__comentarios{

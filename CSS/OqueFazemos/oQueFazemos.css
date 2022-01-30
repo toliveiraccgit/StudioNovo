@@ -93,6 +93,43 @@
         padding: 0%;
         margin: 0%;
     }
+    .container__botao-banner{
+        padding-right: 3rem;
+        padding-top: 0rem;
+        display: flex;
+        width: 14.625rem;
+        justify-content: flex-start;
+    }
+    .container__botao-banner:hover .botao__view-cases___banner{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__view-cases___banner{
+        color: var(--low-pure);
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: -.2rem;
+
+        width: 14.625rem;
+        margin-top: 2rem;
+        padding-bottom: .5rem;
+
+        border-bottom: 2px solid var(--low-pure);
+    }
+    .botao__view-cases___banner:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
+    }
     .botao__view-cases___banner{
         background-color: none;
         border: none;
@@ -228,58 +265,75 @@
 
         margin-bottom: 8.125rem;
     }
-    /*-----------------------INDUSTRIAS-------------------------*/
-    .industrias{
-        display: flex;
-        flex-direction: column;
-        gap: 4.688rem;
-
-        padding: 0 5.188rem 0 9.5rem;
-
-        background-color: var(--high-pure);
-    }
-    .titulo__industrias{
-        font-size: var(--font-sm);
+    /*------------------------------CLIENTES-PROJETOS-------------------*/
+    .titulo__clientes{
         font-family: var(--heading-cabinet);
-        font-weight: var(--bold);
-
+        font-size: var(--font-sm);
         color: var(--low-pure);
-        padding: 0%;
-        margin: 0%;
+
+        text-align: left;
+
+        padding-left: 9.5rem;
+        padding-bottom: 7.313rem;
     }
-    .secao__cards___industrias{
+    .cliente-projetos{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 4.688rem;
+        align-items: center;
+        align-content: center;
+        gap: 1rem;
+
+        padding-left: 10.5vw;
+        padding-right: 5vw;
+    
     }
-    .container__card___industria{
+    .container__card___cliente-projetos{
+        width: 25vw;
+        height: 17.125rem;
+
         display: flex;
         flex-direction: column;
-        gap: 1.875rem;
 
-        width: 21.459vw;
+        margin-bottom: 3rem;
+
     }
-    .titulo__card___industria{
-        font-size: var(--font-xs);
+    .container__info{
+        height: 13.828rem;
+    }
+    .titulo__card___cliente-projeto{
         font-family: var(--heading-cabinet);
+        font-size: var(--font-sm);
         font-weight: var(--bold);
-
-        color: var(--low-pure);
-        padding: 0%;
-        margin: 0%;
     }
-    .descricao__card___industria{
-        margin: 0%;
-
-        font-size: 19px;
+    .descricao__card___cliente-projeto{
         font-family: var(--paragraph-satoshi);
         font-weight: var(--regular);
-
-        color: var(--low-pure);
+        font-size: 19px;
+        margin-bottom: 3.5rem;
     }
-    .destaque__underline{
-        text-decoration: underline;
+    .botao__case___cliente-projeto{
+        width: 25vw;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        color: var(--low-pure);
+
+        padding-bottom: 1.656rem;
+
+        border-bottom: 2px solid var(--low-pure);
+        
+        background-image: url("../../Assets/Setas/Right-Down-Black.svg");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+
+    }
+    .botao__case___cliente-projeto:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
