@@ -11,6 +11,18 @@
     .traducao-pagina-pt{
         color: #ffc72c;
     }
+    .imagem__did {
+        padding-bottom: 2rem;
+        border-bottom: none;
+    }
+    .secao__sobre-projeto {
+        gap: 2rem;
+        padding: 2rem 9.5rem 0 9.5rem;
+    }
+    .secao__menu-principal {
+        gap: 2rem;
+        padding: 2rem 0 0 0;
+    }
     #imagem-did{
         width: 79.2vw;
         height: auto;
@@ -55,16 +67,14 @@
         align-self: center;
         gap: 2rem;
 
-        padding-bottom:  8.125rem;
-
-        border-bottom: 1px solid #C4C4C4;
+        padding-bottom:  2rem;
     }
     #imagem__menu-principal{
         width: 79.2vw;
         height: auto;
     }
     #imagem__menu-principal-dupla{
-        width: 39.2vw;
+        width: 37.8vw;
         height: auto;
     }
     #imagem-proximo-projeto{
