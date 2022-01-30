@@ -1,10 +1,16 @@
 @media (min-width:0px){
+    .titulo__menu{
+        color: #02DE7F;
+    }
+    .traducao-pagina-pt{
+        color: #02DE7F;
+    }
     #imagem-did{
-        width: 80vw;
+        width: 79.5vw;
         height: auto;
     }
     #imagem-sobre-projeto{
-        width: 80vw;
+        width: 79.5vw;
         height: auto;
     }
     #imagem-banner{
@@ -13,19 +19,42 @@
     }
     .container__imagem-numeros{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        gap: 2rem;
     }
     #imagem-numeros{
-        width: 80vw;
+        width: 79.5vw;
         height: auto;
 
         display: flex;
         align-self: center;
     }
+    .container__imagem-menu-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        gap: 2rem;
+
+        padding-bottom:  8.125rem;
+
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .container__imagens-duplas{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+
+        width: 79.2vw;
+    }
     #imagem__menu-principal{
-        width: 100vw;
+        width: 38.5vw;
+        height: auto;
+    }
+    #imagem__menu-principal-3{
+        width: 79.5vw;
         height: auto;
     }
     #imagem-proximo-projeto{
@@ -36,9 +65,19 @@
     #link__sobre-app-sell.it{
         visibility: hidden;
     }
+    #link__sobre-app-vivaz{
+        visibility: hidden;
+    }
     .subtitulo__mobile{
         display: none;
     }
+    .titulo__banner{
+        color: #02DE7F;
+    }
+    .numero-projetos{
+        color: #02DE7F;
+    }
+    
 }
 @media (max-width:1024px){
     #imagem-did{
@@ -48,6 +87,8 @@
     #imagem-sobre-projeto{
         width: 90vw;
         height: auto;
+
+        padding-bottom: 0%;
     }
     #imagem-banner{
         width: 100vw;
@@ -58,9 +99,23 @@
         height: auto;
 
     }
+    .container__imagem-menu-principal{
+        padding-bottom: 4.125rem;
+    }
     #imagem__menu-principal{
-        width: 100vw;
+        width: 40.5vw;
         height: auto;
+    }
+    #imagem__menu-principal-3{
+        width: 90vw;
+    }
+    .container__imagens-duplas{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+
+        width: 90vw;
     }
     #imagem-proximo-projeto{
         width: 129vw;

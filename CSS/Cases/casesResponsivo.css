@@ -515,15 +515,12 @@
     }
     /*-------------------------------COMENTARIO--------------------*/
     .secao__comentarios{
-        padding-left: 12.5rem;
+        padding-left: 10vw;
         padding-right: 4.5rem;
     }
     /*-----------------------PROXIMO-PROJETO--------------------------*/
     .container__titulo___proximo-projeto{
-        padding-left: 12.5rem;
-    }
-    .link__proximo-projeto:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/View-Black.svg") 25 30, default;
+        padding-left: 10vw;
     }
 ----------------------RODAPE----------------------------------*/
     .secao__info___rodape{
