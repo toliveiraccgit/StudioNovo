@@ -5,18 +5,35 @@
     .numero-projetos {
         color: #3036BC;
     }
+    .titulo__menu{
+        color: #3036BC;
+    }
+    .traducao-pagina-pt{
+        color: #3036BC;
+    }
+    .link__sobre{
+        visibility: hidden;
+    }
     #imagem-did{
         width: 80vw;
         height: auto;
 
         padding-bottom: 4.219rem;
     }
+    .container__imagem-sobre-projeto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        gap: 2rem;
+        padding-bottom: 8.125rem;
+
+        border-bottom: 1px solid #C4C4C4;
+    }
     #imagem-sobre-projeto{
-        width: 80vw;
+        width: 79.2vw;
         height: auto;
 
-        padding-bottom: 4.219rem;
-        border-bottom: 1px solid #C4C4C4;
     }
     #imagem-banner{
         width: 100vw;
@@ -29,11 +46,28 @@
         justify-content: center;
     }
     #imagem-numeros{
-        width: 100vw;
+        width: 79.2vw;
         height: auto;
 
         display: flex;
         align-self: center;
+    }
+    .container__imagens-duplas{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+
+        width: 79.2vw;
+    }
+    #imagem-menu-principal-dupla{
+        width: 41.5vw;
+        height: auto;
+    }
+    .container__imagem-menu-principal{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
     #imagem__menu-principal{
         width: 100vw;
@@ -56,9 +90,42 @@
         width: 90vw;
         height: auto;
     }
+    .container__imagem-sobre-projeto{
+        align-items: center;
+        padding-bottom: 4.219rem;
+
+        gap: 1rem;
+    }
+    .container__imagem-menu-principal{
+        padding-left: 1.25rem;
+    }
+    #imagem-menu-principal{
+        width: 90vw;
+    }
+    .container__imagens-duplas{
+        gap: 1rem;
+        
+    }
+    #imagem-menu-principal-dupla{
+        width: 42.5vw;
+        height: auto;
+    }
+    .secao__sobre-projeto{
+        padding-left: 1.25rem;
+    }
+    .secao__menu-principal {
+        align-items: flex-start;
+        padding: 4.375rem 0 0 0;
+        gap: 4.375rem;
+    }
+    .container__titulo___sobre-projeto {
+        flex-direction: column;
+        padding-left: 0;
+      }
     #imagem-sobre-projeto{
         width: 90vw;
         height: auto;
+        padding-bottom: 0%;
     }
     #imagem-banner{
         width: 100vw;
