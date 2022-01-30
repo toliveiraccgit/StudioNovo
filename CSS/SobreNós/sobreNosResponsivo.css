@@ -416,13 +416,9 @@
     .mapa{
         height: 71rem;
     }
-    .banner__intro-2{
-        width: 60.625rem;
-        height: 69.125rem;
-    }
     /*-------------------------------COMENTARIO--------------------*/
     .secao__comentarios{
-        padding-left: 12.5rem;
+        padding-left: 13.5rem;
         padding-right: 4.5rem;
     }
     /*-----------------------RODAPE----------------------------------*/
