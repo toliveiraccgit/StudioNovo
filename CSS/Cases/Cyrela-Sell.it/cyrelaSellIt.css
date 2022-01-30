@@ -94,6 +94,9 @@
         width: 100vw;
         height: auto;
     }
+    .container__imagem-numeros{
+        gap: 1rem;
+    }
     #imagem-numeros{
         width: 90vw;
         height: auto;
@@ -101,9 +104,10 @@
     }
     .container__imagem-menu-principal{
         padding-bottom: 4.125rem;
+        gap: 1rem;
     }
     #imagem__menu-principal{
-        width: 40.5vw;
+        width: 43vw;
         height: auto;
     }
     #imagem__menu-principal-3{
@@ -112,7 +116,7 @@
     .container__imagens-duplas{
         display: flex;
         flex-direction: row;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
 
         width: 90vw;

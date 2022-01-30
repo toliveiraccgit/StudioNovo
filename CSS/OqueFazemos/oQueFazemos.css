@@ -479,7 +479,7 @@
         flex-direction: column;
         align-items: center;
 
-        margin-top: 2rem;
+        margin-top: 9rem;
     }
     .secao__info___rodape{
         display: flex;
@@ -492,7 +492,7 @@
         border-bottom: 1px solid var(--low-medium);
     }
     .secao__titulo___rodape{
-        width: 46vw;
+        width: 48vw;
         display: flex;
         flex-direction: column;
 
@@ -598,7 +598,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 67rem;
+        width: 71rem;
         justify-content: space-between;
         
         font-family: var(--heading-cabinet);
@@ -617,7 +617,10 @@
         width: 1.5rem;
         height: 1.5rem;
     }
+    .container__ico___redes-sociais-mobile{
+        display: none;
+    }
     .link__redes-sociais___mobile{
         display: none;
     }
-}
+}   
