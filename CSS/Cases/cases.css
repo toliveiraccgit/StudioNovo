@@ -3,7 +3,7 @@
     .cabecalho{
         display: flex;
         justify-content: space-between;
-        position:static;
+        position: fixed;
         width: 100vw;
         height: 7rem;
         
