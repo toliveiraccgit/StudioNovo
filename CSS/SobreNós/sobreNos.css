@@ -106,14 +106,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 14.625rem;
     }
     .container__info___intro{
         display: flex;
         color: var(--high-pure);
         justify-content: center;
         gap: 9.625rem;
-
-        margin-bottom: 14.625rem;
     }
     .titulo__intro{
         font-size: var(--font-lg);
@@ -148,8 +147,6 @@
     .banner__intro-1{
         display: flex;
         justify-content: center;
-
-        margin-bottom: 10.25rem;
     }
 
     .banner__intro-3{
@@ -170,8 +167,6 @@
         gap: 2rem;
 
         width: 36.375rem;
-
-        margin-bottom: 12.75rem;
     }
     .titulo__banner___intro{
         font-size: var(--font-lg);
@@ -215,7 +210,7 @@
         display: flex;
         flex-direction: column;
 
-        padding-top: 21.625rem;
+        padding-top: 14.625rem;
         
         gap: 5.125rem;
     }
@@ -308,7 +303,14 @@
 
         margin-top: 3.5rem;
     }
-
+    .container__time-studio{
+        width: 29rem;
+        height: 32.75rem;
+    }
+    .imagem__time{
+        width: 29rem;
+        height: 32.75rem;
+    }
     .time-studio{
         display: flex;
         flex-direction: row;
