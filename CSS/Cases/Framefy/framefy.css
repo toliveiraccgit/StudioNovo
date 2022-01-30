@@ -1,4 +1,10 @@
 @media (min-width:0px){
+    .conteudo{
+        background-color: #F1F1F1;
+    }
+    .lista__did {
+        width: 22rem;
+    }
     .titulo__banner{
         color: #3036BC;
     }
@@ -14,11 +20,20 @@
     .link__sobre{
         visibility: hidden;
     }
+    .secao__sobre-projeto {
+        gap: 2rem;
+        padding: 0rem 9.5rem 0 9.5rem;
+    }
+    .secao__menu-principal {
+        gap: 2rem;
+        padding: 0 0 0 0;
+    }
     #imagem-did{
         width: 80vw;
         height: auto;
 
-        padding-bottom: 4.219rem;
+        padding-bottom: 2rem;
+        border-bottom: none;
     }
     .container__imagem-sobre-projeto{
         display: flex;
@@ -26,14 +41,12 @@
         align-items: center;
         justify-self: center;
         gap: 2rem;
-        padding-bottom: 8.125rem;
-
-        border-bottom: 1px solid #C4C4C4;
+        padding-bottom: 2rem;
     }
     #imagem-sobre-projeto{
         width: 79.2vw;
         height: auto;
-
+        padding-bottom: 0%;
     }
     #imagem-banner{
         width: 100vw;
