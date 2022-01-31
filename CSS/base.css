@@ -103,14 +103,14 @@ html{
     }
     100%{
         opacity: 1;
-        transform: translateY(-14.3rem)
+        transform: translateY(-17.3rem)
     }
 }
 
 @keyframes animaInfoOutHover {
     0%{
         opacity: 1;
-        transform: translateY(-14.3rem)
+        transform: translateY(-17.3rem)
     }
     100%{
         opacity: 0;
@@ -119,19 +119,19 @@ html{
 }
 @keyframes animaTituloCardDown {
     0%{
-        top: -6.5rem;
+        top: -7.5rem;
     }
     100%{
-        top: -11.9rem;
+        top: -14.9rem;
     }
 }
 @keyframes animaTituloCardUp {
     0%{
-        top: -11.9rem;
+        top: -14.9rem;
     }
     100%{
         
-        top: -6.5rem;
+        top: -7.5rem;
     }
 }
 @keyframes opacidade-we-1{

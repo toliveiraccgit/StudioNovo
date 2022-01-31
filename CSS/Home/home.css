@@ -287,11 +287,11 @@
         user-select: unset;
         -moz-user-select: none;
         -webkit-user-select: none;
-        filter: grayscale(160%) brightness(40%);
+        filter: grayscale(200%) brightness(20%);
         transition:all .4s ease-in-out;
     }
     .imagem__card___works:hover{
-        filter: grayscale(160%) brightness(60%);
+        filter: grayscale(200%) brightness(40%);
         transition:all .4s ease-in-out;
     }
     .card-works:hover{
@@ -302,7 +302,7 @@
     }
     .titulo__card{
         position: relative;
-        top: -6.5rem;
+        top: -7.5rem;
         padding-left: 1.5rem;
         display: flex;
 
@@ -312,6 +312,17 @@
         color: var(--high-pure);
 
         animation: animaTituloCardUp .8s ease-in-out forwards;
+    }
+    .titulo__card-incompleto{
+        position: relative;
+        top: -6.5rem;
+        padding-left: 1.5rem;
+        display: flex;
+
+        font-family: var(--heading-cabinet);
+        font-size: var(--font-sm);
+        font-weight: var(--bold);
+        color: var(--high-pure);
     }
     .info__card{
         position: relative;
@@ -348,7 +359,9 @@
         animation: animaInfo .5s ease-in-out forwards;
         transition: all .4s ease-in-out;
     }
-
+    #card-incompleto:hover{
+        cursor: url("../../Assets/Interações/GetInTouch/em-breve.svg") 25 30, default;
+    }
     .loq:hover, .coke:hover, .salvado-fashion:hover{
         cursor: url("../../Assets/Interações/GetInTouch/em-breve.svg") 25 30, default;
     }
@@ -470,13 +483,13 @@
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 50rem;
+        height: 57rem;
 
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-top: 9.563rem;
+        padding-top: 15.938rem;
         padding-left: 9.5rem;
         padding-right: 9.5rem;
         background-color: var(--high-pure);
@@ -492,13 +505,13 @@
     }
     .container__carousel{
         width: 79vw;
-        height: 37rem;
+        height: 44rem;
         overflow-x: hidden;
         overflow-y: hidden;
     }
     .lista__comentarios{
-        width: 158vw;
-        height: 32rem;
+        width: 237vw;
+        height: 36rem;
 
         display: flex;
         flex-direction: row;
@@ -543,6 +556,7 @@
     .icone__perfil___comentario{
         width: 3.5rem;
         height: 3.5rem;
+        border-radius: var(--border-circular);
     }
     .nome__perfil___comentario{
         font-family: var(--heading-cabinet);

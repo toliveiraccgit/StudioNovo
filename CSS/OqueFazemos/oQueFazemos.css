@@ -337,13 +337,13 @@
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 56rem;
+        height: 57rem;
 
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-top: 0;
+        padding-top: 15.938rem;
         padding-left: 9.5rem;
         padding-right: 9.5rem;
         background-color: var(--high-pure);
@@ -359,13 +359,13 @@
     }
     .container__carousel{
         width: 79vw;
-        height: 37rem;
+        height: 44rem;
         overflow-x: hidden;
         overflow-y: hidden;
     }
     .lista__comentarios{
-        width: 158vw;
-        height: 32rem;
+        width: 237vw;
+        height: 36rem;
 
         display: flex;
         flex-direction: row;
@@ -410,6 +410,7 @@
     .icone__perfil___comentario{
         width: 3.5rem;
         height: 3.5rem;
+        border-radius: var(--border-circular);
     }
     .nome__perfil___comentario{
         font-family: var(--heading-cabinet);

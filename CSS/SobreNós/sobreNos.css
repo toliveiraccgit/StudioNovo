@@ -271,6 +271,17 @@
 
         display: flex;
         align-self: center;
+
+        border-bottom: 2px solid var(--high-pure);
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__explore:hover{
+        color: var(--primary-pure);
+        border-bottom: 2px solid var(--primary-medium);
+        background-image: url("../../Assets/Setas/Right-Down-Red.svg");
+
+        transition: all .2s ease-in-out;
     }
     /*-------------------------------TIME--------------------------------*/
     .time{
@@ -340,7 +351,7 @@
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 56rem;
+        height: 57rem;
 
         display: flex;
         flex-direction: column;
@@ -362,13 +373,13 @@
     }
     .container__carousel{
         width: 79vw;
-        height: 37rem;
+        height: 44rem;
         overflow-x: hidden;
         overflow-y: hidden;
     }
     .lista__comentarios{
-        width: 158vw;
-        height: 32rem;
+        width: 237vw;
+        height: 36rem;
 
         display: flex;
         flex-direction: row;
@@ -413,6 +424,7 @@
     .icone__perfil___comentario{
         width: 3.5rem;
         height: 3.5rem;
+        border-radius: var(--border-circular);
     }
     .nome__perfil___comentario{
         font-family: var(--heading-cabinet);

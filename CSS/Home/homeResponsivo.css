@@ -91,11 +91,11 @@
     }
     .titulo__card{
         animation: none;
-        top: -10.5rem;
+        top: -13.5rem;
         padding-left: 1rem;
     }
     .info__card{
-        top: -13rem;
+        top: -16rem;
         width: 16.438rem;
         padding-left: 1rem;
         padding-right: 0%;
@@ -195,11 +195,11 @@
         padding-right: 4.5vw;
         padding-top: 6.2rem;
 
-        height: 43rem;
+        height: 47rem;
     }
     .lista__comentarios{
         transition: all .2s ease-in-out;
-        width: 184vw;
+        width: 276vw;
     }
     .item__lista___comentarios{
         margin-bottom: 6.938rem;

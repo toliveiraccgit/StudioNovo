@@ -4,6 +4,9 @@
         flex-direction: row;
         gap: 3.5rem;
     }
+    .secao__sobre-projeto {
+        padding: 8.125rem 9.5rem  8.125rem 9.5rem;
+    }
     .titulo__menu{
         color: #02DE7F;
     }
@@ -13,6 +16,8 @@
     #imagem-did{
         width: 79.5vw;
         height: auto;
+
+        padding-bottom: 4.125rem;
     }
     #imagem-sobre-projeto{
         width: 79.5vw;

@@ -17,11 +17,11 @@
     }
     .secao__sobre-projeto {
         gap: 2rem;
-        padding: 2rem 9.5rem 0 9.5rem;
+        padding: 0rem 9.5rem 0 9.5rem;
     }
     .secao__menu-principal {
         gap: 2rem;
-        padding: 2rem 0 0 0;
+        padding: 2rem 0 8.125rem 0;
     }
     #imagem-did{
         width: 79.2vw;

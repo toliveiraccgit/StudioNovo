@@ -3,7 +3,7 @@
         background-color: #F1F1F1;
     }
     .lista__did {
-        width: 22rem;
+        width: 39rem;
     }
     .titulo__banner{
         color: #3036BC;
@@ -26,7 +26,7 @@
     }
     .secao__menu-principal {
         gap: 2rem;
-        padding: 0 0 0 0;
+        padding: 0 0 8.125rem 0;
     }
     #imagem-did{
         width: 80vw;
