@@ -90,7 +90,6 @@
         filter: grayscale(160%) brightness(60%);
     }
     .titulo__card{
-        animation: none;
         top: -13.5rem;
         padding-left: 1rem;
     }
@@ -100,12 +99,46 @@
         padding-left: 1rem;
         padding-right: 0%;
         margin: 0%;
-        animation: none;
     }
     @keyframes animaInfo {
-        to{
+        0%{
             opacity: 1;
-            transform: translateY(-14rem)
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    
+    @keyframes animaInfoOutHover {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes animaTituloCardDown {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes animaTituloCardUp {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes animaInfo {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
         }
     }
     .titulo__info___card{
@@ -182,7 +215,7 @@
     }*/
     /*-----------------------PATROCINADORES----------------------------*/
     .secao__patrocinadores{
-        height: 42rem;
+        height: 43rem;
         padding-bottom: 0%;
     }
     .container__logo___patrocinadores{
@@ -281,6 +314,8 @@
         display:flex;
         margin-top: 0%;
         padding-right: 1rem;
+
+        top: calc(100% - 8rem);
     }
 
     /*-------------------------------RODAPE--------------------------------*/
