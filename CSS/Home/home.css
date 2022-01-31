@@ -208,7 +208,7 @@
 
     }
     .container__cards:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/ver-case-cursor.svg") 25 30, default ;
+        cursor: url("../../Assets/interacoes/GetInTouch/ver-case-cursor.svg") 25 30, default ;
     }
     .cabecalho__secao___works{
         display: flex;
@@ -295,7 +295,7 @@
         transition:all .4s ease-in-out;
     }
     .card-works:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/ver-case-cursor.svg") 25 30, default;
+        cursor: url("../../Assets/interacoes/GetInTouch/ver-case-cursor.svg") 25 30, default;
     }
     .card-works:hover .titulo__card{
         animation: animaTituloCardDown .5s ease-in-out forwards;
@@ -342,7 +342,7 @@
         animation: animaInfoOutHover 1s ease-in-out forwards;
     }
     .info__card:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/ver-case-cursor.svg") 25 30, default;
+        cursor: url("../../Assets/interacoes/GetInTouch/ver-case-cursor.svg") 25 30, default;
     }
     .titulo__info___card{
         font-family: var(--heading-cabinet);
@@ -360,10 +360,10 @@
         transition: all .4s ease-in-out;
     }
     #card-incompleto:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/em-breve.svg") 25 30, default;
+        cursor: url("../../Assets/interacoes/GetInTouch/em-breve.svg") 25 30, default;
     }
     .loq:hover, .coke:hover, .salvado-fashion:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/em-breve.svg") 25 30, default;
+        cursor: url("../../Assets/interacoes/GetInTouch/em-breve.svg") 25 30, default;
     }
    /*-------------------------------WE--------------------------------*/
     .secao__we{
@@ -375,7 +375,7 @@
         background-color: var(--low-pure);
     }
     .secao__we:hover{
-        cursor: url("../../Assets/Interações/GetInTouch/saiba-mais-white.svg") 25 30, default;
+        cursor: url("../../Assets/interacoes/GetInTouch/saiba-mais-white.svg") 25 30, default;
     }
     .secao__muda-nome{
         display: flex;
