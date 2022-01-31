@@ -2,6 +2,9 @@
     .conteudo{
         background-color: #F1F1F1;
     }
+    .secao__comentarios {
+        background-color: transparent;
+    }
     .lista__did {
         width: 39rem;
     }
