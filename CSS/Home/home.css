@@ -457,7 +457,7 @@
     .container__logo___patrocinadores{
         display: flex;
         flex-direction: row;
-        gap: 7rem;
+        gap: 6rem;
         margin-bottom: 6.563rem;
     }
     .container__patrocinadores{
