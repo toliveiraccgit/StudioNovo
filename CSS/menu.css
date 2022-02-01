@@ -262,3 +262,12 @@
 
     }
 }
+
+@media (max-height: 700px) {
+    .menu__aberto{
+        padding-top: 3.375rem;
+        padding-bottom: .888rem;
+        padding-left: 4.375rem;
+        padding-right: 4.375rem;
+    }
+}
