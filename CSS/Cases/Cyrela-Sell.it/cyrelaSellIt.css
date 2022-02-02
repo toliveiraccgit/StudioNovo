@@ -154,4 +154,13 @@
         display: none;
     }
 }
+@media (min-width:1600px){
+    .container__imagens-duplas {
+        width: 79.7vw;
+    }
+    #imagem__menu-principal{
+        width: 39.8vw;
+        height: auto;
+    }
+}
 
