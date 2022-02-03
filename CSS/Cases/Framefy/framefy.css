@@ -77,7 +77,7 @@
         width: 79.2vw;
     }
     #imagem-menu-principal-dupla{
-        width: 41.5vw;
+        width: 38.5vw;
         height: auto;
     }
     .container__imagem-menu-principal{
@@ -85,8 +85,8 @@
         flex-direction: column;
         gap: 2rem;
     }
-    #imagem__menu-principal{
-        width: 100vw;
+    #imagem-menu-principal{
+        width: 79.2vw;
         height: auto;
     }
     #imagem-proximo-projeto{
@@ -170,5 +170,11 @@
     }
     .subtitulo__mobile{
         display: none;
+    }
+}
+@media (min-width:1600px){
+    #imagem-menu-principal-dupla{
+        width: 38.75vw;
+        height: auto;
     }
 }
