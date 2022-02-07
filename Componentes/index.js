@@ -10,6 +10,7 @@ window.onload = () => {
     document.addEventListener('scroll', animaVideo.scrollVideo.bind(animaVideo))
 
     const scroll = new Scroll()
-    document.addEventListener('scroll', scroll.scrollTitulo.bind(scroll))   
+    document.addEventListener('scroll', scroll.scrollTitulo.bind(scroll))
+
 }
 new Animacoes()
