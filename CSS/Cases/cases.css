@@ -341,13 +341,13 @@
     }
     /*------------------------------COMENTARIO-------------------------------*/
     .secao__comentarios{
-        height: 42rem;
+        height: 57rem;
 
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        padding-top: 0rem;
+        padding-top: 15.938rem;
         padding-left: 9.5rem;
         padding-right: 9.5rem;
         background-color: var(--high-pure);

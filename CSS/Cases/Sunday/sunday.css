@@ -174,15 +174,8 @@
         gap: 2rem;
         padding-bottom: 2rem;
 
-        margin-bottom: 8.125rem;
-        padding-left: 2rem;
-    }
-    .secao__comentarios{
-        padding-left: 4.5vw;
-        padding-right: 4.5vw;
-        padding-top: 0;
-
-        height: 47rem;
+        margin-bottom: 0rem;
+        padding-left: 1.25rem;
     }
     /*------------------------NUMERO-PROJETOS-------------------------*/
     #link__sobre-app-vivaz{
