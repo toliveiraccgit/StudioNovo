@@ -39,6 +39,9 @@
 
 
 }
+.container__card-works{
+   user-select: none;
+}
 body a{
     color: #FFFFFF;
 }

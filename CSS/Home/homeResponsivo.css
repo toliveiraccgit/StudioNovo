@@ -598,7 +598,7 @@
         padding-right: 2.417rem;
     }
     .item__lista___comentarios{
-        height: 54rem;
+        height: auto;
     }
     /*-----------------------RODAPE----------------------------------*/
     .secao__brand{

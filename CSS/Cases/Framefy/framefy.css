@@ -105,6 +105,8 @@
     #imagem-did{
         width: 90vw;
         height: auto;
+
+        padding-bottom: 1rem;
     }
     .container__imagem-sobre-projeto{
         align-items: center;
@@ -114,6 +116,7 @@
     }
     .container__imagem-menu-principal{
         padding-left: 1.25rem;
+        gap: 1rem;
     }
     #imagem-menu-principal{
         width: 90vw;
@@ -131,7 +134,7 @@
     }
     .secao__menu-principal {
         align-items: flex-start;
-        padding: 2rem 0 0 0;
+        padding: 1rem 0 0 0;
         gap: 4.375rem;
     }
     .container__titulo___sobre-projeto {
@@ -157,7 +160,7 @@
         height: auto;
     }
     #imagem-proximo-projeto{
-        width: 129vw;
+        width: 100vw;
         height: auto;
 
     }

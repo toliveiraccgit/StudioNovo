@@ -119,9 +119,18 @@
         height: auto;
 
     }
+    .secao__menu-principal {
+        gap: 1rem;
+        padding: 2rem 0 0rem 0;
+    }
     .container__imagem-menu-principal{
         padding-bottom: 0rem;
+        gap: 1rem;
     }
+    #imagem__menu-principal-dupla {
+        width: 42vw;
+        height: auto;
+      }
     #imagem__menu-principal{
         width: 90vw;
         height: auto;

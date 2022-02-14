@@ -107,7 +107,8 @@
         height: auto;
     }
     .container__imagem-sobre-projeto{
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
+        gap: 1rem;
     }
     #imagem-sobre-projeto{
         width: 90vw;
@@ -124,9 +125,14 @@
     }
     .container__imagem-menu-principal{
         padding-bottom: 0;
+        gap: 1rem;
+    }
+    .secao__menu-principal {
+        padding: 0rem 0 0 0;
+        gap: 1rem;
     }
     .container__imagem-menu-principal-secao-2{
-        padding-bottom: 4.125rem;
+        padding-bottom: 0rem;
         gap: 1rem;
     }
     .container__imagens-duplas{
@@ -141,7 +147,7 @@
         width: 90vw;
     }
     #imagem-proximo-projeto{
-        width: 129vw;
+        width: 100vw;
         height: auto;
     }
     .titulo__sobre{
