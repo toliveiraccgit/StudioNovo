@@ -1,4 +1,10 @@
 @media (min-width:0px){
+    .conteudo{
+        background-color: #F1F1F1;
+    }
+    .secao__comentarios {
+        background-color: transparent;
+    }
     .secao__numeros-projetos {
         display: flex;
         flex-direction: row;
