@@ -91,6 +91,12 @@
 
         margin-top: 2rem;
     }
+    #imagem__menu-principal-4{
+        width: 79.5vw;
+        height: auto;
+
+        margin-top: 2rem;
+    }
     #imagem-proximo-projeto{
         width: 100vw;
         height: auto;
@@ -154,6 +160,10 @@
     #imagem__menu-principal-3{
         width: 90vw;
     }
+    #imagem__menu-principal-4{
+        width: 90vw;
+        margin-left: 1.25rem;    
+    }
     .container__imagens-duplas{
         display: flex;
         flex-direction: row;
@@ -161,6 +171,8 @@
         align-items: center;
 
         width: 90vw;
+
+        margin-left: 1.25rem;
     }
     #imagem-proximo-projeto{
         width: 100vw;
