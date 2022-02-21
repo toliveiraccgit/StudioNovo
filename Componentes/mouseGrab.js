@@ -1,4 +1,4 @@
-const slider = document.querySelector('.container__marcas-drag');
+const slider = document.querySelector('.container__cards');
 let isDown = false;
 let startX;
 let scrollLeft;
