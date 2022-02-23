@@ -5,6 +5,11 @@
     .secao__comentarios {
         background-color: transparent;
     }
+    .secao__menu-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .secao__numeros-projetos {
         display: flex;
         flex-direction: row;
@@ -127,6 +132,9 @@
     
 }
 @media (max-width:1024px){
+    .container__titulo___did{
+        margin-bottom: 0rem;
+    }
     .container__titulo___sobre-projeto {
         flex-direction: column;
         padding-left: 0rem;
@@ -137,6 +145,8 @@
     #imagem-did{
         width: 90vw;
         height: auto;
+
+        margin-top: 1rem;
     }
     #imagem-sobre-projeto{
         width: 90vw;
@@ -157,7 +167,7 @@
 
     }
     .container__imagem-menu-principal{
-        padding-bottom: 4.125rem;
+        padding-bottom: 0rem;
         gap: 1rem;
     }
     #imagem__menu-principal{
@@ -166,20 +176,32 @@
     }
     #imagem__menu-principal-3{
         width: 90vw;
+        margin-top: 1rem;
     }
     #imagem__menu-principal-4{
         width: 90vw;
-        margin-left: 1.25rem;    
+        margin-left: 0rem;
+        margin-top: 0rem; 
+    }
+    #imagem__menu-principal-5{
+        width: 90vw;
+        margin-left: 0rem;
+        margin-top: 1rem; 
     }
     .container__imagens-duplas{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         gap: 1rem;
         align-items: center;
 
         width: 90vw;
 
-        margin-left: 1.25rem;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+    #imagens-duplas-sem-margin{
+        margin-left: 0rem;
     }
     #imagem-proximo-projeto{
         width: 100vw;
