@@ -8,8 +8,8 @@
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-    .container__traducao-pagina{
-        visibility: hidden;
+    .container__nav{
+        gap: 1.125rem;
     }
     /*-------------------------------BANNER--------------------------------*/
     .banner{

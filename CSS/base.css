@@ -409,3 +409,12 @@ html{
 
 
 /*----6s de animação----*/
+
+@media (max-width:1024px){
+    .container__traducao-pagina {
+        visibility: visible;
+    }
+    .container__nav{
+        gap: 1.125rem;
+    }
+}

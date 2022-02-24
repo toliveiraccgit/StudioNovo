@@ -11,8 +11,8 @@
     .container__nav{
         margin: 0%;
     }
-    .container__traducao-pagina{
-        visibility: hidden;
+    .container__nav{
+        gap: 1.125rem;
     }
     /*-------------------------------BANNER--------------------------------*/
     .banner{
