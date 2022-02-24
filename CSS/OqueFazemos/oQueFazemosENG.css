@@ -8,17 +8,11 @@
         color: var(--low-pure);
         font-weight: 500;
     }
-    /*-----------------------MAPA----------------------*/
-    .mapa{
-        background-image: url("../../Assets/SobreNos/mapa-eng.png");
-    }
-    /*--------------------BANNER----------------------*/
-    .banner{
-        padding: 14.5rem 2.313rem 7.5rem 9.5rem;
-    }
-    .banner__do{
+    .imagem__metodologia{
         background-image: url("../../Assets/SobreNos/banner-oquefazer-eng.png");
     }
+
+
     /*----------------------QUOTES---------------------*/
     #comentario-incompleto{
         display: none;
@@ -26,17 +20,12 @@
     .lista__comentarios{
         width: auto;
     }
+
 }
+
 @media (max-width:1024px){
-    /*-----------------------MAPA----------------------*/
-    .mapa{
-        background-image: url("../../Assets/SobreNos/mapa-eng.png");
-    }
-    /*--------------------BANNER----------------------*/
-    .banner{
-        padding: 13.5rem 2.313rem 4.5rem 1.5rem;
-    }
-    .banner__do{
+    .imagem__metodologia{
         background-image: url("../../Assets/SobreNos/banner-oquefazer-eng.png");
+        background-size: 90vw auto;
     }
 }

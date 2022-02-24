@@ -1,0 +1,9 @@
+@media (min-width:0px){
+    #traducao-pagina-en{
+        color: #7F65EB;
+    }
+    #traducao-pagina-pt{
+        color: var(--high-dark);
+        font-weight: 500;
+    }
+}

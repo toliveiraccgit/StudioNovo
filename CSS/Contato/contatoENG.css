@@ -1,0 +1,11 @@
+@media (min-width:0px) {
+    /*----------------------NAV----------------*/
+    .traducao-pagina-pt{
+        color: var(--high-dark);
+        font-weight: 500;
+    }
+    .traducao-pagina-en {  
+        color: var(--low-pure);
+        font-weight: 500;
+    }
+}
