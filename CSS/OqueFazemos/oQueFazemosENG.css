@@ -25,7 +25,7 @@
 
 @media (max-width:1024px){
     .imagem__metodologia{
-        background-image: url("../../Assets/SobreNos/banner-oquefazer-eng.png");
-        background-size: 90vw auto;
+        background-image: url("../../Assets/SobreNos/imagem-o-que-fazemos-ENG-mobile.png");
+        height: 17.25rem;
     }
 }
