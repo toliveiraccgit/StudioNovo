@@ -102,6 +102,9 @@
 }
 
 @media (max-width:1024px){
+    .titulo__did{
+        font-size: 24px;
+    }
     #imagem-did{
         width: 90vw;
         height: auto;

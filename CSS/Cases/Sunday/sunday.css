@@ -105,6 +105,9 @@
     }
 }
 @media (max-width:1024px){
+    .titulo__did{
+        font-size: 24px;
+    }
     .secao__comentarios {
         background-color: transparent;
         padding-top: 4.938rem;
