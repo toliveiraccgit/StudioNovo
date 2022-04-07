@@ -43,7 +43,9 @@
         background-position-x: center;
 
         width: 90vw;
-        height: 15.25rem;
+        height: 17.25rem;
+
+        background-size: 90vw auto;
     }
     .container__lista___metodologia{
         align-items: flex-start;
