@@ -216,6 +216,9 @@
         padding: 0%;
         margin: 0%; 
     }
+    .texto__lista___metodologia-tecnologia{
+        width: 15rem;
+    }
     /*-----------------------NUMEROS-PROJETOS--------------------------*/
     .secao__numeros-projeto{
         display: flex;
