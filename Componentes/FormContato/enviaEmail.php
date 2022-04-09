@@ -1,4 +1,7 @@
 <?php
+
+require_once("./Componentes/phpmailer/class.phpmailer.php");
+
 $Nome		= $_POST["Nome"];	// Pega o valor do campo Nome
 $Empresa		= $_POST["Empresa"];	// Pega o valor do campo Telefone
 $Email		= $_POST["Email"];	// Pega o valor do campo Email
