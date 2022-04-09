@@ -35,9 +35,6 @@ function mudaCorCinza3(){
     labelInput3.style.color = ` #666666 `
 }
 
-
-
-
 const labelInput4 = document.querySelector('#label-form-4')
 
 
