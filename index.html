@@ -91,6 +91,7 @@
                         <a href="./pt/sobre-nos.html" class="link__menu-aberto">QUEM SOMOS</a>
                         <a href="./pt/o-que-fazemos.html" class="link__menu-aberto">O QUE FAZEMOS</a>
                         <a href="./pt/trabalhos.html" class="link__menu-aberto">CASES</a>
+                        <a href="#" class="link__menu-aberto">Vagas</a>
                         <a href="./pt/contato.html" class="link__menu-aberto" id="animacao__menu-opacity">CONTATO</a>
     
                     </nav>
@@ -123,11 +124,61 @@
             
             </section>
             
+            <div class="container__secao___form">
+                <section class="secao__form___contato">
+
+                    <div class="cabecalho__form___contato">
+
+                        <h2 class="titulo__cabecalho___form-contato">Fale com a gente</h2>
+
+                        <button class="botao__fecha___menu-aberto" id="botao-fecha-form-contato">FECHAR</button>
+
+                    </div>
+
+                    <section class="secao__info___form-contato">
+
+                        <p class="descricao__info___form-contato">Fique a vontade para falar com a gente, não importa o que você fale, estamos abertos e prontos para conversarmos.</p>
+
+                        <p class="descricao__info___form-contato">Já pensamos e desenhamos produtos para todos os nichos de tecnologia. Confie em nós que podemos ajudá-lo.</p>
+
+                    </section>
+
+                    <form method="post" action="./Componentes/FormContato/enviaEmail.php" class="form__contato">
+
+                        <div class="container__input___form-contato">
+                            <label for="Nome" class="label__input___form-contato">SEU NOME</label>
+                            <input type="text" name="nome" id="Nome" class="input__form-contato" onfocus="mudaCorBranco1()" onblur="mudaCorCinza1()">
+                        </div>
+
+                        <div class="container__input___form-contato">
+                            <label for="Nome-Empresa" class="label__input___form-contato" id="label-form-2">NOME DA EMPRESA</label>
+                            <input type="text" name="empresa" id="Nome-Empresa" class="input__form-contato" onfocus="mudaCorBranco2()" onblur="mudaCorCinza2()">
+                        </div>
+
+                        <div class="container__input___form-contato">
+                            <label for="Email" class="label__input___form-contato" id="label-form-3">SEU E-MAIL</label>
+                            <input type="email" name="email" id="Email" class="input__form-contato" onfocus="mudaCorBranco3()" onblur="mudaCorCinza3()">
+                        </div>
+
+                        <div class="container__input___form-contato">
+                            <label for="Mensagem" class="label__input___form-contato" id="label-form-4">MENSAGEM</label>
+                            <textarea name="mensagem" class="input__textarea___form-contato" name="Mensagem" id="Mensagem" cols="auto" rows="auto" onfocus="mudaCorBranco4()" onblur="mudaCorCinza4()"></textarea>
+                        </div>
+
+                        <button class="botao__envia___form-contato">ENVIAR</button>
+
+                    </form>
+
+                </section>
+            </div>
+
             <main class="conteudo" id="conteudo"> 
                 
                 <div class="container__lets-talk">
-                    <a href="./pt/contato.html" class="lets-talk"><img class="imagem__lets-talk" src="./Assets/interacoes/GetInTouch/lets-talk-pt.svg" alt="Entrar em Contato"></a>
+                    <button class="lets-talk"><img class="imagem__lets-talk" src="./Assets/interacoes/GetInTouch/lets-talk-pt.svg" alt="Entrar em Contato"></button>
                 </div>
+                
+               
                 <section class="banner">
                     <h1 class="titulo__banner">
                         Construímos e evoluímos produtos digitais para marcas e startups<span class="ponto__red">.</span></h1>
@@ -432,6 +483,7 @@
                                 <a href="./pt/sobre-nos.html" class="item__aba">Quem Somos</a>
                                 <a href="./pt/o-que-fazemos.html" class="item__aba">O que fazemos</a>
                                 <a href="./pt/trabalhos.html" class="item__aba">Cases</a>
+                                <a href="#" class="item__aba">Vagas</a>
                                 <a href="./pt/contato.html" class="item__aba">Contato</a>
                             </li>
                             <li class="aba">
@@ -454,7 +506,7 @@
                     
                 </address>
             </footer>
-
+        <script src="./Componentes/FormContato/mudaLabel.js" type="text/javascript"></script>
         <script src="./Componentes/index.js" type="module"></script>
         <script src="./Componentes/moduleCaroussel.js" type="module"></script>
         <script src="./Componentes/mouseGrab.js" type="text/javascript"></script>
@@ -532,6 +584,7 @@
         
         gtag('config', 'UA-116569779-1');
         </script>
+        
     </body>
 
 </html>

@@ -89,6 +89,59 @@
 
         margin-top: 0;
     }
+    /*--------------------------PATROCINADORES--------------------*/
+    .secao__patrocinadores{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        padding-top: 9.5rem;
+
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        color: var(--high-pure);
+        background-color: var(--low-pure);
+
+        height: 43rem;
+        padding-bottom: 0%;
+    }
+    .titulo__patrocinadores{
+        font-size: 16px;
+        margin-bottom: 5.5rem;
+    }
+    .titulo__patrocinadores::selection{
+        background-color: var(--high-pure);
+        color: var(--low-pure);
+    }
+    .container__logo___patrocinadores{
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        margin-bottom: 6.563rem;
+    }
+    .container__patrocinadores{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 56px;
+        overflow-y: hidden;
+        gap: 0rem;
+    }
+
+    .logo__patrocinadores-1{
+        position: relative;
+        animation: anima-logo-1 7s infinite alternate ease-in-out;
+        
+        
+    } 
+    .logo__patrocinadores-2{
+        position: relative;
+        animation: anima-logo-2 7s infinite alternate ease-in-out;
+    }
+    .logo__patrocinadores-3{
+        position: relative;
+        animation: anima-logo-3 7s infinite alternate ease-in-out;
+    }
     /*-------------------------------O-QUE-FAZEMOS--------------------------------*/
     .do{
         padding-top: 7.5rem;
