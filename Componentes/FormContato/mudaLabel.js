@@ -46,3 +46,5 @@ function mudaCorBranco4(){
 function mudaCorCinza4(){
     labelInput4.style.color = ` #666666 `
 }
+
+require_once("phpmailer/class.phpmailer.php");
