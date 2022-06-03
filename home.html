@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="./CSS/Home/home.css">
         <link rel="stylesheet" href="./CSS/Home/homeResponsivo.css">
         <link rel="stylesheet" href="./CSS/Home/homeENG.css">
+        <link rel="stylesheet" href="./CSS/Home/formContato.css">
         <link rel="stylesheet" href="./CSS/animacaoScroll.css">
         <link rel="stylesheet" href="./CSS/menu.css">
         <link href="./CSS/reset.css" rel="stylesheet">
@@ -50,6 +51,17 @@
     </head>
     
     <body id="body" ondragstart='return false'>
+
+        <section class="secao__loading" id="load">
+
+            <div class="container__loading">
+
+                <span class="bloco__loading"></span>
+
+            </div>
+
+        </section>
+
             <header class="cabecalho"  id="navbar">
                 <a href="./home.html"><img src="./Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
                 <aside class="container__nav">
@@ -131,7 +143,7 @@
                 </div>
                 <section class="banner">
                     <h1 class="titulo__banner">
-                        We build and evolve digital products for brands and startups<span class="ponto__red">.</span></h1>
+                        We build and evolve digital products<span class="ponto__red">.</span></h1>
                         <a  href="./en/works.html"  class="container__botao-banner">
                             <p href="./en/works.html" class="botao__view-cases___banner">EXPLOITING CASES</p>
                         </a>
@@ -505,6 +517,17 @@
         
         gtag('config', 'UA-116569779-1');
         </script>
+        <script>
+        
+            var i = setInterval(function () {
+        
+            clearInterval(i);
+      
+                // O código desejado é apenas isto:
+            document.getElementById("load").style.display = "none";
+            }, 4000);
+    
+            </script>
     </body>
 
 </html>

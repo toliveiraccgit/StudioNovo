@@ -32,6 +32,16 @@
     
     <body id="body">
         
+        <section class="secao__loading" id="load">
+
+            <div class="container__loading">
+
+                <span class="bloco__loading"></span>
+
+            </div>
+
+        </section>
+
         <header class="cabecalho"  id="navbar">
             <a href="../home.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
             <aside class="container__nav">
@@ -426,7 +436,17 @@
 
         gtag('config', 'UA-116569779-1');
         </script>
+        <script>
         
+            var i = setInterval(function () {
+        
+            clearInterval(i);
+      
+                // O código desejado é apenas isto:
+            document.getElementById("load").style.display = "none";
+            }, 4000);
+    
+            </script>
     </body>
 
 </html>

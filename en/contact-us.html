@@ -31,6 +31,16 @@
     </head>
     
     <body id="body">
+
+        <section class="secao__loading" id="load">
+
+            <div class="container__loading">
+
+                <span class="bloco__loading"></span>
+
+            </div>
+
+        </section>
         <header class="cabecalho"  id="navbar">
             <a href="../home.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
             <aside class="container__nav">
@@ -122,13 +132,13 @@
                 <section class="formas-contato">
                     <div class="container__forma-contato anime">
                         <h2 class="titulo__forma-contato">General</h2>
-                        <a class="link__forma-de-contato">Thiago Oliveira</a>
+                        <a class="link__forma-de-contato">Contact</a>
                         <a href="mailto:hi@toliveira.cc" class="link__forma-de-contato">hi@toliveira.cc</a>
                     </div>
                     
                     <div class="container__forma-contato anime">
                         <h2 class="titulo__forma-contato">New business</h2>
-                        <a href="tel:+55 71 99604-7543" class="link__forma-de-contato">+55 71 99604-7543</a>
+                        <a href="https://api.whatsapp.com/send?phone=5571996047543" class="link__forma-de-contato">Diego Nascimento</a>
                         <a href="mailto:negocios@toliveira.cc" class="link__forma-de-contato">negocios@toliveira.cc</a>
                     </div>
                     
@@ -142,8 +152,8 @@
                 <img src="../Assets/Contato/imagem-banner.jpg" alt="Imagem Contato" class="imagem__formas-contato">
 
                 <div class="container__forma-contato">
-                    <p class="local__formas-contato anime">Bahia</p>
-                    <p class="regiao__formas-contato anime">Vilas do Atlântico</p>
+                    <p class="local__formas-contato anime">Remote</p>
+                    <p class="regiao__formas-contato anime">Brazil</p>
                 </div>
 
             </section>
@@ -208,5 +218,16 @@
         
           gtag('config', 'UA-116569779-1');
         </script>
+        <script>
+        
+            var i = setInterval(function () {
+        
+            clearInterval(i);
+      
+                // O código desejado é apenas isto:
+            document.getElementById("load").style.display = "none";
+            }, 4000);
+    
+            </script>
     </body>
 </html>

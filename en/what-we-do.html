@@ -32,6 +32,16 @@
 
     <body id="body">
 
+        <section class="secao__loading" id="load">
+
+            <div class="container__loading">
+
+                <span class="bloco__loading"></span>
+
+            </div>
+
+        </section>
+
         <header class="cabecalho"  id="navbar">
             <a href="../home.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
             <aside class="container__nav">
@@ -110,9 +120,9 @@
             <section class="banner">
 
                 <div class="container__titulo___banner">
-                    <h1 class="titulo__banner">Design should be used.</h1>
-                    <h2 class="titulo__banner">Design should impact.</h2>
-                    <h3 class="titulo__banner">Design should be beautiful.</h3>
+                    <h1 class="titulo__banner">Products Discovery.</h1>
+                    <h2 class="titulo__banner">New products.</h2>
+                    <h3 class="titulo__banner">Products evolution.</h3>
                 </div>
 
                 <a  href="./works.html"  class="container__botao-banner">
@@ -133,7 +143,7 @@
 
                         <li class="item__lista___metodologia anime">
 
-                            <h5 class="titulo__item___lista-metodologia">Strategy and Business</h5>
+                            <h5 class="titulo__item___lista-metodologia">Discovery</h5>
                             
                             <ul class="lista__texto">
 
@@ -150,7 +160,7 @@
                         
                         <li class="item__lista___metodologia anime">
 
-                            <h6 class="titulo__item___lista-metodologia">Design & Experience</h6>
+                            <h6 class="titulo__item___lista-metodologia">Design</h6>
                             
                             <ul class="lista__texto">
                                 
@@ -158,7 +168,6 @@
                                 <li class="texto__lista___metodologia">UX Design</li>
                                 <li class="texto__lista___metodologia">Browsed prototypes</li>
                                 <li class="texto__lista___metodologia">Usability test – Remote</li>
-                                <li class="texto__lista___metodologia">UX Writing</li>
                                 <li class="texto__lista___metodologia">Design Systems</li>
                             
                             </ul>
@@ -167,13 +176,14 @@
                         
                         <li class="item__lista___metodologia anime">
 
-                            <h7 class="titulo__item___lista-metodologia">Technology</h7>
+                            <h7 class="titulo__item___lista-metodologia">Redesign & Inprovement</h7>
 
                             <ul class="lista__texto">   
                                 
-                                <li class="texto__lista___metodologia">Front-End Web e Mobile</li>
-                                <li class="texto__lista___metodologia">CMS implementation</li>
-                                <li class="texto__lista___metodologia">Front-End Application</li>
+                                <li class="texto__lista___metodologia">User experience review</li>
+                                <li class="texto__lista___metodologia">Design best practices</li>
+                                <li class="texto__lista___metodologia">Discovery of new features</li>
+                                <li class="texto__lista___metodologia">Organizational design culture</li>
                                 
                             </ul>
 
@@ -458,6 +468,17 @@
         
           gtag('config', 'UA-116569779-1');
         </script>
+        <script>
+        
+            var i = setInterval(function () {
+        
+            clearInterval(i);
+      
+                // O código desejado é apenas isto:
+            document.getElementById("load").style.display = "none";
+            }, 4000);
+    
+            </script>
     </body>
 
 </html>

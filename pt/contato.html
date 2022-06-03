@@ -25,11 +25,22 @@
         <meta content="./Assets/Home/logo-tag-compartilhamento.jpg" name="twitter:image">
         <link href="../CSS/reset.css" rel="stylesheet">
         <link href="../CSS/normalize.css" rel="stylesheet">
+        <link href="../CSS/Home/formContato.css" rel="stylesheet">
         <title>Contato | Thiago Oliveira, Design & UX Studio</title>
         <link rel="shortcut icon" href="../Assets/Home/logo-studio.svg" type="image/x-icon"/>
     </head>
     
-    <body id="body">
+    <body onload="preenchidoBotao()" id="body">
+
+        <section class="secao__loading" id="load">
+
+            <div class="container__loading">
+
+                <span class="bloco__loading"></span>
+
+            </div>
+
+        </section>
         <header class="cabecalho"  id="navbar">
             <a href="../index.html"><img src="../Assets/Home/logo-studio.svg" alt="Logo" class="logo-studio"></a>
             <aside class="container__nav">
@@ -72,7 +83,7 @@
                     <a href="./sobre-nos.html" class="link__menu-aberto">QUEM SOMOS</a>
                     <a href="./o-que-fazemos.html" class="link__menu-aberto">O QUE FAZEMOS</a>
                     <a href="./trabalhos.html" class="link__menu-aberto">CASES</a>
-                    <a href="#" class="link__menu-aberto">Vagas</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScA0PP1AKo8UnVMxpIgLTaMwr5npy1a75Y9_wxxVLYD1YmbsA/viewform" class="link__menu-aberto">VAGAS</a>
                     <a href="./contato.html" class="link__menu-aberto"  id="link__atual">CONTATO</a>
 
                 </nav>
@@ -81,7 +92,7 @@
 
                     <p class="info__menu-aberto">Somos um estúdio especializado em Design de experiência para produtos digitais, seja para uma aplicação mobile, web ou um site.</p>
 
-                    <p class="info__menu-aberto">Temos como frente de negócio a montagem de equipes 100% dedicadas e alocadas no cliente. Nesse modelo, já criamos experiências digitais para Crê-la, Ambev, Webmotors, XP Investimentos.</p>
+                    <p class="info__menu-aberto">Temos como frente de negócio a montagem de equipes 100% dedicadas e alocadas no cliente. Nesse modelo, já criamos experiências digitais para Cyrela, Ambev, Webmotors, XP Investimentos.</p>
 
                 </div>
 
@@ -104,8 +115,94 @@
             </section>
         
         </section>
-        
+
+        <div class="container__secao___form">
+            <section class="secao__concluido___form" id="resultado__form">
+
+                <div class="cabecalho__form___contato">
+
+                    <h2 class="titulo__cabecalho___form-contato">Fale com a gente</h2>
+
+                    <button onclick="fechaForm()" class="botao__fecha___menu-aberto" id="botao-fecha-form-contato">FECHAR</button>
+
+                </div>
+                
+                <section class="secao__info___form-contato">
+
+                    <p class="descricao__info___form-contato">Agradecemos sua mensagem. Falamos com você em breve.</p>
+
+                </section>
+
+                <img src="../Assets/Contato/mapa-formulario.svg" alt="Email Enviado com Sucesso!" class="imagem__mapa___form-contato">
+
+            </section>
+
+            <section class="secao__form___contato">
+
+                <div class="cabecalho__form___contato">
+
+                    <h2 class="titulo__cabecalho___form-contato">Fale com a gente</h2>
+
+                    <button onclick="fechaForm()" class="botao__fecha___menu-aberto" id="botao-fecha-form-contato">FECHAR</button>
+
+                </div>
+
+                <section class="secao__info___form-contato">
+
+                    <p class="descricao__info___form-contato">Fique a vontade para falar com a gente, não importa o que você fale, estamos abertos e prontos para conversarmos.</p>
+
+                    <p class="descricao__info___form-contato">Já pensamos e desenhamos produtos para todos os nichos de tecnologia. Confie em nós que podemos ajudá-lo.</p>
+
+                </section>
+
+                <form action="../Componentes/FormContato/enviar.php" method="POST" class="form__contato" id="form-contato">
+
+                    <div onmouseleave="preenchidoBotao()" class="container__input___form-contato">
+                        <label for="Nome" class="label__input___form-contato">SEU NOME</label>
+                        <input type="text" name="nome" id="Nome" class="input__form-contato" onfocus="mudaCorBranco1()" onblur="mudaCorCinza1(), preenchido1(), preenchidoBotao()" required>
+                    </div>
+
+                    <div onmouseleave="preenchidoBotao()" class="container__input___form-contato">
+                        <label for="Nome-Empresa" class="label__input___form-contato" id="label-form-2">NOME DA EMPRESA</label>
+                        <input type="text" name="empresa" id="Nome-Empresa" class="input__form-contato" onfocus="mudaCorBranco2()" onblur="mudaCorCinza2(), preenchido2(), preenchidoBotao()" required>
+                    </div>
+
+                    <div onmouseleave="preenchidoBotao()" class="container__input___form-contato">
+                        <label for="Email" class="label__input___form-contato" id="label-form-3">SEU E-MAIL</label>
+                        <input type="email" name="email" id="Email" class="input__form-contato" onfocus="mudaCorBranco3()" onblur="mudaCorCinza3(), preenchido3(), preenchidoBotao(), checarEmail()" required>
+
+                        <span class="span__erro-email">Por favor, informe um e-mail válido</span>
+
+                    </div>
+
+                    <div onmouseleave="preenchidoBotao()" class="container__input___form-contato">
+                        <label for="Mensagem" class="label__input___form-contato" id="label-form-4">MENSAGEM</label>
+                        <textarea name="mensagem" class="input__textarea___form-contato" id="mensagem" cols="auto" rows="auto" onfocus="mudaCorBranco4()" onblur="mudaCorCinza4(), preenchido4(), preenchidoBotao()" required></textarea>
+                    </div>
+
+                    <div class="container__input___form-contato" id="input__form-contato-gsth">
+                        <label for="remark" class="label__input___form-contato" id="label-form-5">DESCRIÇÃO</label>
+                        <input type="text" name="remark" id="remark" class="input__form-contato" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="name@domain.com">
+                    </div>
+
+                    <button type="submit" class="botao__envia___form-contato" data-sitekey="6Leoz4YfAAAAADlXcEPOP6s1oBO1Cgb_KSMIqaWu">ENVIAR</button>
+
+                    <div id='recaptcha' class="g-recaptcha" data-sitekey="6Leoz4YfAAAAADlXcEPOP6s1oBO1Cgb_KSMIqaWu" data-size="invisible"></div>
+
+                </form>
+
+                
+
+            </section>
+        </div>
+
+
         <main class="conteudo">
+
+            <div class="container__lets-talk">
+                <button onclick="abreForm()" class="lets-talk"><img class="imagem__lets-talk" src="../Assets/interacoes/GetInTouch/lets-talk-pt.svg" alt="Entrar em Contato"></button>
+            </div>
+
             <section class="secao__banner">
 
                 <h1 class="titulo__banner">Olá! Tudo bem?</h1>
@@ -178,7 +275,7 @@
                             <a href="../pt/sobre-nos.html" class="item__aba">Quem somos</a>
                             <a href="../pt/o-que-fazemos.html" class="item__aba">O que fazemos</a>
                             <a href="../pt/trabalhos.html" class="item__aba">Cases</a>
-                            <a href="#" class="item__aba">Vagas</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScA0PP1AKo8UnVMxpIgLTaMwr5npy1a75Y9_wxxVLYD1YmbsA/viewform" class="item__aba">Estamos contratando</a>
                             <a href="../pt/contato.html" class="item__aba">Contato</a>
                         </li>
                         <li class="aba">
@@ -212,5 +309,40 @@
         
           gtag('config', 'UA-116569779-1');
         </script>
+
+        
+        <script src="../Componentes/FormContato/abreForm.js" type="text/javascript"></script>
+        <script src="../Componentes/FormContato/mudaLabel.js" type="text/javascript"></script>
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+
+            $("#form-contato").submit(function(e) {
+                var valorInput = $("#remark").val();
+                if (valorInput == "") {
+                    var url = "../Componentes/FormContato/enviar.php"; 
+                    $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: $("#form-contato").serialize(),
+                    });
+                }
+                
+                $("#resultado__form").addClass( "active-resultado" );
+                e.preventDefault();// esse comando serve para previnir que o form realmente realize o submit e atualize a tela.
+            });
+
+        </script>
+         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+         <script>
+        
+            var i = setInterval(function () {
+        
+            clearInterval(i);
+      
+                // O código desejado é apenas isto:
+            document.getElementById("load").style.display = "none";
+            }, 4000);
+    
+            </script>
     </body>
 </html>

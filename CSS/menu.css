@@ -264,6 +264,9 @@
 }
 
 @media (min-width:1024px) and (max-height: 700px) {
+    .secao__link-menu{
+        gap: 1rem;
+    }
     .menu__aberto{
         padding-bottom: .888rem;
     }

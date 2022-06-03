@@ -418,3 +418,50 @@ html{
         gap: 1.125rem;
     }
 }
+#input__form-contato-gsth{
+    display: block;
+    position: absolute;
+    right: -100%;
+}
+
+.secao__loading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+
+    z-index: 2000000;
+
+    background-color: #FFFFFF;
+}
+.container__loading{
+    width: 20rem;
+    height: 18rem;
+}
+.bloco__loading{
+    width: 0%;
+    height: 100%;
+
+    background-color: #131416;
+
+    display: block;
+
+    animation: animaLoading 3s ease-in-out infinite;
+}
+
+@keyframes animaLoading{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}

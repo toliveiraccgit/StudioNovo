@@ -88,6 +88,7 @@
     }
     .container__carousel{
         width: 92vw;
+        height: 54rem;
     }
     .comentario{
         font-size: var(--font-sm);

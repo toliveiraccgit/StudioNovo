@@ -1,0 +1,23 @@
+@media (min-width:0px){
+    .secao__comentarios {
+        height: auto;
+    }
+    .lista__comentarios{
+        height: auto;
+        width: 316vw;
+    }
+    .comentario-daniel{
+        padding-right: 5.417rem;
+    }
+}
+@media (max-width:1023px){
+    .secao__comentarios {
+        height: 73rem;
+    }
+    .lista__comentarios {
+        width: 368vw;
+    }
+    .comentario-daniel {
+        padding-right: 1.417rem;
+    }
+}

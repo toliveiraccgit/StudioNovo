@@ -242,6 +242,7 @@
     }
     .container__carousel{
         width: 92vw;
+        height: 51rem;    
     }
     .comentario{
         font-size: var(--font-sm);
@@ -310,13 +311,7 @@
     .email__subscribe{
         width: 88vw;
     }
-    .container__lets-talk{
-        display:flex;
-        margin-top: 0%;
-        padding-right: 1rem;
-
-        top: calc(100% - 8rem);
-    }
+    
 
     /*-------------------------------RODAPE--------------------------------*/
     .rodape{

@@ -1,4 +1,7 @@
 @media (min-width:0px){
+    #input__form-contato-gsth{
+        display: block;
+    }
     /*-------------------------------CABECALHO--------------------------------*/
     .cabecalho{
         display: flex;

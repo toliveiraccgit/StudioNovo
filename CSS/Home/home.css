@@ -1,4 +1,7 @@
 @media (min-width:0px){
+    #input__form-contato-gsth{
+        display: block;
+    }
     /*-------------------------------CABECALHO--------------------------------*/
     .cabecalho{
         display: flex;
@@ -510,7 +513,7 @@
         overflow-y: hidden;
     }
     .lista__comentarios{
-        width: 237vw;
+        width: 316vw;
         height: 36rem;
 
         display: flex;
@@ -752,23 +755,9 @@
         font-weight: var(--bold);
         color: var(--low-pure);
     }
-    .container__lets-talk{
-        display: flex;
-        position: fixed;
-        width: 100vw;
-        justify-content: flex-end;
-        top: 8rem;
-        padding-right: 2rem;
-        padding-top: 0;
-        z-index: 22;
-    }
-    .lets-talk{
-        border: none;
-        background-color: transparent;
-    }
     /*--------------------------FORM-CONTATO----------------------------*/
     .container__secao___form{
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: flex-end;
 
@@ -780,18 +769,45 @@
         z-index: 5000;
 
         background: rgba(0, 0, 0, 0.35);
+
+        animation: animaContainerForm .3s ease-in-out forwards;
+    }
+    @keyframes animaContainerForm {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
     }
     .secao__form___contato{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+
+        height: 100vh;
 
         background-color: #131416;
 
         padding-top: 3.188rem;
-        padding-left: 3.188rem;
-        padding-right: 2.188rem;
-        padding-bottom: 7.625rem;
+       
+        padding-bottom: 5rem;
+
+        position: relative;
+
+        animation: animaSecaoForm .5s ease-in-out forwards;
+    }
+    @keyframes animaSecaoForm {
+        0%{
+            opacity: 0;
+            right: -45%;
+
+        }
+        100%{
+            opacity: 1;
+            right: 0%;
+        }
     }
     .cabecalho__form___contato{
         display: flex;
@@ -799,10 +815,12 @@
         align-items: center;
         justify-content: space-between;
 
+        padding-left: 2.188rem;
+        padding-right: 3.188rem;
 
-        width: 36.563rem;
+        width: 41.563rem;
 
-        margin-bottom: 3.375rem;
+        margin-bottom: 1.5rem;
     }
     .titulo__cabecalho___form-contato{
         font-size: 32px;
@@ -818,10 +836,11 @@
         align-items: flex-start;
         gap: 2rem;
 
-        width: 36.563rem;
+        width: 41.563rem;
 
-        padding-right: 2rem;
-        margin-bottom: 3.531rem;
+        margin-bottom: 1.5rem;
+        padding-left: 2.188rem;
+        padding-right: 5.188rem;
     }
     .descricao__info___form-contato{
         font-family: var(--paragraph-satoshi);
@@ -838,6 +857,9 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 2.344rem;
+
+        padding-left: 2.188rem;
+        padding-right: 3.188rem;
     }
     .container__input___form-contato{
         display: flex;
@@ -920,9 +942,51 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
 
+        margin-top: 8vh;
+
         border: none;
 
+        transition: all .15s ease-in-out;
     }
+    @media (max-height:720px) {
+        .botao__envia___form-contato{
+            margin-top: 2vh;
+        } 
+    }
+    .span__erro-email{
+        display: none;
+
+        font-size: 14px;
+        font-family: var(--heading-cabinet);
+        font-weight: var(--bold);
+        line-height: 100%;
+        color: #FF1919;
+        margin: 0%;
+        margin-top: .5rem;
+
+        transition: all .15s ease-in-out;
+    }
+    .secao__concluido___form{
+        display: none;
+        flex-direction: column;
+
+        position: fixed;
+        top: 0%;
+
+        height: 100vh;
+        width: 41.938rem;
+
+        background-color: #131416;
+        padding-top: 3.188rem;
+        padding-bottom: 5rem;
+
+        animation: animaContainerForm .15s ease-in-out forwards;
+
+        z-index: 200000;
+    }
+    .imagem__mapa___form-contato{
+        margin-top: 5.5rem;
+    }    
     /*-------------------------------RODAPE--------------------------------*/
     .rodape{
         width: 100vw;
